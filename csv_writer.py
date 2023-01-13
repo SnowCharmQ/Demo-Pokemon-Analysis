@@ -19,5 +19,5 @@ for tr in trs:
     if len(info) == 6:
         pokemons.append(info)
 
-df = pd.DataFrame(pokemons, columns=['id', 'english_name', 'japanese_name', 'type1', 'type2', 'official_rom'])
+df = pd.DataFrame(pokemons, columns=['id', 'english_name', 'type1', 'type2', 'japanese_name', 'official_rom'])
 df.to_csv('data/pokemon.csv', index=False)
