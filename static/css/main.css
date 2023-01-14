@@ -1,0 +1,62 @@
+#title {
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    top: 0;
+    left: 30%;
+    background: #666;
+}
+
+#time {
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    right: 0;
+    top: 0;
+    background: green;
+}
+
+#l1 {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    left: 0;
+    top: 10%;
+    background: blueviolet;
+}
+
+#l2 {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    left: 0;
+    top: 55%;
+    background: blue;
+}
+
+#m1 {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    left: 30%;
+    top: 10%;
+    background: wheat;
+}
+
+#m2 {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    left: 30%;
+    top: 55%;
+    background: rebeccapurple;
+}
+
+#r {
+    position: absolute;
+    width: 40%;
+    height: 90%;
+    left: 60%;
+    top: 10%;
+    background: red;
+}
