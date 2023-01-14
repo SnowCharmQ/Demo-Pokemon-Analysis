@@ -45,27 +45,47 @@ body {
 
 #m1 {
     position: absolute;
-    width: 30%;
-    height: 45%;
+    width: 35%;
+    height: 30%;
     left: 30%;
     top: 10%;
-    background: wheat;
+}
+
+.num {
+    width: 25%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gold;
+    font-size: 25px;
+}
+
+.txt {
+    width: 25%;
+    float: left;
+    font-size: 14px;
+    font-family: "Times New Roman", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 #m2 {
     position: absolute;
-    width: 30%;
-    height: 45%;
+    width: 35%;
+    height: 60%;
     left: 30%;
-    top: 55%;
+    top: 40%;
     background: rebeccapurple;
 }
 
 #r {
     position: absolute;
-    width: 40%;
+    width: 35%;
     height: 90%;
-    left: 60%;
+    left: 65%;
     top: 10%;
     background: red;
 }
