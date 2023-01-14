@@ -1,1 +1,2 @@
 data/*.html linguist-vendored
+*.js linguist-vendored
