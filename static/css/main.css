@@ -1,10 +1,19 @@
+body {
+    margin: 0;
+    background: #333;
+}
+
 #title {
     position: absolute;
     width: 40%;
     height: 10%;
     top: 0;
     left: 30%;
-    background: #666;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #time {
