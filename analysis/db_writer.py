@@ -20,6 +20,7 @@ class PokemonInfo(Base):
     type1 = Column(VARCHAR(100))
     type2 = Column(VARCHAR(100))
     official_rom = Column(VARCHAR(100))
+    gen = Column(VARCHAR(10))
 
 
 class Skill(Base):
@@ -47,8 +48,27 @@ def save_pokemon_info():
     objects = []
     df = pd.read_csv("../data/pokemon.csv")
     for data in df.itertuples():
-        obj = PokemonInfo(id=data.id, english_name=data.english_name, type1=data.type1, type2=data.type2,
-                          japanese_name=data.japanese_name, official_rom=data.official_rom)
+        data_id = int(data.id)
+        if data_id <= 151:
+            gen = 'I'
+        elif 151 < data_id <= 251:
+            gen = 'II'
+        elif 251 < data_id <= 386:
+            gen = 'III'
+        elif 386 < data_id <= 493:
+            gen = 'IV'
+        elif 493 < data_id <= 649:
+            gen = 'V'
+        elif 649 < data_id <= 721:
+            gen = 'VI'
+        elif 721 < data_id <= 809:
+            gen = 'VII'
+        elif 809 < data_id <= 905:
+            gen = 'VIII'
+        else:
+            gen = 'IX'
+        obj = PokemonInfo(id=data_id, english_name=data.english_name, type1=data.type1, type2=data.type2,
+                          japanese_name=data.japanese_name, official_rom=data.official_rom, gen=gen)
         objects.append(obj)
     session.bulk_save_objects(objects)
     session.commit()
