@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <title>Pokemon Analysis</title>
     <link href="../static/css/main.css" rel="stylesheet">
+    <script src="../static/js/jquery.js"></script>
 </head>
 <body>
+<script>
+    function getTime() {
+        $.ajax({
+            url: '/time',
+            timeout: 10000,
+            success: function (data) {
+                $("#time").html(data);
+            },
+            error: function (err, type, errorThrown) {
 
+            }
+        })
+    }
+    setInterval(getTime, 1000);
+</script>
 <div id="title">Pokemon Analysis</div>
 <div id="time">Time</div>
 <div id="l1">L1</div>

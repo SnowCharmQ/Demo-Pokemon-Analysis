@@ -18,11 +18,11 @@ body {
 
 #time {
     position: absolute;
-    width: 30%;
     height: 10%;
-    right: 0;
-    top: 0;
-    background: green;
+    right: 2%;
+    top: 5%;
+    color: #FFFFFF;
+    font-size: 20px;
 }
 
 #l1 {
