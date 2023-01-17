@@ -16,10 +16,29 @@
                 $("#time").html(data);
             },
             error: function (err, type, errorThrown) {
-
+                console.log(err);
             }
         })
     }
+
+    function getNum() {
+        $.ajax({
+            url: '/num',
+            timeout: 10000,
+            success: function (data) {
+                let num = $(".num h1");
+                num.eq(0).text(data.pokemon);
+                num.eq(1).text(data.skill);
+                num.eq(2).text(data.ability);
+                num.eq(3).text(data.gen);
+            },
+            error: function (err, type, errorThrown) {
+                console.log(err);
+            }
+        })
+    }
+
+    getNum();
     setInterval(getTime, 1000);
 </script>
 <div id="title">Pokemon Analysis</div>
