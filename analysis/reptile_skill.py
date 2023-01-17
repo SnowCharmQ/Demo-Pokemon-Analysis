@@ -10,8 +10,8 @@ res = request.urlopen(url)
 html = res.read()
 html = html.decode()
 
-if not os.path.exists('data'):
-    os.makedirs('data')
-with open('data/skill.html', mode='w', encoding='utf-8') as f:
+if not os.path.exists('../data'):
+    os.makedirs('../data')
+with open('../data/skill.html', mode='w', encoding='utf-8') as f:
     f.write(html)
 f.close()

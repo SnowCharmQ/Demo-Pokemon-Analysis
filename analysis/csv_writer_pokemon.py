@@ -2,7 +2,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 
 pokemons = []
-soup = BeautifulSoup(open("data/pokemon.html", mode='r', encoding='utf-8'), features="lxml")
+soup = BeautifulSoup(open("../data/pokemon.html", mode='r', encoding='utf-8'), features="lxml")
 trs = soup.find_all('tr')
 for tr in trs:
     info = []

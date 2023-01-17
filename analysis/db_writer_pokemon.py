@@ -28,7 +28,7 @@ Base.metadata.create_all(engine)
 
 session = Session(engine)
 objects = []
-df = pd.read_csv("data/pokemon.csv")
+df = pd.read_csv("../data/pokemon.csv")
 for data in df.itertuples():
     obj = PokemonInfo(id=data.id, english_name=data.english_name, type1=data.type1, type2=data.type2,
                       japanese_name=data.japanese_name, official_rom=data.official_rom)

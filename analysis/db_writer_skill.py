@@ -29,7 +29,7 @@ class Skill(Base):
 Base.metadata.create_all(engine)
 session = Session(engine)
 objects = []
-df = pd.read_csv("data/skill.csv")
+df = pd.read_csv("../data/skill.csv")
 for data in df.itertuples():
     data_id, data_name, data_type, data_category, data_pp, data_power, data_accuracy, data_gen = \
         data.id, data.name, data.type, data.category, data.pp, data.power, data.accuracy, data.gen

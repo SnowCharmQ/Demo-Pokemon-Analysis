@@ -2,7 +2,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 
 skills = []
-soup = BeautifulSoup(open("data/skill.html", mode='r', encoding='utf-8'), features='lxml')
+soup = BeautifulSoup(open("../data/skill.html", mode='r', encoding='utf-8'), features='lxml')
 trs = soup.find_all('tr')
 for tr in trs:
     info = []
