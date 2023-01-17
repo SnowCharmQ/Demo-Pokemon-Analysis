@@ -66,6 +66,7 @@ def save_skill():
         data_power = None if '—' in data_power else data_power
         data_accuracy = data_accuracy.replace("*", "").replace("%", "")
         data_accuracy = None if '—' in data_accuracy else data_accuracy
+        data_gen = data_gen.replace("*", "")
         obj = Skill(id=data_id, name=data_name, type=data_type, category=data_category,
                     pp=data_pp, power=data_power, accuracy=data_accuracy, gen=data_gen)
         objects.append(obj)
