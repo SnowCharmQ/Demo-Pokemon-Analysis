@@ -20,4 +20,4 @@ for tr in trs:
         pokemons.append(info)
 
 df = pd.DataFrame(pokemons, columns=['id', 'english_name', 'type1', 'type2', 'japanese_name', 'official_rom'])
-df.to_csv('data/pokemon.csv', index=False)
+df.to_csv('../data/pokemon.csv', index=False)

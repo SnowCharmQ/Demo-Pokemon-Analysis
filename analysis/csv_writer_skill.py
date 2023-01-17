@@ -18,4 +18,4 @@ for tr in trs:
         skills.append(info)
 
 df = pd.DataFrame(skills, columns=['id', 'name', 'type', 'category', 'pp', 'power', 'accuracy', 'gen'])
-df.to_csv('data/skill.csv', index=False)
+df.to_csv('../data/skill.csv', index=False)
