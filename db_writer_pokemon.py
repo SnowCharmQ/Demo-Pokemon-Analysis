@@ -13,7 +13,7 @@ engine = connect('test', '123456', 'pokemon')
 Base = declarative_base()
 
 
-class Pokemon(Base):
+class PokemonInfo(Base):
     __tablename__ = "pokemon_info"
     __table_args__ = (UniqueConstraint("english_name", "japanese_name"),)
     id = Column(Integer, primary_key=True)
@@ -30,8 +30,8 @@ session = Session(engine)
 objects = []
 df = pd.read_csv("data/pokemon.csv")
 for data in df.itertuples():
-    obj = Pokemon(id=data.id, english_name=data.english_name, type1=data.type1, type2=data.type2,
-                  japanese_name=data.japanese_name, official_rom=data.official_rom)
+    obj = PokemonInfo(id=data.id, english_name=data.english_name, type1=data.type1, type2=data.type2,
+                      japanese_name=data.japanese_name, official_rom=data.official_rom)
     objects.append(obj)
 session.bulk_save_objects(objects)
 session.commit()
