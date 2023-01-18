@@ -5,58 +5,26 @@
     <title>Pokemon Analysis</title>
     <link href="../static/css/main.css" rel="stylesheet">
     <script src="../static/js/jquery.js"></script>
+    <script src="../static/js/echarts-4.2.1.min.js"></script>
 </head>
 <body>
-<script>
-    function getTime() {
-        $.ajax({
-            url: '/time',
-            timeout: 10000,
-            success: function (data) {
-                $("#time").html(data);
-            },
-            error: function (err, type, errorThrown) {
-                console.log(err);
-            }
-        })
-    }
-
-    function getNum() {
-        $.ajax({
-            url: '/num',
-            timeout: 10000,
-            success: function (data) {
-                let num = $(".num h1");
-                num.eq(0).text(data.pokemon);
-                num.eq(1).text(data.skill);
-                num.eq(2).text(data.ability);
-                num.eq(3).text(data.gen);
-            },
-            error: function (err, type, errorThrown) {
-                console.log(err);
-            }
-        })
-    }
-
-    getNum();
-    setInterval(getTime, 1000);
-</script>
 <div id="title">Pokemon Analysis</div>
 <div id="time">Time</div>
-<div id="l1">L1</div>
-<div id="l2">L2</div>
+<div id="l1"></div>
+<div id="l2"></div>
 <div id="m1">
-    <div class="num"><h1>123</h1></div>
-    <div class="num"><h1>123</h1></div>
-    <div class="num"><h1>123</h1></div>
-    <div class="num"><h1>123</h1></div>
+    <div class="num"><h1></h1></div>
+    <div class="num"><h1></h1></div>
+    <div class="num"><h1></h1></div>
+    <div class="num"><h1></h1></div>
     <div class="txt"><h2>Pokemon</h2></div>
     <div class="txt"><h2>Ability</h2></div>
     <div class="txt"><h2>Skill</h2></div>
     <div class="txt"><h2>Generation</h2></div>
 </div>
-<div id="m2">M2</div>
-<div id="r">R</div>
-
+<div id="m2"></div>
+<div id="r"></div>
+<script src="../static/js/ec_left2.js"></script>
+<script src="../static/js/ajax.js"></script>
 </body>
 </html>

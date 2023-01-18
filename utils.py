@@ -33,3 +33,33 @@ def get_ability_num():
     session = Session(engine)
     num = session.query(func.count('*')).select_from(Ability).scalar()
     return num
+
+
+def get_pokemon_gen():
+    engine = connect('test', '123456', 'pokemon')
+    session = Session(engine)
+    pokemons = session.query(PokemonInfo.gen, func.count(PokemonInfo.gen)).group_by(PokemonInfo.gen).all()
+    pokemon_dict = {}
+    for pokemon in pokemons:
+        pokemon_dict[pokemon[0]] = pokemon[1]
+    return pokemon_dict
+
+
+def get_skill_gen():
+    engine = connect('test', '123456', 'pokemon')
+    session = Session(engine)
+    skills = session.query(Skill.gen, func.count(Skill.gen)).group_by(Skill.gen).all()
+    skill_dict = {}
+    for skill in skills:
+        skill_dict[skill[0]] = skill[1]
+    return skill_dict
+
+
+def get_ability_gen():
+    engine = connect('test', '123456', 'pokemon')
+    session = Session(engine)
+    abilities = session.query(Ability.gen, func.count(Ability.gen)).group_by(Ability.gen).all()
+    ability_dict = {}
+    for ability in abilities:
+        ability_dict[ability[0]] = ability[1]
+    return ability_dict

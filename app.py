@@ -23,5 +23,22 @@ def get_num():
     return jsonify({"pokemon": pokemon, "skill": skill, "ability": ability, "gen": 9})
 
 
+@app.route('/gen')
+def get_gen_curve():
+    gens = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX']
+    pokemons, skills, abilities = [], [], []
+    pokemon_dict = utils.get_pokemon_gen()
+    skill_dict = utils.get_skill_gen()
+    ability_dict = utils.get_ability_gen()
+    for gen in gens:
+        pokemon = pokemon_dict.get(gen)
+        pokemons.append(pokemon if pokemon else 0)
+        skill = skill_dict.get(gen)
+        skills.append(skill if skill else 0)
+        ability = ability_dict.get(gen)
+        abilities.append(ability if ability else 0)
+    return jsonify({"gen": gens, "pokemon": pokemons, "skill": skills, "ability": abilities})
+
+
 if __name__ == '__main__':
     app.run()
