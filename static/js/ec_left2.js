@@ -2,8 +2,11 @@ let ec_left2 = echarts.init(document.getElementById('l2'), 'dark');
 
 let ec_left2_options = {
     title: {
-        text: 'Skill And Ability Count For Each Generation',
-        left: 'left'
+        text: 'Pokemon, Skill, and Ability Count For Each Generation',
+        left: 'left',
+        textStyle: {
+            fontSize: 15
+        }
     },
     tooltip: {
         trigger: 'axis',

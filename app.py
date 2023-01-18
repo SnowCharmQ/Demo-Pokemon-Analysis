@@ -40,5 +40,10 @@ def get_gen_curve():
     return jsonify({"gen": gens, "pokemon": pokemons, "skill": skills, "ability": abilities})
 
 
+@app.route('/type')
+def get_pokemon_type():
+    return jsonify(utils.get_pokemon_type())
+
+
 if __name__ == '__main__':
     app.run()

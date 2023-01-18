@@ -28,6 +28,27 @@ function getNum() {
     })
 }
 
+function getC1() {
+    $.ajax({
+        url: '/type',
+        timeout: 10000,
+        success: function (data) {
+            let result = [];
+            for (let val in data) {
+                let k = val;
+                let v = data[val];
+                let obj = {value: v.toString(), name:k.toString()};
+                result.push(obj);
+            }
+            ec_left1_options.series[0].data = result;
+            ec_left1.setOption(ec_left1_options);
+        },
+        error: function (err, type, errorThrown) {
+            console.log(err);
+        }
+    })
+}
+
 function getC2() {
     $.ajax({
         url: '/gen',
@@ -46,5 +67,6 @@ function getC2() {
 }
 
 getNum();
+getC1();
 getC2();
 setInterval(getTime, 1000);
