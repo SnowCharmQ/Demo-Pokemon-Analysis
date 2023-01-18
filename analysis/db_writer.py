@@ -48,6 +48,12 @@ def save_pokemon_info():
     objects = []
     df = pd.read_csv("../data/pokemon.csv")
     for data in df.itertuples():
+        type1 = str(data.type1)
+        type2 = str(data.type2) if type(data.type2) == str else None
+        idx1 = type1.find('[')
+        idx2 = type2.find('[') if type2 is not None else None
+        type1 = type1 if idx1 == -1 else type1[:idx1]
+        type2 = type2 if idx2 is None or idx2 == -1 else type2[:idx2]
         data_id = int(data.id)
         if data_id <= 151:
             gen = 'I'
@@ -67,7 +73,7 @@ def save_pokemon_info():
             gen = 'VIII'
         else:
             gen = 'IX'
-        obj = PokemonInfo(id=data_id, english_name=data.english_name, type1=data.type1, type2=data.type2,
+        obj = PokemonInfo(id=data_id, english_name=data.english_name, type1=type1, type2=type2,
                           japanese_name=data.japanese_name, official_rom=data.official_rom, gen=gen)
         objects.append(obj)
     session.bulk_save_objects(objects)
