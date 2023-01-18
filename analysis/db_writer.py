@@ -13,13 +13,13 @@ def connect(user, password, db, host='localhost', port=5432):
 
 class PokemonInfo(Base):
     __tablename__ = "pokemon_info"
-    __table_args__ = (UniqueConstraint("english_name", "japanese_name"),)
-    id = Column(Integer, primary_key=True)
-    english_name = Column(VARCHAR(100), unique=True)
-    japanese_name = Column(VARCHAR(100), unique=True)
+    idx = Column(Integer, autoincrement=True, primary_key=True)
+    id = Column(Integer)
+    href = Column(VARCHAR(100))
+    name = Column(VARCHAR(100))
+    detail = Column(VARCHAR(100))
     type1 = Column(VARCHAR(100))
     type2 = Column(VARCHAR(100))
-    official_rom = Column(VARCHAR(100))
     gen = Column(VARCHAR(10))
 
 
@@ -48,12 +48,6 @@ def save_pokemon_info():
     objects = []
     df = pd.read_csv("../data/pokemon.csv")
     for data in df.itertuples():
-        type1 = str(data.type1)
-        type2 = str(data.type2) if type(data.type2) == str else None
-        idx1 = type1.find('[')
-        idx2 = type2.find('[') if type2 is not None else None
-        type1 = type1 if idx1 == -1 else type1[:idx1]
-        type2 = type2 if idx2 is None or idx2 == -1 else type2[:idx2]
         data_id = int(data.id)
         if data_id <= 151:
             gen = 'I'
@@ -73,8 +67,14 @@ def save_pokemon_info():
             gen = 'VIII'
         else:
             gen = 'IX'
-        obj = PokemonInfo(id=data_id, english_name=data.english_name, type1=type1, type2=type2,
-                          japanese_name=data.japanese_name, official_rom=data.official_rom, gen=gen)
+        type1 = data.type1
+        type2 = data.type2
+        detail = data.detail
+        type1 = type1 if type(type1) == str else ''
+        type2 = type2 if type(type2) == str else ''
+        detail = detail if type(detail) == str else ''
+        obj = PokemonInfo(id=data_id, href=data.href, name=data.name,
+                          detail=detail, type1=type1, type2=type2, gen=gen)
         objects.append(obj)
     session.bulk_save_objects(objects)
     session.commit()

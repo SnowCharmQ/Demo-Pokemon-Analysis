@@ -1,7 +1,10 @@
 import os
 from urllib import request
+from urllib.request import Request
 
-url = "https://pokemon.fandom.com/wiki/List_of_Pok%C3%A9mon"
+url = "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number"
+headers = {'User-Agent': 'Mozilla/5.0 3578.98 Safari/537.36'}
+url = Request(url, headers=headers)
 res = request.urlopen(url)
 
 html = res.read()

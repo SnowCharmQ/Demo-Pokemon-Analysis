@@ -1,1009 +1,1154 @@
-id,english_name,type1,type2,japanese_name,official_rom
-001,Bulbasaur,Grass,Poison,フシギダネ,Fushigidane
-002,Ivysaur,Grass,Poison,フシギソウ,Fushigisou
-003,Venusaur,Grass,Poison,フシギバナ,Fushigibana
-004,Charmander,Fire,,ヒトカゲ,Hitokage
-005,Charmeleon,Fire,,リザード,Lizardo
-006,Charizard,Fire,Flying,リザードン,Lizardon
-007,Squirtle,Water,,ゼニガメ,Zenigame
-008,Wartortle,Water,,カメール,Kameil
-009,Blastoise,Water,,カメックス,Kamex
-010,Caterpie,Bug,,キャタピー,Caterpie
-011,Metapod,Bug,,トランセル,Trancell
-012,Butterfree,Bug,Flying,バタフリー,Butterfree
-013,Weedle,Bug,Poison,ビードル,Beedle
-014,Kakuna,Bug,Poison,コクーン,Cocoon
-015,Beedrill,Bug,Poison,スピアー,Spear
-016,Pidgey,Normal,Flying,ポッポ,Poppo
-017,Pidgeotto,Normal,Flying,ピジョン,Pigeon
-018,Pidgeot,Normal,Flying,ピジョット,Pigeot
-019,Rattata,Normal,,コラッタ,Koratta
-020,Raticate,Normal,,ラッタ,Ratta
-021,Spearow,Normal,Flying,オニスズメ,Onisuzume
-022,Fearow,Normal,Flying,オニドリル,Onidrill
-023,Ekans,Poison,,アーボ,Arbo
-024,Arbok,Poison,,アーボック,Arbok
-025,Pikachu,Electric,,ピカチュウ,Pikachu
-026,Raichu,Electric,,ライチュウ,Raichu
-027,Sandshrew,Ground,,サンド,Sand
-028,Sandslash,Ground,,サンドパン,Sandpan
-029,Nidoran♀,Poison,,ニドラン♀,Nidoran♀
-030,Nidorina,Poison,,ニドリーナ,Nidorina
-031,Nidoqueen,Poison,Ground,ニドクイン,Nidoqueen
-032,Nidoran♂,Poison,,ニドラン♂,Nidoran♂
-033,Nidorino,Poison,,ニドリーノ,Nidorino
-034,Nidoking,Poison,Ground,ニドキング,Nidoking
-035,Clefairy,Fairy[1],,ピッピ,Pippi
-036,Clefable,Fairy[2],,ピクシー,Pixy
-037,Vulpix,Fire,,ロコン,Rokon
-038,Ninetales,Fire,,キュウコン,Kyukon
-039,Jigglypuff,Normal,Fairy[3],プリン,Purin
-040,Wigglytuff,Normal,Fairy[4],プクリン,Pukurin
-041,Zubat,Poison,Flying,ズバット,Zubat
-042,Golbat,Poison,Flying,ゴルバット,Golbat
-043,Oddish,Grass,Poison,ナゾノクサ,Nazonokusa
-044,Gloom,Grass,Poison,クサイハナ,Kusaihana
-045,Vileplume,Grass,Poison,ラフレシア,Ruffresia
-046,Paras,Bug,Grass,パラス,Paras
-047,Parasect,Bug,Grass,パラセクト,Parasect
-048,Venonat,Bug,Poison,コンパン,Kongpang
-049,Venomoth,Bug,Poison,モルフォン,Morphon
-050,Diglett,Ground,,ディグダ,Digda
-051,Dugtrio,Ground,,ダグトリオ,Dugtrio
-052,Meowth,Normal,,ニャース,Nyarth
-053,Persian,Normal,,ペルシアン,Persian
-054,Psyduck,Water,,コダック,Koduck
-055,Golduck,Water,,ゴルダック,Golduck
-056,Mankey,Fighting,,マンキー,Mankey
-057,Primeape,Fighting,,オコリザル,Okorizaru
-058,Growlithe,Fire,,ガーディ,Gardie
-059,Arcanine,Fire,,ウインディ,Windie
-060,Poliwag,Water,,ニョロモ,Nyoromo
-061,Poliwhirl,Water,,ニョロゾ,Nyorozo
-062,Poliwrath,Water,Fighting,ニョロボ,Nyorobon
-063,Abra,Psychic,,ケーシィ,Casey
-064,Kadabra,Psychic,,ユンゲラー,Yungerer
-065,Alakazam,Psychic,,フーディン,Foodin
-066,Machop,Fighting,,ワンリキー,Wanriky
-067,Machoke,Fighting,,ゴーリキー,Goriky
-068,Machamp,Fighting,,カイリキー,Kairiky
-069,Bellsprout,Grass,Poison,マダツボミ,Madatsubomi
-070,Weepinbell,Grass,Poison,ウツドン,Utsudon
-071,Victreebel,Grass,Poison,ウツボット,Utsubotto
-072,Tentacool,Water,Poison,メノクラゲ,Menokurage
-073,Tentacruel,Water,Poison,ドククラゲ,Dokukurage
-074,Geodude,Rock,Ground,イシツブテ,Ishitsubute
-075,Graveler,Rock,Ground,ゴローン,Golone
-076,Golem,Rock,Ground,ゴローニャ,Golonya
-077,Ponyta,Fire,,ポニータ,Ponyta
-078,Rapidash,Fire,,ギャロップ,Gallop
-079,Slowpoke,Water,Psychic,ヤドン,Yadon
-080,Slowbro,Water,Psychic,ヤドラン,Yadoran
-081,Magnemite,Electric,Steel[5],コイル,Coil
-082,Magneton,Electric,Steel[6],レアコイル,Rarecoil
-083,Farfetch'd,Normal,Flying,カモネギ,Kamonegi
-084,Doduo,Normal,Flying,ドードー,Dodo
-085,Dodrio,Normal,Flying,ドードリオ,Dodorio
-086,Seel,Water,,パウワウ,Pawou
-087,Dewgong,Water,Ice,ジュゴン,Jugon
-088,Grimer,Poison,,ベトベター,Betbeter
-089,Muk,Poison,,ベトベトン,Betbeton
-090,Shellder,Water,,シェルダー,Shellder
-091,Cloyster,Water,Ice,パルシェン,Parshen
-092,Gastly,Ghost,Poison,ゴース,Ghos
-093,Haunter,Ghost,Poison,ゴースト,Ghost
-094,Gengar,Ghost,Poison,ゲンガー,Gangar
-095,Onix,Rock,Ground,イワーク,Iwark
-096,Drowzee,Psychic,,スリープ,Sleep
-097,Hypno,Psychic,,スリーパー,Sleeper
-098,Krabby,Water,,クラブ,Crab
-099,Kingler,Water,,キングラー,Kingler
-100,Voltorb,Electric,,ビリリダマ,Biriridama
-101,Electrode,Electric,,マルマイン,Marumine
-102,Exeggcute,Grass,Psychic,タマタマ,Tamatama
-103,Exeggutor,Grass,Psychic,ナッシー,Nassy
-104,Cubone,Ground,,カラカラ,Karakara
-105,Marowak,Ground,,ガラガラ,Garagara
-106,Hitmonlee,Fighting,,サワムラー,Sawamular
-107,Hitmonchan,Fighting,,エビワラー,Ebiwalar
-108,Lickitung,Normal,,ベロリンガ,Beroringa
-109,Koffing,Poison,,ドガース,Dogars
-110,Weezing,Poison,,マタドガス,Matadogas
-111,Rhyhorn,Ground,Rock,サイホーン,Saihorn
-112,Rhydon,Ground,Rock,サイドン,Sidon
-113,Chansey,Normal,,ラッキー,Lucky
-114,Tangela,Grass,,モンジャラ,Monjara
-115,Kangaskhan,Normal,,ガルーラ,Garura
-116,Horsea,Water,,タッツー,Tattu
-117,Seadra,Water,,シードラ,Seadra
-118,Goldeen,Water,,トサキント,Tosakinto
-119,Seaking,Water,,アズマオウ,Azumao
-120,Staryu,Water,,ヒトデマン,Hitodeman
-121,Starmie,Water,Psychic,スターミー,Starmie
-122,Mr. Mime,Psychic,Fairy[7],バリヤード,Barrierd
-123,Scyther,Bug,Flying,ストライク,Strike
-124,Jynx,Ice,Psychic,ルージュラ,Rougela
-125,Electabuzz,Electric,,エレブー,Eleboo
-126,Magmar,Fire,,ブーバー,Boober
-127,Pinsir,Bug,,カイロス,Kailios
-128,Tauros,Normal,,ケンタロス,Kentauros
-129,Magikarp,Water,,コイキング,Koiking
-130,Gyarados,Water,Flying,ギャラドス,Gyarados
-131,Lapras,Water,Ice,ラプラス,Laplace
-132,Ditto,Normal,,メタモン,Metamon
-133,Eevee,Normal,,イーブイ,Eievui
-134,Vaporeon,Water,,シャワーズ,Showers
-135,Jolteon,Electric,,サンダース,Thunders
-136,Flareon,Fire,,ブースター,Booster
-137,Porygon,Normal,,ポリゴン,Porygon
-138,Omanyte,Rock,Water,オムナイト,Omnite
-139,Omastar,Rock,Water,オムスター,Omstar
-140,Kabuto,Rock,Water,カブト,Kabuto
-141,Kabutops,Rock,Water,カブトプス,Kabutops
-142,Aerodactyl,Rock,Flying,プテラ,Ptera
-143,Snorlax,Normal,,カビゴン,Kabigon
-144,Articuno,Ice,Flying,フリーザー,Freezer
-145,Zapdos,Electric,Flying,サンダー,Thunder
-146,Moltres,Fire,Flying,ファイヤー,Fire
-147,Dratini,Dragon,,ミニリュウ,Miniryu
-148,Dragonair,Dragon,,ハクリュー,Hakuryu
-149,Dragonite,Dragon,Flying,カイリュー,Kairyu
-150,Mewtwo,Psychic,,ミュウツー,Mewtwo
-151,Mew,Psychic,,ミュウ,Mew
-152,Chikorita,Grass,,チコリータ,Chicorita
-153,Bayleef,Grass,,ベイリーフ,Bayleaf
-154,Meganium,Grass,,メガニウム,Meganium
-155,Cyndaquil,Fire,,ヒノアラシ,Hinoarashi
-156,Quilava,Fire,,マグマラシ,Magmarashi
-157,Typhlosion,Fire,,バクフーン,Bakphoon
-158,Totodile,Water,,ワニノコ,Waninoko
-159,Croconaw,Water,,アリゲイツ,Alligates
-160,Feraligatr,Water,,オーダイル,Ordile
-161,Sentret,Normal,,オタチ,Otachi
-162,Furret,Normal,,オオタチ,Ootachi
-163,Hoothoot,Normal,Flying,ホーホー,Hoho
-164,Noctowl,Normal,Flying,ヨルノズク,Yorunozuku
-165,Ledyba,Bug,Flying,レディバ,Rediba
-166,Ledian,Bug,Flying,レディアン,Redian
-167,Spinarak,Bug,Poison,イトマル,Itomaru
-168,Ariados,Bug,Poison,アリアドス,Ariados
-169,Crobat,Poison,Flying,クロバット,Crobat
-170,Chinchou,Water,Electric,チョンチー,Chonchie
-171,Lanturn,Water,Electric,ランターン,Lantern
-172,Pichu,Electric,,ピチュー,Pichu
-173,Cleffa,Fairy[8],,ピィ,Py
-174,Igglybuff,Normal,Fairy[9],ププリン,Pupurin
-175,Togepi,Fairy[10],,トゲピー,Togepy
-176,Togetic,Fairy[11],Flying,トゲチック,Togechick
-177,Natu,Psychic,Flying,ネイティ,Naty
-178,Xatu,Psychic,Flying,ネイティオ,Natio
-179,Mareep,Electric,,メリープ,Merriep
-180,Flaaffy,Electric,,モココ,Mokoko
-181,Ampharos,Electric,,デンリュウ,Denryu
-182,Bellossom,Grass,,キレイハナ,Kireihana
-183,Marill,Water,Fairy[12],マリル,Maril
-184,Azumarill,Water,Fairy[13],マリルリ,Marilli
-185,Sudowoodo,Rock,,ウソッキー,Usokkie
-186,Politoed,Water,,ニョロトノ,Nyorotono
-187,Hoppip,Grass,Flying,ハネッコ,Hanecco
-188,Skiploom,Grass,Flying,ポポッコ,Popocco
-189,Jumpluff,Grass,Flying,ワタッコ,Watacco
-190,Aipom,Normal,,エイパム,Eipam
-191,Sunkern,Grass,,ヒマナッツ,Himanuts
-192,Sunflora,Grass,,キマワリ,Kimawari
-193,Yanma,Bug,Flying,ヤンヤンマ,Yanyanma
-194,Wooper,Water,Ground,ウパー,Upah
-195,Quagsire,Water,Ground,ヌオー,Nuoh
-196,Espeon,Psychic,,エーフィ,Eifie
-197,Umbreon,Dark,,ブラッキー,Blacky
-198,Murkrow,Dark,Flying,ヤミカラス,Yamikarasu
-199,Slowking,Water,Psychic,ヤドキング,Yadoking
-200,Misdreavus,Ghost,,ムウマ,Muma
-201,Unown,Psychic,,アンノーン,Unknown
-202,Wobbuffet,Psychic,,ソーナンス,Sonans
-203,Girafarig,Normal,Psychic,キリンリキ,Kirinriki
-204,Pineco,Bug,,クヌギダマ,Kunugidama
-205,Forretress,Bug,Steel,フォレトス,Foretos
-206,Dunsparce,Normal,,ノコッチ,Nokotchi
-207,Gligar,Ground,Flying,グライガー,Gliger
-208,Steelix,Steel,Ground,ハガネール,Haganeil
-209,Snubbull,Fairy[14],,ブルー,Bulu
-210,Granbull,Fairy[15],,グランブル,Granbulu
-211,Qwilfish,Water,Poison,ハリーセン,Harysen
-212,Scizor,Bug,Steel,ハッサム,Hassam
-213,Shuckle,Bug,Rock,ツボツボ,Tsubotsubo
-214,Heracross,Bug,Fighting,ヘラクロス,Heracros
-215,Sneasel,Dark,Ice,ニューラ,Nyula
-216,Teddiursa,Normal,,ヒメグマ,Himeguma
-217,Ursaring,Normal,,リングマ,Ringuma
-218,Slugma,Fire,,マグマッグ,Magmag
-219,Magcargo,Fire,Rock,マグカルゴ,Magcargot
-220,Swinub,Ice,Ground,ウリムー,Urimoo
-221,Piloswine,Ice,Ground,イノムー,Inomoo
-222,Corsola,Water,Rock,サニーゴ,Sunnygo
-223,Remoraid,Water,,テッポウオ,Teppouo
-224,Octillery,Water,,オクタン,Okutank
-225,Delibird,Ice,Flying,デリバード,Delibird
-226,Mantine,Water,Flying,マンタイン,Maintain
-227,Skarmory,Steel,Flying,エアームド,Airmd
-228,Houndour,Dark,Fire,デルビル,Delvil
-229,Houndoom,Dark,Fire,ヘルガー,Hellgar
-230,Kingdra,Water,Dragon,キングドラ,Kingdra
-231,Phanpy,Ground,,ゴマゾウ,Gomazou
-232,Donphan,Ground,,ドンファン,Donfan
-233,Porygon2,Normal,,ポリゴン２,Porygon2
-234,Stantler,Normal,,オドシシ,Odoshishi
-235,Smeargle,Normal,,ドーブル,Doble
-236,Tyrogue,Fighting,,バルキー,Balkie
-237,Hitmontop,Fighting,,カポエラー,Kapoerer
-238,Smoochum,Ice,Psychic,ムチュール,Muchul
-239,Elekid,Electric,,エレキッド,Elekid
-240,Magby,Fire,,ブビィ,Buby
-241,Miltank,Normal,,ミルタンク,Miltank
-242,Blissey,Normal,,ハピナス,Happinas
-243,Raikou,Electric,,ライコウ,Raikou
-244,Entei,Fire,,エンテイ,Entei
-245,Suicune,Water,,スイクン,Suikun
-246,Larvitar,Rock,Ground,ヨーギラス,Yogiras
-247,Pupitar,Rock,Ground,サナギラス,Sanagiras
-248,Tyranitar,Rock,Dark,バンギラス,Bangiras
-249,Lugia,Psychic,Flying,ルギア,Lugia
-250,Ho-Oh,Fire,Flying,ホウオウ,Houou
-251,Celebi,Psychic,Grass,セレビィ,Celebi
-252,Treecko,Grass,,キモリ,Kimori
-253,Grovyle,Grass,,ジュプトル,Juptile
-254,Sceptile,Grass,,ジュカイン,Jukain
-255,Torchic,Fire,,アチャモ,Achamo
-256,Combusken,Fire,Fighting,ワカシャモ,Wakasyamo
-257,Blaziken,Fire,Fighting,バシャーモ,Bursyamo
-258,Mudkip,Water,,ミズゴロウ,Mizugorou
-259,Marshtomp,Water,Ground,ヌマクロー,Numacraw
-260,Swampert,Water,Ground,ラグラージ,Laglarge
-261,Poochyena,Dark,,ポチエナ,Pochiena
-262,Mightyena,Dark,,グラエナ,Guraena
-263,Zigzagoon,Normal,,ジグザグマ,Ziguzaguma
-264,Linoone,Normal,,マッスグマ,Massuguma
-265,Wurmple,Bug,,ケムッソ,Kemusso
-266,Silcoon,Bug,,カラサリス,Karasalis
-267,Beautifly,Bug,Flying,アゲハント,Agehunt
-268,Cascoon,Bug,,マユルド,Mayuld
-269,Dustox,Bug,Poison,ドクケイル,Dokucale
-270,Lotad,Water,Grass,ハスボー,Hassboh
-271,Lombre,Water,Grass,ハスブレロ,Hasubrero
-272,Ludicolo,Water,Grass,ルンパッパ,Runpappa
-273,Seedot,Grass,,タネボー,Taneboh
-274,Nuzleaf,Grass,Dark,コノハナ,Konohana
-275,Shiftry,Grass,Dark,ダーテング,Dirteng
-276,Taillow,Normal,Flying,スバメ,Subame
-277,Swellow,Normal,Flying,オオスバメ,Ohsubame
-278,Wingull,Water,Flying,キャモメ,Camome
-279,Pelipper,Water,Flying,ペリッパー,Pelipper
-280,Ralts,Psychic,Fairy[16],ラルトス,Ralts
-281,Kirlia,Psychic,Fairy[17],キルリア,Kirlia
-282,Gardevoir,Psychic,Fairy[18],サーナイト,Sirnight
-283,Surskit,Bug,Water,アメタマ,Ametama
-284,Masquerain,Bug,Flying,アメモース,Amemoth
-285,Shroomish,Grass,,キノココ,Kinococo
-286,Breloom,Grass,Fighting,キノガッサ,Kinogassa
-287,Slakoth,Normal,,ナメケロ,Namakero
-288,Vigoroth,Normal,,ヤルキモノ,Yarukimono
-289,Slaking,Normal,,ケッキング,Kekking
-290,Nincada,Bug,Ground,ツチニン,Tutinin
-291,Ninjask,Bug,Flying,テッカニン,Tekkanin
-292,Shedinja,Bug,Ghost,ヌケニン,Nukenin
-293,Whismur,Normal,,ゴニョニョ,Gonyonyo
-294,Loudred,Normal,,ドゴーム,Dogohmb
-295,Exploud,Normal,,バクオング,Bakuong
-296,Makuhita,Fighting,,マクノシタ,Makunoshita
-297,Hariyama,Fighting,,ハリテヤマ,Hariteyama
-298,Azurill,Normal,Fairy[19],ルリリ,Ruriri
-299,Nosepass,Rock,,ノズパス,Nosepass
-300,Skitty,Normal,,エネコ,Eneco
-301,Delcatty,Normal,,エネコロロ,Enekororo
-302,Sableye,Dark,Ghost,ヤミラミ,Yamirami
-303,Mawile,Steel,Fairy[20],クチート,Kucheat
-304,Aron,Steel,Rock,ココドラ,Cokodora
-305,Lairon,Steel,Rock,コドラ,Kodora
-306,Aggron,Steel,Rock,ボスゴドラ,Bossgodora
-307,Meditite,Fighting,Psychic,アサナン,Asanan
-308,Medicham,Fighting,Psychic,チャーレム,Charem
-309,Electrike,Electric,,ラクライ,Rakurai
-310,Manectric,Electric,,ライボルト,Livolt
-311,Plusle,Electric,,プラスル,Prasle
-312,Minun,Electric,,マイナン,Minun
-313,Volbeat,Bug,,バルビート,Barubeat
-314,Illumise,Bug,,イルミーゼ,Illumise
-315,Roselia,Grass,Poison,ロゼリア,Roselia
-316,Gulpin,Poison,,ゴクリン,Gokulin
-317,Swalot,Poison,,マルノーム,Marunoom
-318,Carvanha,Water,Dark,キバニア,Kibanha
-319,Sharpedo,Water,Dark,サメハダー,Samehader
-320,Wailmer,Water,,ホエルコ,Hoeruko
-321,Wailord,Water,,ホエルオー,Whaloh
-322,Numel,Fire,Ground,ドンメル,Donmel
-323,Camerupt,Fire,Ground,バクーダ,Bakuuda
-324,Torkoal,Fire,,コータス,Cotoise
-325,Spoink,Psychic,,バネブー,Baneboo
-326,Grumpig,Psychic,,ブーピッグ,Boopig
-327,Spinda,Normal,,パッチール,Patcheel
-328,Trapinch,Ground,,ナックラー,Nuckrar
-329,Vibrava,Ground,Dragon,ビブラーバ,Vibrava
-330,Flygon,Ground,Dragon,フライゴン,Flygon
-331,Cacnea,Grass,,サボネア,Sabonea
-332,Cacturne,Grass,Dark,ノクタス,Noctus
-333,Swablu,Normal,Flying,チルット,Tyltto
-334,Altaria,Dragon,Flying,チルタリス,Tyltalis
-335,Zangoose,Normal,,ザングース,Zangoose
-336,Seviper,Poison,,ハブネーク,Habunake
-337,Lunatone,Rock,Psychic,ルナトーン,Lunatone
-338,Solrock,Rock,Psychic,ソルロック,Solrock
-339,Barboach,Water,Ground,ドジョッチ,Dojoach
-340,Whiscash,Water,Ground,ナマズン,Namazun
-341,Corphish,Water,,ヘイガニ,Heigani
-342,Crawdaunt,Water,Dark,シザリガー,Shizariger
-343,Baltoy,Ground,Psychic,ヤジロン,Yajilon
-344,Claydol,Ground,Psychic,ネンドール,Nendoll
-345,Lileep,Rock,Grass,リリーラ,Lilyla
-346,Cradily,Rock,Grass,ユレイドル,Yuradle
-347,Anorith,Rock,Bug,アノプス,Anopth
-348,Armaldo,Rock,Bug,アーマルド,Armaldo
-349,Feebas,Water,,ヒンバス,Hinbass
-350,Milotic,Water,,ミロカロス,Milokaross
-351,Castform,Normal,,ポワルン,Powalen
-352,Kecleon,Normal,,カクレオン,Kakureon
-353,Shuppet,Ghost,,カゲボウズ,Kagebouzu
-354,Banette,Ghost,,ジュペッタ,Juppeta
-355,Duskull,Ghost,,ヨマワル,Yomawaru
-356,Dusclops,Ghost,,サマヨール,Samayouru
-357,Tropius,Grass,Flying,トロピウス,Tropius
-358,Chimecho,Psychic,,チリーン,Chirean
-359,Absol,Dark,,アブソル,Absol
-360,Wynaut,Psychic,,ソーナノ,Sohnano
-361,Snorunt,Ice,,ユキワラシ,Yukiwarashi
-362,Glalie,Ice,,オニゴーリ,Onigohri
-363,Spheal,Ice,Water,タマザラシ,Tamazarashi
-364,Sealeo,Ice,Water,トドグラー,Todoggler
-365,Walrein,Ice,Water,トドゼルガ,Todoseruga
-366,Clamperl,Water,,パールル,Pearlulu
-367,Huntail,Water,,ハンテール,Huntail
-368,Gorebyss,Water,,サクラビス,Sakurabyss
-369,Relicanth,Water,Rock,ジーランス,Glanth
-370,Luvdisc,Water,,ラブカス,Lovecus
-371,Bagon,Dragon,,タツベイ,Tatsubay
-372,Shelgon,Dragon,,コモルー,Komoruu
-373,Salamence,Dragon,Flying,ボーマンダ,Bohmander
-374,Beldum,Steel,Psychic,ダンバル,Dumbber
-375,Metang,Steel,Psychic,メタング,Metang
-376,Metagross,Steel,Psychic,メタグロス,Metagross
-377,Regirock,Rock,,レジロック,Regirock
-378,Regice,Ice,,レジアイス,Regice
-379,Registeel,Steel,,レジスチル,Registeel
-380,Latias,Dragon,Psychic,ラティアス,Latias
-381,Latios,Dragon,Psychic,ラティオス,Latios
-382,Kyogre,Water,,カイオーガ,Kyogre
-383,Groudon,Ground,,グラードン,Groudon
-384,Rayquaza,Dragon,Flying,レックウザ,Rayquaza
-385,Jirachi,Steel,Psychic,ジラーチ,Jirachi
-386,Deoxys,Psychic,,デオキシス,Deoxys
-387,Turtwig,Grass,,ナエトル,Naetle
-388,Grotle,Grass,,ハヤシガメ,Hayashigame
-389,Torterra,Grass,Ground,ドダイトス,Dodaitose
-390,Chimchar,Fire,,ヒコザル,Hikozaru
-391,Monferno,Fire,Fighting,モウカザル,Moukazaru
-392,Infernape,Fire,Fighting,ゴウカザル,Goukazaru
-393,Piplup,Water,,ポッチャマ,Pochama
-394,Prinplup,Water,,ポッタイシ,Pottaishi
-395,Empoleon,Water,Steel,エンペルト,Emperte
-396,Starly,Normal,Flying,ムックル,Mukkuru
-397,Staravia,Normal,Flying,ムクバード,Mukubird
-398,Staraptor,Normal,Flying,ムクホーク,Mukuhawk
-399,Bidoof,Normal,,ビッパ,Bipper
-400,Bibarel,Normal,Water,ビーダル,Beadull
-401,Kricketot,Bug,,コロボーシ,Korobooshi
-402,Kricketune,Bug,,コロトック,Korotok
-403,Shinx,Electric,,コリンク,Kolink
-404,Luxio,Electric,,ルクシオ,Luxio
-405,Luxray,Electric,,レントラー,Rentorar
-406,Budew,Grass,Poison,スボミー,Subomie
-407,Roserade,Grass,Poison,ロズレイド,Roserade
-408,Cranidos,Rock,,ズガイドス,Zugaidos
-409,Rampardos,Rock,,ラムパルド,Rampard
-410,Shieldon,Rock,Steel,タテトプス,Tatetops
-411,Bastiodon,Rock,Steel,トリテプス,Trideps
-412,Burmy,Bug,,ミノムッチ,Minomutchi
-413,Wormadam,Bug,GrassGroundSteel,ミノマダム,Minomadam
-414,Mothim,Bug,Flying,ガーメイル,Garmeil
-415,Combee,Bug,Flying,ミツハニー,Mitsuhoney
-416,Vespiquen,Bug,Flying,ビークイン,Beequeen
-417,Pachirisu,Electric,,パチリス,Pachirisu
-418,Buizel,Water,,ブイゼル,Buoysel
-419,Floatzel,Water,,フローゼル,Flowsel
-420,Cherubi,Grass,,チェリンボ,Cherinbo
-421,Cherrim,Grass,,チェリム,Cherrim
-422,Shellos,Water,,カラナクシ,Karanakushi
-423,Gastrodon,Water,Ground,トリトドン,Toritodon
-424,Ambipom,Normal,,エテボース,Eteboth
-425,Drifloon,Ghost,Flying,フワンテ,Fuwante
-426,Drifblim,Ghost,Flying,フワライド,Fuwaride
-427,Buneary,Normal,,ミミロル,Mimirol
-428,Lopunny,Normal,,ミミロップ,Mimilop
-429,Mismagius,Ghost,,ムウマージ,Mumage
-430,Honchkrow,Dark,Flying,ドンカラス,Donkarasu
-431,Glameow,Normal,,ニャルマー,Nyarumar
-432,Purugly,Normal,,ブニャット,Bunyat
-433,Chingling,Psychic,,リーシャン,Lisyan
-434,Stunky,Poison,Dark,スカンプー,Skunpoo
-435,Skuntank,Poison,Dark,スカタンク,Skutank
-436,Bronzor,Steel,Psychic,ドーミラー,Domirror
-437,Bronzong,Steel,Psychic,ドータクン,Dootakun
-438,Bonsly,Rock,,ウソハチ,Usohachi
-439,Mime Jr.,Psychic,Fairy[21],マネネ,Manene
-440,Happiny,Normal,,ピンプク,Pinpuku
-441,Chatot,Normal,Flying,ペラップ,Perap
-442,Spiritomb,Ghost,Dark,ミカルゲ,Mikaruge
-443,Gible,Dragon,Ground,フカマル,Fukamaru
-444,Gabite,Dragon,Ground,ガバイト,Gabite
-445,Garchomp,Dragon,Ground,ガブリアス,Gaburias
-446,Munchlax,Normal,,ゴンベ,Gonbe
-447,Riolu,Fighting,,リオル,Riolu
-448,Lucario,Fighting,Steel,ルカリオ,Lukario
-449,Hippopotas,Ground,,ヒポポタス,Hippopotas
-450,Hippowdon,Ground,,カバルドン,Kabarudon
-451,Skorupi,Poison,Bug,スコルピ,Scorpi
-452,Drapion,Poison,Dark,ドラピオン,Dorapion
-453,Croagunk,Poison,Fighting,グレッグル,Gureggru
-454,Toxicroak,Poison,Fighting,ドクロッグ,Dokurog
-455,Carnivine,Grass,,マスキッパ,Muskippa
-456,Finneon,Water,,ケイコウオ,Keikouo
-457,Lumineon,Water,,ネオラント,Neorant
-458,Mantyke,Water,Flying,タマンタ,Tamanta
-459,Snover,Grass,Ice,ユキカブリ,Yukikabli
-460,Abomasnow,Grass,Ice,ユキノオー,Yukinooh
-461,Weavile,Dark,Ice,マニューラ,Manyula
-462,Magnezone,Electric,Steel,ジバコイル,Jibacoil
-463,Lickilicky,Normal,,ベロベルト,Berobelt
-464,Rhyperior,Ground,Rock,ドサイドン,Dosidon
-465,Tangrowth,Grass,,モジャンボ,Mojanbo
-466,Electivire,Electric,,エレキブル,Elekible
-467,Magmortar,Fire,,ブーバーン,Booburn
-468,Togekiss,Fairy[22],Flying,トゲキッス,Togekiss
-469,Yanmega,Bug,Flying,メガヤンマ,Megayanma
-470,Leafeon,Grass,,リーフィア,Leafia
-471,Glaceon,Ice,,グレイシア,Glacia
-472,Gliscor,Ground,Flying,グライオン,Glion
-473,Mamoswine,Ice,Ground,マンムー,Manmoo
-474,Porygon-Z,Normal,,ポリゴンＺ,PorygonZ
-475,Gallade,Psychic,Fighting,エルレイド,Erureido
-476,Probopass,Rock,Steel,ダイノーズ,Dainose
-477,Dusknoir,Ghost,,ヨノワール,Yonoir
-478,Froslass,Ice,Ghost,ユキメノコ,Yukimenoko
-479,Rotom,Electric,Ghost,ロトム,Rotom
-480,Uxie,Psychic,,ユクシー,Yuxie
-481,Mesprit,Psychic,,エムリット,Emrit
-482,Azelf,Psychic,,アグノム,Agnome
-483,Dialga,Steel,Dragon,ディアルガ,Dialga
-484,Palkia,Water,Dragon,パルキア,Palkia
-485,Heatran,Fire,Steel,ヒードラン,Heatran
-486,Regigigas,Normal,,レジギガス,Regigigas
-487,Giratina,Ghost,Dragon,ギラティナ,Giratina
-488,Cresselia,Psychic,,クレセリア,Crecelia
-489,Phione,Water,,フィオネ,Phione
-490,Manaphy,Water,,マナフィ,Manaphy
-491,Darkrai,Dark,,ダークライ,Darkrai
-492,Shaymin,Grass,,シェイミ,Shaymin
-493,Arceus,Normal,,アルセウス,Arceus
-494,Victini,Psychic,Fire,ビクティニ,Victini
-495,Snivy,Grass,,ツタージャ,Tsutarja
-496,Servine,Grass,,ジャノビー,Janovy
-497,Serperior,Grass,,ジャローダ,Jalorda
-498,Tepig,Fire,,ポカブ,Pokabu
-499,Pignite,Fire,Fighting,チャオブー,Chaoboo
-500,Emboar,Fire,Fighting,エンブオー,Enbuoh
-501,Oshawott,Water,,ミジュマル,Mijumaru
-502,Dewott,Water,,フタチマル,Futachimaru
-503,Samurott,Water,,ダイケンキ,Daikenki
-504,Patrat,Normal,,ミネズミ,Minezumi
-505,Watchog,Normal,,ミルホッグ,Miruhog
-506,Lillipup,Normal,,ヨーテリー,Yorterrie
-507,Herdier,Normal,,ハーデリア,Herderrie
-508,Stoutland,Normal,,ムーランド,Mooland
-509,Purrloin,Dark,,チョロネコ,Choroneko
-510,Liepard,Dark,,レパルダス,Lepardas
-511,Pansage,Grass,,ヤナップ,Yanappu
-512,Simisage,Grass,,ヤナッキー,Yanakkie
-513,Pansear,Fire,,バオップ,Baoppu
-514,Simisear,Fire,,バオッキー,Baokkie
-515,Panpour,Water,,ヒヤップ,Hiyappu
-516,Simipour,Water,,ヒヤッキー,Hiyakkie
-517,Munna,Psychic,,ムンナ,Munna
-518,Musharna,Psychic,,ムシャーナ,Musharna
-519,Pidove,Normal,Flying,マメパト,Mamepato
-520,Tranquill,Normal,Flying,ハトーボー,Hatoboh
-521,Unfezant,Normal,Flying,ケンホロウ,Kenhallow
-522,Blitzle,Electric,,シママ,Shimama
-523,Zebstrika,Electric,,ゼブライカ,Zebraika
-524,Roggenrola,Rock,,ダンゴロ,Dangoro
-525,Boldore,Rock,,ガントル,Gantle
-526,Gigalith,Rock,,ギガイアス,Gigaiath
-527,Woobat,Psychic,Flying,コロモリ,Koromori
-528,Swoobat,Psychic,Flying,ココロモリ,Kokoromori
-529,Drilbur,Ground,,モグリュー,Mogurew
-530,Excadrill,Ground,Steel,ドリュウズ,Doryuzu
-531,Audino,Normal,,タブンネ,Tabunne
-532,Timburr,Fighting,,ドッコラー,Dokkoraa
-533,Gurdurr,Fighting,,ドテッコツ,Dotekkotsu
-534,Conkeldurr,Fighting,,ローブシン,Roobushin
-535,Tympole,Water,,オタマロ,Otamaro
-536,Palpitoad,Water,Ground,ガマガル,Gamagaru
-537,Seismitoad,Water,Ground,ガマゲロゲ,Gamageroge
-538,Throh,Fighting,,ナゲキ,Nageki
-539,Sawk,Fighting,,ダゲキ,Dageki
-540,Sewaddle,Bug,Grass,クルミル,Kurumiru
-541,Swadloon,Bug,Grass,クルマユ,Kurumayu
-542,Leavanny,Bug,Grass,ハハコモリ,Hahakomori
-543,Venipede,Bug,Poison,フシデ,Fushide
-544,Whirlipede,Bug,Poison,ホイーガ,Hoiiga
-545,Scolipede,Bug,Poison,ペンドラー,Pendror
-546,Cottonee,Grass,Fairy[23],モンメン,Monmen
-547,Whimsicott,Grass,Fairy[24],エルフーン,Elfuun
-548,Petilil,Grass,,チュリネ,Churine
-549,Lilligant,Grass,,ドレディア,Dredear
-550,Basculin,Water,,バスラオ,Bassrao
-551,Sandile,Ground,Dark,メグロコ,Meguroco
-552,Krokorok,Ground,Dark,ワルビル,Waruvile
-553,Krookodile,Ground,Dark,ワルビアル,Waruvial
-554,Darumaka,Fire,,ダルマッカ,Darumakka
-555,Darmanitan,Fire,,ヒヒダルマ,Hihidaruma
-556,Maractus,Grass,,マラカッチ,Marakacchi
-557,Dwebble,Bug,Rock,イシズマイ,Ishizumai
-558,Crustle,Bug,Rock,イワパレス,Iwapalace
-559,Scraggy,Dark,Fighting,ズルッグ,Zuruggu
-560,Scrafty,Dark,Fighting,ズルズキン,Zuruzukin
-561,Sigilyph,Psychic,Flying,シンボラー,Symboler
-562,Yamask,Ghost,,デスマス,Deathmas
-563,Cofagrigus,Ghost,,デスカーン,Desukarn
-564,Tirtouga,Water,Rock,プロトーガ,Purotoga
-565,Carracosta,Water,Rock,アバゴーラ,Abagoura
-566,Archen,Rock,Flying,アーケン,Archen
-567,Archeops,Rock,Flying,アーケオス,Archeos
-568,Trubbish,Poison,,ヤブクロン,Yabukuron
-569,Garbodor,Poison,,ダストダス,Dasutodasu
-570,Zorua,Dark,,ゾロア,Zorua
-571,Zoroark,Dark,,ゾロアーク,Zoroark
-572,Minccino,Normal,,チラーミィ,Chillarmy
-573,Cinccino,Normal,,チラチーノ,Chillaccino
-574,Gothita,Psychic,,ゴチム,Gothimu
-575,Gothorita,Psychic,,ゴチミル,Gothimiru
-576,Gothitelle,Psychic,,ゴチルゼル,Gothiruselle
-577,Solosis,Psychic,,ユニラン,Uniran
-578,Duosion,Psychic,,ダブラン,Daburan
-579,Reuniclus,Psychic,,ランクルス,Lanculus
-580,Ducklett,Water,Flying,コアルヒー,Koaruhie
-581,Swanna,Water,Flying,スワンナ,Swanna
-582,Vanillite,Ice,,バニプッチ,Vanipeti
-583,Vanillish,Ice,,バニリッチ,Vaniricchi
-584,Vanilluxe,Ice,,バイバニラ,Vaivanilla
-585,Deerling,Normal,Grass,シキジカ,Shikijika
-586,Sawsbuck,Normal,Grass,メブキジカ,Mebukijika
-587,Emolga,Electric,Flying,エモンガ,Emonga
-588,Karrablast,Bug,,カブルモ,Kaburumo
-589,Escavalier,Bug,Steel,シュバルゴ,Chevargo
-590,Foongus,Grass,Poison,タマゲタケ,Tamagetake
-591,Amoonguss,Grass,Poison,モロバレル,Morobareru
-592,Frillish,Water,Ghost,プルリル,Pururill
-593,Jellicent,Water,Ghost,ブルンゲル,Burungel
-594,Alomomola,Water,,ママンボウ,Mamanbou
-595,Joltik,Bug,Electric,バチュル,Bachuru
-596,Galvantula,Bug,Electric,デンチュラ,Dentula
-597,Ferroseed,Grass,Steel,テッシード,Tesseed
-598,Ferrothorn,Grass,Steel,ナットレイ,Nutrey
-599,Klink,Steel,,ギアル,Gear
-600,Klang,Steel,,ギギアル,Gigiaru
-601,Klinklang,Steel,,ギギギアル,Gigigiaru
-602,Tynamo,Electric,,シビシラス,Shibishirasu
-603,Eelektrik,Electric,,シビビール,Shibibiiru
-604,Eelektross,Electric,,シビルドン,Shibirudon
-605,Elgyem,Psychic,,リグレー,Ligray
-606,Beheeyem,Psychic,,オーベム,Ohbem
-607,Litwick,Ghost,Fire,ヒトモシ,Hitomoshi
-608,Lampent,Ghost,Fire,ランプラー,Ranpuraa
-609,Chandelure,Ghost,Fire,シャンデラ,Chandera
-610,Axew,Dragon,,キバゴ,Kibago
-611,Fraxure,Dragon,,オノンド,Onondo
-612,Haxorus,Dragon,,オノノクス,Ononokus
-613,Cubchoo,Ice,,クマシュン,Kumasyun
-614,Beartic,Ice,,ツンベアー,Tunbear
-615,Cryogonal,Ice,,フリージオ,Freegeo
-616,Shelmet,Bug,,チョボマキ,Chobomaki
-617,Accelgor,Bug,,アギルダー,Agilder
-618,Stunfisk,Ground,Electric,マッギョ,Maggyo
-619,Mienfoo,Fighting,,コジョフー,Kojofu
-620,Mienshao,Fighting,,コジョンド,Kojondo
-621,Druddigon,Dragon,,クリムガン,Crimgan
-622,Golett,Ground,Ghost,ゴビット,Golbit
-623,Golurk,Ground,Ghost,ゴルーグ,Gorog
-624,Pawniard,Dark,Steel,コマタナ,Komatana
-625,Bisharp,Dark,Steel,キリキザン,Kirikizan
-626,Bouffalant,Normal,,バッフロン,Buffron
-627,Rufflet,Normal,Flying,ワシボン,Washibon
-628,Braviary,Normal,Flying,ウォーグル,Warrgle
-629,Vullaby,Dark,Flying,バルチャイ,Valchai
-630,Mandibuzz,Dark,Flying,バルジーナ,Vulgina
-631,Heatmor,Fire,,クイタラン,Kuitaran
-632,Durant,Bug,Steel,アイアント,Aiant
-633,Deino,Dark,Dragon,モノズ,Monozu
-634,Zweilous,Dark,Dragon,ジヘッド,Jihead
-635,Hydreigon,Dark,Dragon,サザンドラ,Sazandora
-636,Larvesta,Bug,Fire,メラルバ,Meraruda
-637,Volcarona,Bug,Fire,ウルガモス,Urgamoth
-638,Cobalion,Steel,Fighting,コバルオン,Cobalon
-639,Terrakion,Rock,Fighting,テラキオン,Terrakion
-640,Virizion,Grass,Fighting,ビリジオン,Virizion
-641,Tornadus,Flying,,トルネロス,Tornelos
-642,Thundurus,Electric,Flying,ボルトロス,Voltolos
-643,Reshiram,Dragon,Fire,レシラム,Reshiram
-644,Zekrom,Dragon,Electric,ゼクロム,Zekrom
-645,Landorus,Ground,Flying,ランドロス,Landlos
-646,Kyurem,Dragon,Ice,キュレム,Kyurem
-647,Keldeo,Water,Fighting,ケルディオ,Keldeo
-648,Meloetta,Normal,Psychic,メロエッタ,Meloetta
-649,Genesect,Bug,Steel,ゲノセクト,Genesect
-650,Chespin,Grass,,ハリマロン,Harimaron
-651,Quilladin,Grass,,ハリボーグ,Hariborg
-652,Chesnaught,Grass,Fighting,ブリガロン,Brigarron
-653,Fennekin,Fire,,フォッコ,Fokko
-654,Braixen,Fire,,テールナー,Tairenar
-655,Delphox,Fire,Psychic,マフォクシー,Mahoxy
-656,Froakie,Water,,ケロマツ,Keromatsu
-657,Frogadier,Water,,ゲコガシラ,Gekogashira
-658,Greninja,Water,Dark,ゲッコウガ,Gekkouga
-659,Bunnelby,Normal,,ホルビー,Horubee
-660,Diggersby,Normal,Ground,ホルード,Horudo
-661,Fletchling,Normal,Flying,ヤヤコマ,Yayakoma
-662,Fletchinder,Fire,Flying,ヒノヤコマ,Hinoyakoma
-663,Talonflame,Fire,Flying,ファイアロー,Fiarrow
-664,Scatterbug,Bug,,コフキムシ,Kofukimushi
-665,Spewpa,Bug,,コフーライ,Kofurai
-666,Vivillon,Bug,Flying,ビビヨン,Viviyon
-667,Litleo,Fire,Normal,シシコ,Shishiko
-668,Pyroar,Fire,Normal,カエンジシ,Kaenjishi
-669,Flabébé,Fairy,,フラベベ,Flabebe
-670,Floette,Fairy,,フラエッテ,Flaette
-671,Florges,Fairy,,フラージェス,Florges
-672,Skiddo,Grass,,メェークル,Meecle
-673,Gogoat,Grass,,ゴーゴート,Gogoat
-674,Pancham,Fighting,,ヤンチャム,Yancham
-675,Pangoro,Fighting,Dark,ゴロンダ,Goronda
-676,Furfrou,Normal,,トリミアン,Trimmien
-677,Espurr,Psychic,,ニャスパー,Nyasper
-678,Meowstic,Psychic,,ニャオニクス,Nyaonix
-679,Honedge,Steel,Ghost,ヒトツキ,Hitotsuki
-680,Doublade,Steel,Ghost,ニダンギル,Nidangill
-681,Aegislash,Steel,Ghost,ギルガルド,Gillgard
-682,Spritzee,Fairy,,シュシュプ,Shushupu
-683,Aromatisse,Fairy,,フレフワン,Frefuwan
-684,Swirlix,Fairy,,ペロッパフ,Peroppafu
-685,Slurpuff,Fairy,,ペロリーム,Peroream
-686,Inkay,Dark,Psychic,マーイーカ,Maaiika
-687,Malamar,Dark,Psychic,カラマネロ,Calamanero
-688,Binacle,Rock,Water,カメテテ,Kametete
-689,Barbaracle,Rock,Water,ガメノデス,Gamenodes
-690,Skrelp,Poison,Water,クズモー,Kuzumo
-691,Dragalge,Poison,Dragon,ドラミドロ,Dramidoro
-692,Clauncher,Water,,ウデッポウ,Udeppou
-693,Clawitzer,Water,,ブロスター,Blosuter
-694,Helioptile,Electric,Normal,エリキテル,Erikiteru
-695,Heliolisk,Electric,Normal,エレザード,Elezard
-696,Tyrunt,Rock,Dragon,チゴラス,Chigoras
-697,Tyrantrum,Rock,Dragon,ガチゴラス,Gachigoras
-698,Amaura,Rock,Ice,アマルス,Amarus
-699,Aurorus,Rock,Ice,アマルルガ,Amaruruga
-700,Sylveon,Fairy,,ニンフィア,Nymphia
-701,Hawlucha,Fighting,Flying,ルチャブル,Luchabull
-702,Dedenne,Electric,Fairy,デデンネ,Dedenne
-703,Carbink,Rock,Fairy,メレシー,Melecie
-704,Goomy,Dragon,,ヌメラ,Numera
-705,Sliggoo,Dragon,,ヌメイル,Numeil
-706,Goodra,Dragon,,ヌメルゴン,Numelgon
-707,Klefki,Steel,Fairy,クレッフィ,Cleffy
-708,Phantump,Ghost,Grass,ボクレー,Bokurei
-709,Trevenant,Ghost,Grass,オーロット,Ohrot
-710,Pumpkaboo,Ghost,Grass,バケッチャ,Bakeccha
-711,Gourgeist,Ghost,Grass,パンプジン,Pumpjin
-712,Bergmite,Ice,,カチコール,Kachikoru
-713,Avalugg,Ice,,クレベース,Crebase
-714,Noibat,Flying,Dragon,オンバット,Onbat
-715,Noivern,Flying,Dragon,オンバーン,Onvern
-716,Xerneas,Fairy,,ゼルネアス,Xerneas
-717,Yveltal,Dark,Flying,イベルタル,Yveltal
-718,Zygarde,Dragon,Ground,ジガルデ,Zygarde
-719,Diancie,Rock,Fairy,ディアンシー,Diancie
-720,Hoopa,Psychic,Ghost,フーパ,Hoopa
-721,Volcanion,Fire,Water,ボルケニオン,Volcanion
-722,Rowlet,Grass,Flying,モクロー,Mokurou
-723,Dartrix,Grass,Flying,フクスロー,Fukusurou
-724,Decidueye,Grass,Ghost,ジュナイパー,Junaipaa
-725,Litten,Fire,,ニャビー,Nyabii
-726,Torracat,Fire,,ニャヒート,Nyahiito
-727,Incineroar,Fire,Dark,ガオガエン,Gaogaen
-728,Popplio,Water,,アシマリ,Ashimari
-729,Brionne,Water,,オシャマリ,Oshamari
-730,Primarina,Water,Fairy,アシレーヌ,Ashireenu
-731,Pikipek,Normal,Flying,ツツケラ,Tsutsukera
-732,Trumbeak,Normal,Flying,ケララッパ,Kerarappa
-733,Toucannon,Normal,Flying,ドデカバシ,Dodekabashi
-734,Yungoos,Normal,,ヤングース,Yanguusu
-735,Gumshoos,Normal,,デカグース,Dekaguusu
-736,Grubbin,Bug,,アゴジムシ,Agojimushi
-737,Charjabug,Bug,Electric,デンヂムシ,Dendimushi
-738,Vikavolt,Bug,Electric,クワガノン,Kuwaganon
-739,Crabrawler,Fighting,,マケンカニ,Makenkani
-740,Crabominable,Fighting,Ice,ケケンカニ,Kekenkani
-741,Oricorio,FireElectricPsychicGhost,Flying,オドリドリ,Odoridori
-742,Cutiefly,Bug,Fairy,アブリー,Aburii
-743,Ribombee,Bug,Fairy,アブリボン,Aburibon
-744,Rockruff,Rock,,イワンコ,Iwanko
-745,Lycanroc,Rock,,ルガルガン,Rugarugan
-746,Wishiwashi,Water,,ヨワシ,Yowashi
-747,Mareanie,Poison,Water,ヒドイデ,Hidoide
-748,Toxapex,Poison,Water,ドヒドイデ,Dohidoide
-749,Mudbray,Ground,,ドロバンコ,Dorobanko
-750,Mudsdale,Ground,,バンバドロ,Banbadoro
-751,Dewpider,Water,Bug,シズクモ,Shizukumo
-752,Araquanid,Water,Bug,オニシズクモ,Onishizukumo
-753,Fomantis,Grass,,カリキリ,Karikiri
-754,Lurantis,Grass,,ラランテス,Rarantesu
-755,Morelull,Grass,Fairy,ネマシュ,Nemashu
-756,Shiinotic,Grass,Fairy,マシェード,Masheido
-757,Salandit,Poison,Fire,ヤトウモリ,Yatoumori
-758,Salazzle,Poison,Fire,エンニュート,Ennyuuto
-759,Stufful,Normal,Fighting,ヌイコグマ,Nuikoguma
-760,Bewear,Normal,Fighting,キテルグマ,Kiteruguma
-761,Bounsweet,Grass,,アマカジ,Amakaji
-762,Steenee,Grass,,アママイコ,Amamaiko
-763,Tsareena,Grass,,アマージョ,Amaajo
-764,Comfey,Fairy,,キュワワー,Kyuwawaa
-765,Oranguru,Normal,Psychic,ヤレユータン,Yareyuutan
-766,Passimian,Fighting,,ナゲツケサル,Nagetsukesaru
-767,Wimpod,Bug,Water,コソクムシ,Kosokumushi
-768,Golisopod,Bug,Water,グソクムシャ,Gusokumusha
-769,Sandygast,Ghost,Ground,スナバァ,Sunabaa
-770,Palossand,Ghost,Ground,シロデスナ,Shirodesuna
-771,Pyukumuku,Water,,ナマコブシ,Namakobushi
-772,Type: Null,Normal,,タイプ：ヌル,Type: Null
-773,Silvally,Normal,,シルヴァディ,Shiruvadi
-774,Minior,Rock,Flying,メテノ,Meteno
-775,Komala,Normal,,ネッコアラ,Nekkoara
-776,Turtonator,Fire,Dragon,バクガメス,Bakugamesu
-777,Togedemaru,Electric,Steel,トゲデマル,Togedemaru
-778,Mimikyu,Ghost,Fairy,ミミッキュ,Mimikkyu
-779,Bruxish,Water,Psychic,ハギギシリ,Hagigishiri
-780,Drampa,Normal,Dragon,ジジーロン,Jijiiron
-781,Dhelmise,Ghost,Grass,ダダリン,Dadarin
-782,Jangmo-o,Dragon,,ジャラコ,Jarako
-783,Hakamo-o,Dragon,Fighting,ジャランゴ,Jarango
-784,Kommo-o,Dragon,Fighting,ジャラランガ,Jararanga
-785,Tapu Koko,Electric,Fairy,カプ・コケコ,Kapu-Kokeko
-786,Tapu Lele,Psychic,Fairy,カプ・テテフ,Kapu-Tetefu
-787,Tapu Bulu,Grass,Fairy,カプ・ブルル,Kapu-Bulul
-788,Tapu Fini,Water,Fairy,カプ・レヒレ,Kapu-Rehire
-789,Cosmog,Psychic,,コスモッグ,Cosmog
-790,Cosmoem,Psychic,,コスモウム,Kosumoumu
-791,Solgaleo,Psychic,Steel,ソルガレオ,Solgaleo
-792,Lunala,Psychic,Ghost,ルナアーラ,Runaaara
-793,Nihilego,Rock,Poison,ウツロイド,Utsuroido
-794,Buzzwole,Bug,Fighting,マッシブーン,Masshibuun
-795,Pheromosa,Bug,Fighting,フェローチェ,Ferouche
-796,Xurkitree,Electric,,デンジュモク,Denjumoku
-797,Celesteela,Steel,Flying,テッカグヤ,Tekkaguya
-798,Kartana,Grass,Steel,カミツルギ,Kamitsurugi
-799,Guzzlord,Dark,Dragon,アクジキング,Akujikingu
-800,Necrozma,Psychic,,ネクロズマ,Nekurozuma
-801,Magearna,Steel,Fairy,マギアナ,Magiana
-802,Marshadow,Fighting,Ghost,マーシャドー,Marshadow
-803,Poipole,Poison,,ベベノム,Bebenomu
-804,Naganadel,Poison,Dragon,アーゴヨン,Aagoyon
-805,Stakataka,Rock,Steel,ツンデツンデ,Tsundetsunde
-806,Blacephalon,Fire,Ghost,ズガドーン,Zugadoon
-807,Zeraora,Electric,,ゼラオラ,Zeraora
-808,Meltan,Steel,,メルタン,Meltan
-809,Melmetal,Steel,,メルメタル,Melmetal
-810,Grookey,Grass,,サルノリ,Sarunori
-811,Thwackey,Grass,,バチンキー,Bachinkey
-812,Rillaboom,Grass,,ゴリランダー,Gorirander
-813,Scorbunny,Fire,,ヒバニー,Hibanny
-814,Raboot,Fire,,ラビフット,Rabbifuto
-815,Cinderace,Fire,,エースバーン,Aceburn
-816,Sobble,Water,,メッソン,Messon
-817,Drizzile,Water,,ジメレオン,Jimereon
-818,Inteleon,Water,,インテレオン,Intereon
-819,Skwovet,Normal,,ホシガリス,Hoshigarisu
-820,Greedent,Normal,,ヨクバリス,Yokubarisu
-821,Rookidee,Flying,,ココガラ,Kokogara
-822,Corvisquire,Flying,,アオガラス,Aogarasu
-823,Corviknight,Flying,Steel,アーマーガア,Armorga
-824,Blipbug,Bug,,サッチムシ,Sacchimushi
-825,Dottler,Bug,Psychic,レドームシ,Redomushi
-826,Orbeetle,Bug,Psychic,イオルブ,Eolb
-827,Nickit,Dark,,クスネ,Kusune
-828,Thievul,Dark,,フォクスライ,Foxly
-829,Gossifleur,Grass,,ヒメンカ,Himenka
-830,Eldegoss,Grass,,ワタシラガ,Watashiraga
-831,Wooloo,Normal,,ウールー,Wooluu
-832,Dubwool,Normal,,バイウールー,Baiwooluu
-833,Chewtle,Water,,カムカメ,Kamukame
-834,Drednaw,Water,Rock,カジリガメ,Kajirigame
-835,Yamper,Electric,,ワンパチ,Wanpachi
-836,Boltund,Electric,,パルスワン,Pulsewan
-837,Rolycoly,Rock,,タンドン,Tandon
-838,Carkol,Rock,Fire,トロッゴン,Toroggon
-839,Coalossal,Rock,Fire,セキタンザン,Sekitanzan
-840,Applin,Grass,Dragon,カジッチュ,Kajicchu
-841,Flapple,Grass,Dragon,アップリュー,Appryu
-842,Appletun,Grass,Dragon,タルップル,Tarupple
-843,Silicobra,Ground,,スナヘビ,Sunahebi
-844,Sandaconda,Ground,,サダイジャ,Sadaija
-845,Cramorant,Flying,Water,ウッウ,Uu
-846,Arrokuda,Water,,サシカマス,Sashikamasu
-847,Barraskewda,Water,,カマスジョー,Kamasujaw
-848,Toxel,Electric,Poison,エレズン,Eleson
-849,Toxtricity,Electric,Poison,ストリンダー,Strinder
-850,Sizzlipede,Fire,Bug,ヤクデ,Yakude
-851,Centiskorch,Fire,Bug,マルヤクデ,Maruyakude
-852,Clobbopus,Fighting,,タタッコ,Tatakko
-853,Grapploct,Fighting,,オトスパス,Otosupus
-854,Sinistea,Ghost,,ヤバチャ,Yabacha
-855,Polteageist,Ghost,,ポットデス,Potdeath
-856,Hatenna,Psychic,,ミブリム,Mibrim
-857,Hattrem,Psychic,,テブリム,Tebrim
-858,Hatterene,Psychic,Fairy,ブリムオン,Brimuon
-859,Impidimp,Dark,Fairy,ベロバー,Beroba
-860,Morgrem,Dark,Fairy,ギモー,Gimoh
-861,Grimmsnarl,Dark,Fairy,オーロンゲ,Ohlonge
-862,Obstagoon,Dark,Normal,タチフサグマ,Tachifusaguma
-863,Perrserker,Steel,,ニャイキング,Nyaiking
-864,Cursola,Ghost,,サニゴーン,Sunigoon
-865,Sirfetch'd,Fighting,,ネギガナイト,Negigaknight
-866,Mr. Rime,Ice,Psychic,バリコオル,Barrikohru
-867,Runerigus,Ground,Ghost,デスバーン,Deathbarn
-868,Milcery,Fairy,,マホミル,Mahomil
-869,Alcremie,Fairy,,マホイップ,Mawhip
-870,Falinks,Fighting,,タイレーツ,Tairetsu
-871,Pincurchin,Electric,,バチンウニ,Bachin'uni
-872,Snom,Ice,Bug,ユキハミ,Yukihami
-873,Frosmoth,Ice,Bug,モスノウ,Mothnow
-874,Stonjourner,Rock,,イシヘンジン,Ishihengin
-875,Eiscue,Ice,,コオリッポ,Korippo
-876,Indeedee,Psychic,Normal,イエッサン,Yessan
-877,Morpeko,Electric,Dark,モルペコ,Morpeko
-878,Cufant,Steel,,ゾウドウ,Zoudou
-879,Copperajah,Steel,,ダイオウドウ,Daioudou
-880,Dracozolt,Electric,Dragon,パッチラゴン,Patchiragon
-881,Arctozolt,Electric,Ice,パッチルドン,Patchilldon
-882,Dracovish,Water,Dragon,ウオノラゴン,Uonoragon
-883,Arctovish,Water,Ice,ウオチルドン,Uochirudon
-884,Duraludon,Steel,Dragon,ジュラルドン,Duraludon
-885,Dreepy,Dragon,Ghost,ドラメシヤ,Dorameshiya
-886,Drakloak,Dragon,Ghost,ドロンチ,Doronchi
-887,Dragapult,Dragon,Ghost,ドラパルト,Dorapult
-888,Zacian,Fairy,Steel,ザシアン,Zacian
-889,Zamazenta,Fighting,Steel,ザマゼンタ,Zamazenta
-890,Eternatus,Poison,Dragon,ムゲンダイナ,Mugendina
-891,Kubfu,Fighting,,ダクマ,Dakuma
-892,Urshifu,Fighting,Dark,ウーラオス,Uuraosu
-893,Zarude,Dark,Grass,ザルード,Zaruudo
-894,Regieleki,Electric,,レジエレキ,Regieleki
-895,Regidrago,Dragon,,レジドラゴ,Regidrago
-896,Glastrier,Ice,,ブリザポス,Burizaposu
-897,Spectrier,Ghost,,レイスポス,Reisuposu
-898,Calyrex,Psychic,Grass,バドレックス,Badorekkusu
-899,Wyrdeer,Normal,Psychic,アヤシシ,Ayashishi
-900,Kleavor,Bug,Rock,バサギリ,Basagiri
-901,Ursaluna,Ground,Normal,ガチグマ,Gachiguma
-902,Basculegion,Water,Ghost,イダイトウ,Idaitou
-903,Sneasler,Fighting,Poison,オオニューラ,Oonyuura
-904,Overqwil,Dark,Poison,ハリーマン,Hariiman
-905,Enamorus,Fairy,Flying,ラブトロス,Rabutorosu
-906,Sprigatito,Grass,,ニャオハ,Nyaoha
-907,Floragato,Grass,,ニャローテ,Nyarote
-908,Meowscarada,Grass,Dark,マスカーニャ,Masukaanya
-909,Fuecoco,Fire,,ホゲータ,Hogeeta
-910,Crocalor,Fire,,アチゲータ,Achigeeta
-911,Skeledirge,Fire,Ghost,ラウドボーン,Raudoboon
-912,Quaxly,Water,,クワッス,Kuwassu
-913,Quaxwell,Water,,ウェルカモ,Werukamo
-914,Quaquaval,Water,Fighting,ウェーニバル,Weenibaru
-915,Lechonk,Normal,,グルトン,Guruton
-916,Oinkologne,Normal,,パフュートン,Pafyuuton
-917,Tarountula,Bug,,タマンチュラ,Tamanchura
-918,Spidops,Bug,,ワナイダー,Wanaidaa
-919,Nymble,Bug,,マメバッタ,Mamebatta
-920,Lokix,Bug,Dark,エクスレッグ,Ekusureggu
-921,Pawmi,Electric,,パモ,Pamo
-922,Pawmo,Electric,Fighting,パモット,Pamotto
-923,Pawmot,Electric,Fighting,パーモット,Pāmotto
-924,Tandemaus,Normal,,ワッカネズミ,Wakkanezumi
-925,Maushold,Normal,,イッカネズミ,Ikkanezumi
-926,Fidough,Fairy,,パピモッチ,Papimocchi
-927,Dachsbun,Fairy,,バウッツェル,Bauttseru
-928,Smoliv,Grass,Normal,ミニーブ,Miniibu
-929,Dolliv,Grass,Normal,オリーニョ,Oriinyo
-930,Arboliva,Grass,Normal,オリーヴァ,Oriiva
-931,Squawkabilly,Normal,Flying,イキリンコ,Ikirinko
-932,Nacli,Rock,,コジオ,Kojio
-933,Naclstack,Rock,,ジオヅム,Jiodzumu
-934,Garganacl,Rock,,キョジオーン,Kyojiōn
-935,Charcadet,Fire,,カルボウ,Karubou
-936,Armarouge,Fire,Psychic,グレンアルマ,Guren'aruma
-937,Ceruledge,Fire,Ghost,ソウブレイズ,Soubureizu
-938,Tadbulb,Electric,,ズピカ,Zupika
-939,Bellibolt,Electric,,ハラバリー,Harabarii
-940,Wattrel,Electric,Flying,カイデン,Kaiden
-941,Kilowattrel,Electric,Flying,タイカイデン,Taikaiden
-942,Maschiff,Dark,,オラチフ,Orachifu
-943,Mabosstiff,Dark,,マフィティフ,Mafitifu
-944,Shroodle,Poison,Normal,シルシュルー,Shirushuruu
-945,Grafaiai,Poison,Normal,タギングル,Taginguru
-946,Bramblin,Grass,Ghost,アノクサ,Anokusa
-947,Brambleghast,Grass,Ghost,アノホラグサ,Anohoragusa
-948,Toedscool,Ground,Grass,ノノクラゲ,Nonokurage
-949,Toedscruel,Ground,Grass,リククラゲ,Rikukurage
-950,Klawf,Rock,,ガケガニ,Gakegani
-951,Capsakid,Grass,,カプサイジ,Kapusaiji
-952,Scovillain,Grass,Fire,スコヴィラン,Sukoviran
-953,Rellor,Bug,,シガロコ,Shigaroko
-954,Rabsca,Bug,Psychic,ベラカス,Berakasu
-955,Flittle,Psychic,,ヒラヒナ,Hirahina
-956,Espathra,Psychic,,クエスパトラ,Kuesupatora
-957,Tinkatink,Fairy,Steel,カヌチャン,Kanuchan
-958,Tinkatuff,Fairy,Steel,ナカヌチャン,Nakanuchan
-959,Tinkaton,Fairy,Steel,デカヌチャン,Dekanuchan
-960,Wiglett,Water,,ウミディグダ,Umidiguda
-961,Wugtrio,Water,,ウミトリオ,Umitorio
-962,Bombirdier,Flying,Dark,オトシドリ,Otoshidori
-963,Finizen,Water,,ナミイルカ,Namiiruka
-964,Palafin,Water,,イルカマン,Irukaman
-965,Varoom,Steel,Poison,ブロロン,Buroron
-966,Revavroom,Steel,Poison,ブロロローム,Burororoomu
-967,Cyclizar,Dragon,Normal,モトトカゲ,Mototokage
-968,Orthworm,Steel,,ミミズズ,Mimizuzu
-969,Glimmet,Rock,Poison,キラーメ,Kiraame
-970,Glimmora,Rock,Poison,キラフロル,Kirafuroru
-971,Greavard,Ghost,,ボチ,Bochi
-972,Houndstone,Ghost,,ハカドッグ,Hakadoggu
-973,Flamigo,Flying,Fighting,カラミンゴ,Karamingo
-974,Cetoddle,Ice,,アルクジラ,Arukujira
-975,Cetitan,Ice,,ハルクジラ,Harukujira
-976,Veluza,Water,Psychic,ミガルーサ,Migaruusa
-977,Dondozo,Water,,ヘイラッシャ,Heirassha
-978,Tatsugiri,Dragon,Water,シャリタツ,Sharitatsu
-979,Annihilape,Fighting,Ghost,コノヨザル,Konoyozaru
-980,Clodsire,Poison,Ground,ドオー,Do'oh
-981,Farigiraf,Normal,Psychic,リキキリン,Rikikirin
-982,Dudunsparce,Normal,,ノココッチ,Nokokocchi
-983,Kingambit,Dark,Steel,ドドゲザン,Dodogezan
-984,Great Tusk,Ground,Fighting,イダイナキバ,Idainakiba
-985,Scream Tail,Fairy,Psychic,サケブシッポ,Sakebushippo
-986,Brute Bonnet,Grass,Dark,アラブルタケ,Araburutake
-987,Flutter Mane,Ghost,Fairy,ハバタクカミ,Habatakukami
-988,Slither Wing,Bug,Fighting,チヲハウハネ,Chiohauhane
-989,Sandy Shocks,Electric,Ground,スナノケガワ,Sunanokegawa
-990,Iron Treads,Ground,Steel,テツノワダチ,Tetsunowadachi
-991,Iron Bundle,Ice,Water,テツノツツミ,Tetsunotsutsumi
-992,Iron Hands,Fighting,Electric,テツノカイナ,Tetsunokaina
-993,Iron Jugulis,Dark,Flying,テツノコウベ,Tetsunokoube
-994,Iron Moth,Fire,Poison,テツノドクガ,Tetsunodokuga
-995,Iron Thorns,Rock,Electric,テツノイバラ,Tetsunoibara
-996,Frigibax,Dragon,Ice,セビエ,Sebie
-997,Arctibax,Dragon,Ice,セゴール,Segooru
-998,Baxcalibur,Dragon,Ice,セグレイブ,Segureibu
-999,Gimmighoul,Ghost,,コレクレー,Korekurei
-1000,Gholdengo,Steel,Ghost,サーフゴー,Saafugou
-1001,Wo-Chien,Dark,Grass,チオンジェン,Chionjen
-1002,Chien-Pao,Dark,Ice,パオジアン,Paojian
-1003,Ting-Lu,Dark,Ground,ディンルー,Dinruu
-1004,Chi-Yu,Dark,Fire,イーユイ,Iiyui
-1005,Roaring Moon,Dragon,Dark,トドロクツキ,Todorokutsuki
-1006,Iron Valiant,Fairy,Fighting,テツノブジン,Tetsunobujin
-1007,Koraidon,Fighting,Dragon,コライドン,Koraidon
-1008,Miraidon,Electric,Dragon,ミライドン,Miraidon
+id,href,name,detail,type1,type2
+1,https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon),Bulbasaur,,Grass,Poison
+2,https://bulbapedia.bulbagarden.net/wiki/Ivysaur_(Pok%C3%A9mon),Ivysaur,,Grass,Poison
+3,https://bulbapedia.bulbagarden.net/wiki/Venusaur_(Pok%C3%A9mon),Venusaur,,Grass,Poison
+4,https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon),Charmander,,Fire,
+5,https://bulbapedia.bulbagarden.net/wiki/Charmeleon_(Pok%C3%A9mon),Charmeleon,,Fire,
+6,https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pok%C3%A9mon),Charizard,,Fire,Flying
+7,https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pok%C3%A9mon),Squirtle,,Water,
+8,https://bulbapedia.bulbagarden.net/wiki/Wartortle_(Pok%C3%A9mon),Wartortle,,Water,
+9,https://bulbapedia.bulbagarden.net/wiki/Blastoise_(Pok%C3%A9mon),Blastoise,,Water,
+10,https://bulbapedia.bulbagarden.net/wiki/Caterpie_(Pok%C3%A9mon),Caterpie,,Bug,
+11,https://bulbapedia.bulbagarden.net/wiki/Metapod_(Pok%C3%A9mon),Metapod,,Bug,
+12,https://bulbapedia.bulbagarden.net/wiki/Butterfree_(Pok%C3%A9mon),Butterfree,,Bug,Flying
+13,https://bulbapedia.bulbagarden.net/wiki/Weedle_(Pok%C3%A9mon),Weedle,,Bug,Poison
+14,https://bulbapedia.bulbagarden.net/wiki/Kakuna_(Pok%C3%A9mon),Kakuna,,Bug,Poison
+15,https://bulbapedia.bulbagarden.net/wiki/Beedrill_(Pok%C3%A9mon),Beedrill,,Bug,Poison
+16,https://bulbapedia.bulbagarden.net/wiki/Pidgey_(Pok%C3%A9mon),Pidgey,,Normal,Flying
+17,https://bulbapedia.bulbagarden.net/wiki/Pidgeotto_(Pok%C3%A9mon),Pidgeotto,,Normal,Flying
+18,https://bulbapedia.bulbagarden.net/wiki/Pidgeot_(Pok%C3%A9mon),Pidgeot,,Normal,Flying
+19,https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pok%C3%A9mon),Rattata,,Normal,
+19,https://bulbapedia.bulbagarden.net/wiki/Rattata_(Pok%C3%A9mon),Rattata,Alolan Form,Dark,Normal
+20,https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pok%C3%A9mon),Raticate,,Normal,
+20,https://bulbapedia.bulbagarden.net/wiki/Raticate_(Pok%C3%A9mon),Raticate,Alolan Form,Dark,Normal
+21,https://bulbapedia.bulbagarden.net/wiki/Spearow_(Pok%C3%A9mon),Spearow,,Normal,Flying
+22,https://bulbapedia.bulbagarden.net/wiki/Fearow_(Pok%C3%A9mon),Fearow,,Normal,Flying
+23,https://bulbapedia.bulbagarden.net/wiki/Ekans_(Pok%C3%A9mon),Ekans,,Poison,
+24,https://bulbapedia.bulbagarden.net/wiki/Arbok_(Pok%C3%A9mon),Arbok,,Poison,
+25,https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon),Pikachu,,Electric,
+26,https://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon),Raichu,,Electric,
+26,https://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon),Raichu,Alolan Form,Electric,Psychic
+27,https://bulbapedia.bulbagarden.net/wiki/Sandshrew_(Pok%C3%A9mon),Sandshrew,,Ground,
+27,https://bulbapedia.bulbagarden.net/wiki/Sandshrew_(Pok%C3%A9mon),Sandshrew,Alolan Form,Ice,Steel
+28,https://bulbapedia.bulbagarden.net/wiki/Sandslash_(Pok%C3%A9mon),Sandslash,,Ground,
+28,https://bulbapedia.bulbagarden.net/wiki/Sandslash_(Pok%C3%A9mon),Sandslash,Alolan Form,Ice,Steel
+29,https://bulbapedia.bulbagarden.net/wiki/Nidoran%E2%99%80_(Pok%C3%A9mon),Nidoran♀,,Poison,
+30,https://bulbapedia.bulbagarden.net/wiki/Nidorina_(Pok%C3%A9mon),Nidorina,,Poison,
+31,https://bulbapedia.bulbagarden.net/wiki/Nidoqueen_(Pok%C3%A9mon),Nidoqueen,,Poison,Ground
+32,https://bulbapedia.bulbagarden.net/wiki/Nidoran%E2%99%82_(Pok%C3%A9mon),Nidoran♂,,Poison,
+33,https://bulbapedia.bulbagarden.net/wiki/Nidorino_(Pok%C3%A9mon),Nidorino,,Poison,
+34,https://bulbapedia.bulbagarden.net/wiki/Nidoking_(Pok%C3%A9mon),Nidoking,,Poison,Ground
+35,https://bulbapedia.bulbagarden.net/wiki/Clefairy_(Pok%C3%A9mon),Clefairy,,Fairy,
+36,https://bulbapedia.bulbagarden.net/wiki/Clefable_(Pok%C3%A9mon),Clefable,,Fairy,
+37,https://bulbapedia.bulbagarden.net/wiki/Vulpix_(Pok%C3%A9mon),Vulpix,,Fire,
+37,https://bulbapedia.bulbagarden.net/wiki/Vulpix_(Pok%C3%A9mon),Vulpix,Alolan Form,Ice,
+38,https://bulbapedia.bulbagarden.net/wiki/Ninetales_(Pok%C3%A9mon),Ninetales,,Fire,
+38,https://bulbapedia.bulbagarden.net/wiki/Ninetales_(Pok%C3%A9mon),Ninetales,Alolan Form,Ice,Fairy
+39,https://bulbapedia.bulbagarden.net/wiki/Jigglypuff_(Pok%C3%A9mon),Jigglypuff,,Normal,Fairy
+40,https://bulbapedia.bulbagarden.net/wiki/Wigglytuff_(Pok%C3%A9mon),Wigglytuff,,Normal,Fairy
+41,https://bulbapedia.bulbagarden.net/wiki/Zubat_(Pok%C3%A9mon),Zubat,,Poison,Flying
+42,https://bulbapedia.bulbagarden.net/wiki/Golbat_(Pok%C3%A9mon),Golbat,,Poison,Flying
+43,https://bulbapedia.bulbagarden.net/wiki/Oddish_(Pok%C3%A9mon),Oddish,,Grass,Poison
+44,https://bulbapedia.bulbagarden.net/wiki/Gloom_(Pok%C3%A9mon),Gloom,,Grass,Poison
+45,https://bulbapedia.bulbagarden.net/wiki/Vileplume_(Pok%C3%A9mon),Vileplume,,Grass,Poison
+46,https://bulbapedia.bulbagarden.net/wiki/Paras_(Pok%C3%A9mon),Paras,,Bug,Grass
+47,https://bulbapedia.bulbagarden.net/wiki/Parasect_(Pok%C3%A9mon),Parasect,,Bug,Grass
+48,https://bulbapedia.bulbagarden.net/wiki/Venonat_(Pok%C3%A9mon),Venonat,,Bug,Poison
+49,https://bulbapedia.bulbagarden.net/wiki/Venomoth_(Pok%C3%A9mon),Venomoth,,Bug,Poison
+50,https://bulbapedia.bulbagarden.net/wiki/Diglett_(Pok%C3%A9mon),Diglett,,Ground,
+50,https://bulbapedia.bulbagarden.net/wiki/Diglett_(Pok%C3%A9mon),Diglett,Alolan Form,Ground,Steel
+51,https://bulbapedia.bulbagarden.net/wiki/Dugtrio_(Pok%C3%A9mon),Dugtrio,,Ground,
+51,https://bulbapedia.bulbagarden.net/wiki/Dugtrio_(Pok%C3%A9mon),Dugtrio,Alolan Form,Ground,Steel
+52,https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon),Meowth,,Normal,
+52,https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon),Meowth,Alolan Form,Dark,
+52,https://bulbapedia.bulbagarden.net/wiki/Meowth_(Pok%C3%A9mon),Meowth,Galarian Form,Steel,
+53,https://bulbapedia.bulbagarden.net/wiki/Persian_(Pok%C3%A9mon),Persian,,Normal,
+53,https://bulbapedia.bulbagarden.net/wiki/Persian_(Pok%C3%A9mon),Persian,Alolan Form,Dark,
+54,https://bulbapedia.bulbagarden.net/wiki/Psyduck_(Pok%C3%A9mon),Psyduck,,Water,
+55,https://bulbapedia.bulbagarden.net/wiki/Golduck_(Pok%C3%A9mon),Golduck,,Water,
+56,https://bulbapedia.bulbagarden.net/wiki/Mankey_(Pok%C3%A9mon),Mankey,,Fighting,
+57,https://bulbapedia.bulbagarden.net/wiki/Primeape_(Pok%C3%A9mon),Primeape,,Fighting,
+58,https://bulbapedia.bulbagarden.net/wiki/Growlithe_(Pok%C3%A9mon),Growlithe,,Fire,
+58,https://bulbapedia.bulbagarden.net/wiki/Growlithe_(Pok%C3%A9mon),Growlithe,Hisuian Form,Fire,Rock
+59,https://bulbapedia.bulbagarden.net/wiki/Arcanine_(Pok%C3%A9mon),Arcanine,,Fire,
+59,https://bulbapedia.bulbagarden.net/wiki/Arcanine_(Pok%C3%A9mon),Arcanine,Hisuian Form,Fire,Rock
+60,https://bulbapedia.bulbagarden.net/wiki/Poliwag_(Pok%C3%A9mon),Poliwag,,Water,
+61,https://bulbapedia.bulbagarden.net/wiki/Poliwhirl_(Pok%C3%A9mon),Poliwhirl,,Water,
+62,https://bulbapedia.bulbagarden.net/wiki/Poliwrath_(Pok%C3%A9mon),Poliwrath,,Water,Fighting
+63,https://bulbapedia.bulbagarden.net/wiki/Abra_(Pok%C3%A9mon),Abra,,Psychic,
+64,https://bulbapedia.bulbagarden.net/wiki/Kadabra_(Pok%C3%A9mon),Kadabra,,Psychic,
+65,https://bulbapedia.bulbagarden.net/wiki/Alakazam_(Pok%C3%A9mon),Alakazam,,Psychic,
+66,https://bulbapedia.bulbagarden.net/wiki/Machop_(Pok%C3%A9mon),Machop,,Fighting,
+67,https://bulbapedia.bulbagarden.net/wiki/Machoke_(Pok%C3%A9mon),Machoke,,Fighting,
+68,https://bulbapedia.bulbagarden.net/wiki/Machamp_(Pok%C3%A9mon),Machamp,,Fighting,
+69,https://bulbapedia.bulbagarden.net/wiki/Bellsprout_(Pok%C3%A9mon),Bellsprout,,Grass,Poison
+70,https://bulbapedia.bulbagarden.net/wiki/Weepinbell_(Pok%C3%A9mon),Weepinbell,,Grass,Poison
+71,https://bulbapedia.bulbagarden.net/wiki/Victreebel_(Pok%C3%A9mon),Victreebel,,Grass,Poison
+72,https://bulbapedia.bulbagarden.net/wiki/Tentacool_(Pok%C3%A9mon),Tentacool,,Water,Poison
+73,https://bulbapedia.bulbagarden.net/wiki/Tentacruel_(Pok%C3%A9mon),Tentacruel,,Water,Poison
+74,https://bulbapedia.bulbagarden.net/wiki/Geodude_(Pok%C3%A9mon),Geodude,,Rock,Ground
+74,https://bulbapedia.bulbagarden.net/wiki/Geodude_(Pok%C3%A9mon),Geodude,Alolan Form,Rock,Electric
+75,https://bulbapedia.bulbagarden.net/wiki/Graveler_(Pok%C3%A9mon),Graveler,,Rock,Ground
+75,https://bulbapedia.bulbagarden.net/wiki/Graveler_(Pok%C3%A9mon),Graveler,Alolan Form,Rock,Electric
+76,https://bulbapedia.bulbagarden.net/wiki/Golem_(Pok%C3%A9mon),Golem,,Rock,Ground
+76,https://bulbapedia.bulbagarden.net/wiki/Golem_(Pok%C3%A9mon),Golem,Alolan Form,Rock,Electric
+77,https://bulbapedia.bulbagarden.net/wiki/Ponyta_(Pok%C3%A9mon),Ponyta,,Fire,
+77,https://bulbapedia.bulbagarden.net/wiki/Ponyta_(Pok%C3%A9mon),Ponyta,Galarian Form,Psychic,
+78,https://bulbapedia.bulbagarden.net/wiki/Rapidash_(Pok%C3%A9mon),Rapidash,,Fire,
+78,https://bulbapedia.bulbagarden.net/wiki/Rapidash_(Pok%C3%A9mon),Rapidash,Galarian Form,Psychic,Fairy
+79,https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon),Slowpoke,,Water,Psychic
+79,https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon),Slowpoke,Galarian Form,Psychic,
+80,https://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon),Slowbro,,Water,Psychic
+80,https://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon),Slowbro,Galarian Form,Poison,Psychic
+81,https://bulbapedia.bulbagarden.net/wiki/Magnemite_(Pok%C3%A9mon),Magnemite,,Electric,Steel
+82,https://bulbapedia.bulbagarden.net/wiki/Magneton_(Pok%C3%A9mon),Magneton,,Electric,Steel
+83,https://bulbapedia.bulbagarden.net/wiki/Farfetch%27d_(Pok%C3%A9mon),Farfetch'd,,Normal,Flying
+83,https://bulbapedia.bulbagarden.net/wiki/Farfetch%27d_(Pok%C3%A9mon),Farfetch'd,Galarian Form,Fighting,
+84,https://bulbapedia.bulbagarden.net/wiki/Doduo_(Pok%C3%A9mon),Doduo,,Normal,Flying
+85,https://bulbapedia.bulbagarden.net/wiki/Dodrio_(Pok%C3%A9mon),Dodrio,,Normal,Flying
+86,https://bulbapedia.bulbagarden.net/wiki/Seel_(Pok%C3%A9mon),Seel,,Water,
+87,https://bulbapedia.bulbagarden.net/wiki/Dewgong_(Pok%C3%A9mon),Dewgong,,Water,Ice
+88,https://bulbapedia.bulbagarden.net/wiki/Grimer_(Pok%C3%A9mon),Grimer,,Poison,
+88,https://bulbapedia.bulbagarden.net/wiki/Grimer_(Pok%C3%A9mon),Grimer,Alolan Form,Poison,Dark
+89,https://bulbapedia.bulbagarden.net/wiki/Muk_(Pok%C3%A9mon),Muk,,Poison,
+89,https://bulbapedia.bulbagarden.net/wiki/Muk_(Pok%C3%A9mon),Muk,Alolan Form,Poison,Dark
+90,https://bulbapedia.bulbagarden.net/wiki/Shellder_(Pok%C3%A9mon),Shellder,,Water,
+91,https://bulbapedia.bulbagarden.net/wiki/Cloyster_(Pok%C3%A9mon),Cloyster,,Water,Ice
+92,https://bulbapedia.bulbagarden.net/wiki/Gastly_(Pok%C3%A9mon),Gastly,,Ghost,Poison
+93,https://bulbapedia.bulbagarden.net/wiki/Haunter_(Pok%C3%A9mon),Haunter,,Ghost,Poison
+94,https://bulbapedia.bulbagarden.net/wiki/Gengar_(Pok%C3%A9mon),Gengar,,Ghost,Poison
+95,https://bulbapedia.bulbagarden.net/wiki/Onix_(Pok%C3%A9mon),Onix,,Rock,Ground
+96,https://bulbapedia.bulbagarden.net/wiki/Drowzee_(Pok%C3%A9mon),Drowzee,,Psychic,
+97,https://bulbapedia.bulbagarden.net/wiki/Hypno_(Pok%C3%A9mon),Hypno,,Psychic,
+98,https://bulbapedia.bulbagarden.net/wiki/Krabby_(Pok%C3%A9mon),Krabby,,Water,
+99,https://bulbapedia.bulbagarden.net/wiki/Kingler_(Pok%C3%A9mon),Kingler,,Water,
+100,https://bulbapedia.bulbagarden.net/wiki/Voltorb_(Pok%C3%A9mon),Voltorb,,Electric,
+100,https://bulbapedia.bulbagarden.net/wiki/Voltorb_(Pok%C3%A9mon),Voltorb,Hisuian Form,Electric,Grass
+101,https://bulbapedia.bulbagarden.net/wiki/Electrode_(Pok%C3%A9mon),Electrode,,Electric,
+101,https://bulbapedia.bulbagarden.net/wiki/Electrode_(Pok%C3%A9mon),Electrode,Hisuian Form,Electric,Grass
+102,https://bulbapedia.bulbagarden.net/wiki/Exeggcute_(Pok%C3%A9mon),Exeggcute,,Grass,Psychic
+103,https://bulbapedia.bulbagarden.net/wiki/Exeggutor_(Pok%C3%A9mon),Exeggutor,,Grass,Psychic
+103,https://bulbapedia.bulbagarden.net/wiki/Exeggutor_(Pok%C3%A9mon),Exeggutor,Alolan Form,Grass,Dragon
+104,https://bulbapedia.bulbagarden.net/wiki/Cubone_(Pok%C3%A9mon),Cubone,,Ground,
+105,https://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon),Marowak,,Ground,
+105,https://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon),Marowak,Alolan Form,Fire,Ghost
+106,https://bulbapedia.bulbagarden.net/wiki/Hitmonlee_(Pok%C3%A9mon),Hitmonlee,,Fighting,
+107,https://bulbapedia.bulbagarden.net/wiki/Hitmonchan_(Pok%C3%A9mon),Hitmonchan,,Fighting,
+108,https://bulbapedia.bulbagarden.net/wiki/Lickitung_(Pok%C3%A9mon),Lickitung,,Normal,
+109,https://bulbapedia.bulbagarden.net/wiki/Koffing_(Pok%C3%A9mon),Koffing,,Poison,
+110,https://bulbapedia.bulbagarden.net/wiki/Weezing_(Pok%C3%A9mon),Weezing,,Poison,
+110,https://bulbapedia.bulbagarden.net/wiki/Weezing_(Pok%C3%A9mon),Weezing,Galarian Form,Poison,Fairy
+111,https://bulbapedia.bulbagarden.net/wiki/Rhyhorn_(Pok%C3%A9mon),Rhyhorn,,Ground,Rock
+112,https://bulbapedia.bulbagarden.net/wiki/Rhydon_(Pok%C3%A9mon),Rhydon,,Ground,Rock
+113,https://bulbapedia.bulbagarden.net/wiki/Chansey_(Pok%C3%A9mon),Chansey,,Normal,
+114,https://bulbapedia.bulbagarden.net/wiki/Tangela_(Pok%C3%A9mon),Tangela,,Grass,
+115,https://bulbapedia.bulbagarden.net/wiki/Kangaskhan_(Pok%C3%A9mon),Kangaskhan,,Normal,
+116,https://bulbapedia.bulbagarden.net/wiki/Horsea_(Pok%C3%A9mon),Horsea,,Water,
+117,https://bulbapedia.bulbagarden.net/wiki/Seadra_(Pok%C3%A9mon),Seadra,,Water,
+118,https://bulbapedia.bulbagarden.net/wiki/Goldeen_(Pok%C3%A9mon),Goldeen,,Water,
+119,https://bulbapedia.bulbagarden.net/wiki/Seaking_(Pok%C3%A9mon),Seaking,,Water,
+120,https://bulbapedia.bulbagarden.net/wiki/Staryu_(Pok%C3%A9mon),Staryu,,Water,
+121,https://bulbapedia.bulbagarden.net/wiki/Starmie_(Pok%C3%A9mon),Starmie,,Water,Psychic
+122,https://bulbapedia.bulbagarden.net/wiki/Mr._Mime_(Pok%C3%A9mon),Mr. Mime,,Psychic,Fairy
+122,https://bulbapedia.bulbagarden.net/wiki/Mr._Mime_(Pok%C3%A9mon),Mr. Mime,Galarian Form,Ice,Psychic
+123,https://bulbapedia.bulbagarden.net/wiki/Scyther_(Pok%C3%A9mon),Scyther,,Bug,Flying
+124,https://bulbapedia.bulbagarden.net/wiki/Jynx_(Pok%C3%A9mon),Jynx,,Ice,Psychic
+125,https://bulbapedia.bulbagarden.net/wiki/Electabuzz_(Pok%C3%A9mon),Electabuzz,,Electric,
+126,https://bulbapedia.bulbagarden.net/wiki/Magmar_(Pok%C3%A9mon),Magmar,,Fire,
+127,https://bulbapedia.bulbagarden.net/wiki/Pinsir_(Pok%C3%A9mon),Pinsir,,Bug,
+128,https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon),Tauros,,Normal,
+128,https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon),Tauros,Paldean Form(Combat Breed),Fighting,
+128,https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon),Tauros,Paldean Form(Blaze Breed),Fighting,Fire
+128,https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon),Tauros,Paldean Form(Aqua Breed),Fighting,Water
+129,https://bulbapedia.bulbagarden.net/wiki/Magikarp_(Pok%C3%A9mon),Magikarp,,Water,
+130,https://bulbapedia.bulbagarden.net/wiki/Gyarados_(Pok%C3%A9mon),Gyarados,,Water,Flying
+131,https://bulbapedia.bulbagarden.net/wiki/Lapras_(Pok%C3%A9mon),Lapras,,Water,Ice
+132,https://bulbapedia.bulbagarden.net/wiki/Ditto_(Pok%C3%A9mon),Ditto,,Normal,
+133,https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pok%C3%A9mon),Eevee,,Normal,
+134,https://bulbapedia.bulbagarden.net/wiki/Vaporeon_(Pok%C3%A9mon),Vaporeon,,Water,
+135,https://bulbapedia.bulbagarden.net/wiki/Jolteon_(Pok%C3%A9mon),Jolteon,,Electric,
+136,https://bulbapedia.bulbagarden.net/wiki/Flareon_(Pok%C3%A9mon),Flareon,,Fire,
+137,https://bulbapedia.bulbagarden.net/wiki/Porygon_(Pok%C3%A9mon),Porygon,,Normal,
+138,https://bulbapedia.bulbagarden.net/wiki/Omanyte_(Pok%C3%A9mon),Omanyte,,Rock,Water
+139,https://bulbapedia.bulbagarden.net/wiki/Omastar_(Pok%C3%A9mon),Omastar,,Rock,Water
+140,https://bulbapedia.bulbagarden.net/wiki/Kabuto_(Pok%C3%A9mon),Kabuto,,Rock,Water
+141,https://bulbapedia.bulbagarden.net/wiki/Kabutops_(Pok%C3%A9mon),Kabutops,,Rock,Water
+142,https://bulbapedia.bulbagarden.net/wiki/Aerodactyl_(Pok%C3%A9mon),Aerodactyl,,Rock,Flying
+143,https://bulbapedia.bulbagarden.net/wiki/Snorlax_(Pok%C3%A9mon),Snorlax,,Normal,
+144,https://bulbapedia.bulbagarden.net/wiki/Articuno_(Pok%C3%A9mon),Articuno,,Ice,Flying
+144,https://bulbapedia.bulbagarden.net/wiki/Articuno_(Pok%C3%A9mon),Articuno,Galarian Form,Psychic,Flying
+145,https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon),Zapdos,,Electric,Flying
+145,https://bulbapedia.bulbagarden.net/wiki/Zapdos_(Pok%C3%A9mon),Zapdos,Galarian Form,Fighting,Flying
+146,https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon),Moltres,,Fire,Flying
+146,https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon),Moltres,Galarian Form,Dark,Flying
+147,https://bulbapedia.bulbagarden.net/wiki/Dratini_(Pok%C3%A9mon),Dratini,,Dragon,
+148,https://bulbapedia.bulbagarden.net/wiki/Dragonair_(Pok%C3%A9mon),Dragonair,,Dragon,
+149,https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pok%C3%A9mon),Dragonite,,Dragon,Flying
+150,https://bulbapedia.bulbagarden.net/wiki/Mewtwo_(Pok%C3%A9mon),Mewtwo,,Psychic,
+151,https://bulbapedia.bulbagarden.net/wiki/Mew_(Pok%C3%A9mon),Mew,,Psychic,
+152,https://bulbapedia.bulbagarden.net/wiki/Chikorita_(Pok%C3%A9mon),Chikorita,,Grass,
+153,https://bulbapedia.bulbagarden.net/wiki/Bayleef_(Pok%C3%A9mon),Bayleef,,Grass,
+154,https://bulbapedia.bulbagarden.net/wiki/Meganium_(Pok%C3%A9mon),Meganium,,Grass,
+155,https://bulbapedia.bulbagarden.net/wiki/Cyndaquil_(Pok%C3%A9mon),Cyndaquil,,Fire,
+156,https://bulbapedia.bulbagarden.net/wiki/Quilava_(Pok%C3%A9mon),Quilava,,Fire,
+157,https://bulbapedia.bulbagarden.net/wiki/Typhlosion_(Pok%C3%A9mon),Typhlosion,,Fire,
+157,https://bulbapedia.bulbagarden.net/wiki/Typhlosion_(Pok%C3%A9mon),Typhlosion,Hisuian Form,Fire,Ghost
+158,https://bulbapedia.bulbagarden.net/wiki/Totodile_(Pok%C3%A9mon),Totodile,,Water,
+159,https://bulbapedia.bulbagarden.net/wiki/Croconaw_(Pok%C3%A9mon),Croconaw,,Water,
+160,https://bulbapedia.bulbagarden.net/wiki/Feraligatr_(Pok%C3%A9mon),Feraligatr,,Water,
+161,https://bulbapedia.bulbagarden.net/wiki/Sentret_(Pok%C3%A9mon),Sentret,,Normal,
+162,https://bulbapedia.bulbagarden.net/wiki/Furret_(Pok%C3%A9mon),Furret,,Normal,
+163,https://bulbapedia.bulbagarden.net/wiki/Hoothoot_(Pok%C3%A9mon),Hoothoot,,Normal,Flying
+164,https://bulbapedia.bulbagarden.net/wiki/Noctowl_(Pok%C3%A9mon),Noctowl,,Normal,Flying
+165,https://bulbapedia.bulbagarden.net/wiki/Ledyba_(Pok%C3%A9mon),Ledyba,,Bug,Flying
+166,https://bulbapedia.bulbagarden.net/wiki/Ledian_(Pok%C3%A9mon),Ledian,,Bug,Flying
+167,https://bulbapedia.bulbagarden.net/wiki/Spinarak_(Pok%C3%A9mon),Spinarak,,Bug,Poison
+168,https://bulbapedia.bulbagarden.net/wiki/Ariados_(Pok%C3%A9mon),Ariados,,Bug,Poison
+169,https://bulbapedia.bulbagarden.net/wiki/Crobat_(Pok%C3%A9mon),Crobat,,Poison,Flying
+170,https://bulbapedia.bulbagarden.net/wiki/Chinchou_(Pok%C3%A9mon),Chinchou,,Water,Electric
+171,https://bulbapedia.bulbagarden.net/wiki/Lanturn_(Pok%C3%A9mon),Lanturn,,Water,Electric
+172,https://bulbapedia.bulbagarden.net/wiki/Pichu_(Pok%C3%A9mon),Pichu,,Electric,
+173,https://bulbapedia.bulbagarden.net/wiki/Cleffa_(Pok%C3%A9mon),Cleffa,,Fairy,
+174,https://bulbapedia.bulbagarden.net/wiki/Igglybuff_(Pok%C3%A9mon),Igglybuff,,Normal,Fairy
+175,https://bulbapedia.bulbagarden.net/wiki/Togepi_(Pok%C3%A9mon),Togepi,,Fairy,
+176,https://bulbapedia.bulbagarden.net/wiki/Togetic_(Pok%C3%A9mon),Togetic,,Fairy,Flying
+177,https://bulbapedia.bulbagarden.net/wiki/Natu_(Pok%C3%A9mon),Natu,,Psychic,Flying
+178,https://bulbapedia.bulbagarden.net/wiki/Xatu_(Pok%C3%A9mon),Xatu,,Psychic,Flying
+179,https://bulbapedia.bulbagarden.net/wiki/Mareep_(Pok%C3%A9mon),Mareep,,Electric,
+180,https://bulbapedia.bulbagarden.net/wiki/Flaaffy_(Pok%C3%A9mon),Flaaffy,,Electric,
+181,https://bulbapedia.bulbagarden.net/wiki/Ampharos_(Pok%C3%A9mon),Ampharos,,Electric,
+182,https://bulbapedia.bulbagarden.net/wiki/Bellossom_(Pok%C3%A9mon),Bellossom,,Grass,
+183,https://bulbapedia.bulbagarden.net/wiki/Marill_(Pok%C3%A9mon),Marill,,Water,Fairy
+184,https://bulbapedia.bulbagarden.net/wiki/Azumarill_(Pok%C3%A9mon),Azumarill,,Water,Fairy
+185,https://bulbapedia.bulbagarden.net/wiki/Sudowoodo_(Pok%C3%A9mon),Sudowoodo,,Rock,
+186,https://bulbapedia.bulbagarden.net/wiki/Politoed_(Pok%C3%A9mon),Politoed,,Water,
+187,https://bulbapedia.bulbagarden.net/wiki/Hoppip_(Pok%C3%A9mon),Hoppip,,Grass,Flying
+188,https://bulbapedia.bulbagarden.net/wiki/Skiploom_(Pok%C3%A9mon),Skiploom,,Grass,Flying
+189,https://bulbapedia.bulbagarden.net/wiki/Jumpluff_(Pok%C3%A9mon),Jumpluff,,Grass,Flying
+190,https://bulbapedia.bulbagarden.net/wiki/Aipom_(Pok%C3%A9mon),Aipom,,Normal,
+191,https://bulbapedia.bulbagarden.net/wiki/Sunkern_(Pok%C3%A9mon),Sunkern,,Grass,
+192,https://bulbapedia.bulbagarden.net/wiki/Sunflora_(Pok%C3%A9mon),Sunflora,,Grass,
+193,https://bulbapedia.bulbagarden.net/wiki/Yanma_(Pok%C3%A9mon),Yanma,,Bug,Flying
+194,https://bulbapedia.bulbagarden.net/wiki/Wooper_(Pok%C3%A9mon),Wooper,,Water,Ground
+194,https://bulbapedia.bulbagarden.net/wiki/Wooper_(Pok%C3%A9mon),Wooper,Paldean Form,Poison,Ground
+195,https://bulbapedia.bulbagarden.net/wiki/Quagsire_(Pok%C3%A9mon),Quagsire,,Water,Ground
+196,https://bulbapedia.bulbagarden.net/wiki/Espeon_(Pok%C3%A9mon),Espeon,,Psychic,
+197,https://bulbapedia.bulbagarden.net/wiki/Umbreon_(Pok%C3%A9mon),Umbreon,,Dark,
+198,https://bulbapedia.bulbagarden.net/wiki/Murkrow_(Pok%C3%A9mon),Murkrow,,Dark,Flying
+199,https://bulbapedia.bulbagarden.net/wiki/Slowking_(Pok%C3%A9mon),Slowking,,Water,Psychic
+199,https://bulbapedia.bulbagarden.net/wiki/Slowking_(Pok%C3%A9mon),Slowking,Galarian Form,Poison,Psychic
+200,https://bulbapedia.bulbagarden.net/wiki/Misdreavus_(Pok%C3%A9mon),Misdreavus,,Ghost,
+201,https://bulbapedia.bulbagarden.net/wiki/Unown_(Pok%C3%A9mon),Unown,One form,Psychic,
+202,https://bulbapedia.bulbagarden.net/wiki/Wobbuffet_(Pok%C3%A9mon),Wobbuffet,,Psychic,
+203,https://bulbapedia.bulbagarden.net/wiki/Girafarig_(Pok%C3%A9mon),Girafarig,,Normal,Psychic
+204,https://bulbapedia.bulbagarden.net/wiki/Pineco_(Pok%C3%A9mon),Pineco,,Bug,
+205,https://bulbapedia.bulbagarden.net/wiki/Forretress_(Pok%C3%A9mon),Forretress,,Bug,Steel
+206,https://bulbapedia.bulbagarden.net/wiki/Dunsparce_(Pok%C3%A9mon),Dunsparce,,Normal,
+207,https://bulbapedia.bulbagarden.net/wiki/Gligar_(Pok%C3%A9mon),Gligar,,Ground,Flying
+208,https://bulbapedia.bulbagarden.net/wiki/Steelix_(Pok%C3%A9mon),Steelix,,Steel,Ground
+209,https://bulbapedia.bulbagarden.net/wiki/Snubbull_(Pok%C3%A9mon),Snubbull,,Fairy,
+210,https://bulbapedia.bulbagarden.net/wiki/Granbull_(Pok%C3%A9mon),Granbull,,Fairy,
+211,https://bulbapedia.bulbagarden.net/wiki/Qwilfish_(Pok%C3%A9mon),Qwilfish,,Water,Poison
+211,https://bulbapedia.bulbagarden.net/wiki/Qwilfish_(Pok%C3%A9mon),Qwilfish,Hisuian Form,Dark,Poison
+212,https://bulbapedia.bulbagarden.net/wiki/Scizor_(Pok%C3%A9mon),Scizor,,Bug,Steel
+213,https://bulbapedia.bulbagarden.net/wiki/Shuckle_(Pok%C3%A9mon),Shuckle,,Bug,Rock
+214,https://bulbapedia.bulbagarden.net/wiki/Heracross_(Pok%C3%A9mon),Heracross,,Bug,Fighting
+215,https://bulbapedia.bulbagarden.net/wiki/Sneasel_(Pok%C3%A9mon),Sneasel,,Dark,Ice
+215,https://bulbapedia.bulbagarden.net/wiki/Sneasel_(Pok%C3%A9mon),Sneasel,Hisuian Form,Fighting,Poison
+216,https://bulbapedia.bulbagarden.net/wiki/Teddiursa_(Pok%C3%A9mon),Teddiursa,,Normal,
+217,https://bulbapedia.bulbagarden.net/wiki/Ursaring_(Pok%C3%A9mon),Ursaring,,Normal,
+218,https://bulbapedia.bulbagarden.net/wiki/Slugma_(Pok%C3%A9mon),Slugma,,Fire,
+219,https://bulbapedia.bulbagarden.net/wiki/Magcargo_(Pok%C3%A9mon),Magcargo,,Fire,Rock
+220,https://bulbapedia.bulbagarden.net/wiki/Swinub_(Pok%C3%A9mon),Swinub,,Ice,Ground
+221,https://bulbapedia.bulbagarden.net/wiki/Piloswine_(Pok%C3%A9mon),Piloswine,,Ice,Ground
+222,https://bulbapedia.bulbagarden.net/wiki/Corsola_(Pok%C3%A9mon),Corsola,,Water,Rock
+222,https://bulbapedia.bulbagarden.net/wiki/Corsola_(Pok%C3%A9mon),Corsola,Galarian Form,Ghost,
+223,https://bulbapedia.bulbagarden.net/wiki/Remoraid_(Pok%C3%A9mon),Remoraid,,Water,
+224,https://bulbapedia.bulbagarden.net/wiki/Octillery_(Pok%C3%A9mon),Octillery,,Water,
+225,https://bulbapedia.bulbagarden.net/wiki/Delibird_(Pok%C3%A9mon),Delibird,,Ice,Flying
+226,https://bulbapedia.bulbagarden.net/wiki/Mantine_(Pok%C3%A9mon),Mantine,,Water,Flying
+227,https://bulbapedia.bulbagarden.net/wiki/Skarmory_(Pok%C3%A9mon),Skarmory,,Steel,Flying
+228,https://bulbapedia.bulbagarden.net/wiki/Houndour_(Pok%C3%A9mon),Houndour,,Dark,Fire
+229,https://bulbapedia.bulbagarden.net/wiki/Houndoom_(Pok%C3%A9mon),Houndoom,,Dark,Fire
+230,https://bulbapedia.bulbagarden.net/wiki/Kingdra_(Pok%C3%A9mon),Kingdra,,Water,Dragon
+231,https://bulbapedia.bulbagarden.net/wiki/Phanpy_(Pok%C3%A9mon),Phanpy,,Ground,
+232,https://bulbapedia.bulbagarden.net/wiki/Donphan_(Pok%C3%A9mon),Donphan,,Ground,
+233,https://bulbapedia.bulbagarden.net/wiki/Porygon2_(Pok%C3%A9mon),Porygon2,,Normal,
+234,https://bulbapedia.bulbagarden.net/wiki/Stantler_(Pok%C3%A9mon),Stantler,,Normal,
+235,https://bulbapedia.bulbagarden.net/wiki/Smeargle_(Pok%C3%A9mon),Smeargle,,Normal,
+236,https://bulbapedia.bulbagarden.net/wiki/Tyrogue_(Pok%C3%A9mon),Tyrogue,,Fighting,
+237,https://bulbapedia.bulbagarden.net/wiki/Hitmontop_(Pok%C3%A9mon),Hitmontop,,Fighting,
+238,https://bulbapedia.bulbagarden.net/wiki/Smoochum_(Pok%C3%A9mon),Smoochum,,Ice,Psychic
+239,https://bulbapedia.bulbagarden.net/wiki/Elekid_(Pok%C3%A9mon),Elekid,,Electric,
+240,https://bulbapedia.bulbagarden.net/wiki/Magby_(Pok%C3%A9mon),Magby,,Fire,
+241,https://bulbapedia.bulbagarden.net/wiki/Miltank_(Pok%C3%A9mon),Miltank,,Normal,
+242,https://bulbapedia.bulbagarden.net/wiki/Blissey_(Pok%C3%A9mon),Blissey,,Normal,
+243,https://bulbapedia.bulbagarden.net/wiki/Raikou_(Pok%C3%A9mon),Raikou,,Electric,
+244,https://bulbapedia.bulbagarden.net/wiki/Entei_(Pok%C3%A9mon),Entei,,Fire,
+245,https://bulbapedia.bulbagarden.net/wiki/Suicune_(Pok%C3%A9mon),Suicune,,Water,
+246,https://bulbapedia.bulbagarden.net/wiki/Larvitar_(Pok%C3%A9mon),Larvitar,,Rock,Ground
+247,https://bulbapedia.bulbagarden.net/wiki/Pupitar_(Pok%C3%A9mon),Pupitar,,Rock,Ground
+248,https://bulbapedia.bulbagarden.net/wiki/Tyranitar_(Pok%C3%A9mon),Tyranitar,,Rock,Dark
+249,https://bulbapedia.bulbagarden.net/wiki/Lugia_(Pok%C3%A9mon),Lugia,,Psychic,Flying
+250,https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pok%C3%A9mon),Ho-Oh,,Fire,Flying
+251,https://bulbapedia.bulbagarden.net/wiki/Celebi_(Pok%C3%A9mon),Celebi,,Psychic,Grass
+252,https://bulbapedia.bulbagarden.net/wiki/Treecko_(Pok%C3%A9mon),Treecko,,Grass,
+253,https://bulbapedia.bulbagarden.net/wiki/Grovyle_(Pok%C3%A9mon),Grovyle,,Grass,
+254,https://bulbapedia.bulbagarden.net/wiki/Sceptile_(Pok%C3%A9mon),Sceptile,,Grass,
+255,https://bulbapedia.bulbagarden.net/wiki/Torchic_(Pok%C3%A9mon),Torchic,,Fire,
+256,https://bulbapedia.bulbagarden.net/wiki/Combusken_(Pok%C3%A9mon),Combusken,,Fire,Fighting
+257,https://bulbapedia.bulbagarden.net/wiki/Blaziken_(Pok%C3%A9mon),Blaziken,,Fire,Fighting
+258,https://bulbapedia.bulbagarden.net/wiki/Mudkip_(Pok%C3%A9mon),Mudkip,,Water,
+259,https://bulbapedia.bulbagarden.net/wiki/Marshtomp_(Pok%C3%A9mon),Marshtomp,,Water,Ground
+260,https://bulbapedia.bulbagarden.net/wiki/Swampert_(Pok%C3%A9mon),Swampert,,Water,Ground
+261,https://bulbapedia.bulbagarden.net/wiki/Poochyena_(Pok%C3%A9mon),Poochyena,,Dark,
+262,https://bulbapedia.bulbagarden.net/wiki/Mightyena_(Pok%C3%A9mon),Mightyena,,Dark,
+263,https://bulbapedia.bulbagarden.net/wiki/Zigzagoon_(Pok%C3%A9mon),Zigzagoon,,Normal,
+263,https://bulbapedia.bulbagarden.net/wiki/Zigzagoon_(Pok%C3%A9mon),Zigzagoon,Galarian Form,Dark,Normal
+264,https://bulbapedia.bulbagarden.net/wiki/Linoone_(Pok%C3%A9mon),Linoone,,Normal,
+264,https://bulbapedia.bulbagarden.net/wiki/Linoone_(Pok%C3%A9mon),Linoone,Galarian Form,Dark,Normal
+265,https://bulbapedia.bulbagarden.net/wiki/Wurmple_(Pok%C3%A9mon),Wurmple,,Bug,
+266,https://bulbapedia.bulbagarden.net/wiki/Silcoon_(Pok%C3%A9mon),Silcoon,,Bug,
+267,https://bulbapedia.bulbagarden.net/wiki/Beautifly_(Pok%C3%A9mon),Beautifly,,Bug,Flying
+268,https://bulbapedia.bulbagarden.net/wiki/Cascoon_(Pok%C3%A9mon),Cascoon,,Bug,
+269,https://bulbapedia.bulbagarden.net/wiki/Dustox_(Pok%C3%A9mon),Dustox,,Bug,Poison
+270,https://bulbapedia.bulbagarden.net/wiki/Lotad_(Pok%C3%A9mon),Lotad,,Water,Grass
+271,https://bulbapedia.bulbagarden.net/wiki/Lombre_(Pok%C3%A9mon),Lombre,,Water,Grass
+272,https://bulbapedia.bulbagarden.net/wiki/Ludicolo_(Pok%C3%A9mon),Ludicolo,,Water,Grass
+273,https://bulbapedia.bulbagarden.net/wiki/Seedot_(Pok%C3%A9mon),Seedot,,Grass,
+274,https://bulbapedia.bulbagarden.net/wiki/Nuzleaf_(Pok%C3%A9mon),Nuzleaf,,Grass,Dark
+275,https://bulbapedia.bulbagarden.net/wiki/Shiftry_(Pok%C3%A9mon),Shiftry,,Grass,Dark
+276,https://bulbapedia.bulbagarden.net/wiki/Taillow_(Pok%C3%A9mon),Taillow,,Normal,Flying
+277,https://bulbapedia.bulbagarden.net/wiki/Swellow_(Pok%C3%A9mon),Swellow,,Normal,Flying
+278,https://bulbapedia.bulbagarden.net/wiki/Wingull_(Pok%C3%A9mon),Wingull,,Water,Flying
+279,https://bulbapedia.bulbagarden.net/wiki/Pelipper_(Pok%C3%A9mon),Pelipper,,Water,Flying
+280,https://bulbapedia.bulbagarden.net/wiki/Ralts_(Pok%C3%A9mon),Ralts,,Psychic,Fairy
+281,https://bulbapedia.bulbagarden.net/wiki/Kirlia_(Pok%C3%A9mon),Kirlia,,Psychic,Fairy
+282,https://bulbapedia.bulbagarden.net/wiki/Gardevoir_(Pok%C3%A9mon),Gardevoir,,Psychic,Fairy
+283,https://bulbapedia.bulbagarden.net/wiki/Surskit_(Pok%C3%A9mon),Surskit,,Bug,Water
+284,https://bulbapedia.bulbagarden.net/wiki/Masquerain_(Pok%C3%A9mon),Masquerain,,Bug,Flying
+285,https://bulbapedia.bulbagarden.net/wiki/Shroomish_(Pok%C3%A9mon),Shroomish,,Grass,
+286,https://bulbapedia.bulbagarden.net/wiki/Breloom_(Pok%C3%A9mon),Breloom,,Grass,Fighting
+287,https://bulbapedia.bulbagarden.net/wiki/Slakoth_(Pok%C3%A9mon),Slakoth,,Normal,
+288,https://bulbapedia.bulbagarden.net/wiki/Vigoroth_(Pok%C3%A9mon),Vigoroth,,Normal,
+289,https://bulbapedia.bulbagarden.net/wiki/Slaking_(Pok%C3%A9mon),Slaking,,Normal,
+290,https://bulbapedia.bulbagarden.net/wiki/Nincada_(Pok%C3%A9mon),Nincada,,Bug,Ground
+291,https://bulbapedia.bulbagarden.net/wiki/Ninjask_(Pok%C3%A9mon),Ninjask,,Bug,Flying
+292,https://bulbapedia.bulbagarden.net/wiki/Shedinja_(Pok%C3%A9mon),Shedinja,,Bug,Ghost
+293,https://bulbapedia.bulbagarden.net/wiki/Whismur_(Pok%C3%A9mon),Whismur,,Normal,
+294,https://bulbapedia.bulbagarden.net/wiki/Loudred_(Pok%C3%A9mon),Loudred,,Normal,
+295,https://bulbapedia.bulbagarden.net/wiki/Exploud_(Pok%C3%A9mon),Exploud,,Normal,
+296,https://bulbapedia.bulbagarden.net/wiki/Makuhita_(Pok%C3%A9mon),Makuhita,,Fighting,
+297,https://bulbapedia.bulbagarden.net/wiki/Hariyama_(Pok%C3%A9mon),Hariyama,,Fighting,
+298,https://bulbapedia.bulbagarden.net/wiki/Azurill_(Pok%C3%A9mon),Azurill,,Normal,Fairy
+299,https://bulbapedia.bulbagarden.net/wiki/Nosepass_(Pok%C3%A9mon),Nosepass,,Rock,
+300,https://bulbapedia.bulbagarden.net/wiki/Skitty_(Pok%C3%A9mon),Skitty,,Normal,
+301,https://bulbapedia.bulbagarden.net/wiki/Delcatty_(Pok%C3%A9mon),Delcatty,,Normal,
+302,https://bulbapedia.bulbagarden.net/wiki/Sableye_(Pok%C3%A9mon),Sableye,,Dark,Ghost
+303,https://bulbapedia.bulbagarden.net/wiki/Mawile_(Pok%C3%A9mon),Mawile,,Steel,Fairy
+304,https://bulbapedia.bulbagarden.net/wiki/Aron_(Pok%C3%A9mon),Aron,,Steel,Rock
+305,https://bulbapedia.bulbagarden.net/wiki/Lairon_(Pok%C3%A9mon),Lairon,,Steel,Rock
+306,https://bulbapedia.bulbagarden.net/wiki/Aggron_(Pok%C3%A9mon),Aggron,,Steel,Rock
+307,https://bulbapedia.bulbagarden.net/wiki/Meditite_(Pok%C3%A9mon),Meditite,,Fighting,Psychic
+308,https://bulbapedia.bulbagarden.net/wiki/Medicham_(Pok%C3%A9mon),Medicham,,Fighting,Psychic
+309,https://bulbapedia.bulbagarden.net/wiki/Electrike_(Pok%C3%A9mon),Electrike,,Electric,
+310,https://bulbapedia.bulbagarden.net/wiki/Manectric_(Pok%C3%A9mon),Manectric,,Electric,
+311,https://bulbapedia.bulbagarden.net/wiki/Plusle_(Pok%C3%A9mon),Plusle,,Electric,
+312,https://bulbapedia.bulbagarden.net/wiki/Minun_(Pok%C3%A9mon),Minun,,Electric,
+313,https://bulbapedia.bulbagarden.net/wiki/Volbeat_(Pok%C3%A9mon),Volbeat,,Bug,
+314,https://bulbapedia.bulbagarden.net/wiki/Illumise_(Pok%C3%A9mon),Illumise,,Bug,
+315,https://bulbapedia.bulbagarden.net/wiki/Roselia_(Pok%C3%A9mon),Roselia,,Grass,Poison
+316,https://bulbapedia.bulbagarden.net/wiki/Gulpin_(Pok%C3%A9mon),Gulpin,,Poison,
+317,https://bulbapedia.bulbagarden.net/wiki/Swalot_(Pok%C3%A9mon),Swalot,,Poison,
+318,https://bulbapedia.bulbagarden.net/wiki/Carvanha_(Pok%C3%A9mon),Carvanha,,Water,Dark
+319,https://bulbapedia.bulbagarden.net/wiki/Sharpedo_(Pok%C3%A9mon),Sharpedo,,Water,Dark
+320,https://bulbapedia.bulbagarden.net/wiki/Wailmer_(Pok%C3%A9mon),Wailmer,,Water,
+321,https://bulbapedia.bulbagarden.net/wiki/Wailord_(Pok%C3%A9mon),Wailord,,Water,
+322,https://bulbapedia.bulbagarden.net/wiki/Numel_(Pok%C3%A9mon),Numel,,Fire,Ground
+323,https://bulbapedia.bulbagarden.net/wiki/Camerupt_(Pok%C3%A9mon),Camerupt,,Fire,Ground
+324,https://bulbapedia.bulbagarden.net/wiki/Torkoal_(Pok%C3%A9mon),Torkoal,,Fire,
+325,https://bulbapedia.bulbagarden.net/wiki/Spoink_(Pok%C3%A9mon),Spoink,,Psychic,
+326,https://bulbapedia.bulbagarden.net/wiki/Grumpig_(Pok%C3%A9mon),Grumpig,,Psychic,
+327,https://bulbapedia.bulbagarden.net/wiki/Spinda_(Pok%C3%A9mon),Spinda,,Normal,
+328,https://bulbapedia.bulbagarden.net/wiki/Trapinch_(Pok%C3%A9mon),Trapinch,,Ground,
+329,https://bulbapedia.bulbagarden.net/wiki/Vibrava_(Pok%C3%A9mon),Vibrava,,Ground,Dragon
+330,https://bulbapedia.bulbagarden.net/wiki/Flygon_(Pok%C3%A9mon),Flygon,,Ground,Dragon
+331,https://bulbapedia.bulbagarden.net/wiki/Cacnea_(Pok%C3%A9mon),Cacnea,,Grass,
+332,https://bulbapedia.bulbagarden.net/wiki/Cacturne_(Pok%C3%A9mon),Cacturne,,Grass,Dark
+333,https://bulbapedia.bulbagarden.net/wiki/Swablu_(Pok%C3%A9mon),Swablu,,Normal,Flying
+334,https://bulbapedia.bulbagarden.net/wiki/Altaria_(Pok%C3%A9mon),Altaria,,Dragon,Flying
+335,https://bulbapedia.bulbagarden.net/wiki/Zangoose_(Pok%C3%A9mon),Zangoose,,Normal,
+336,https://bulbapedia.bulbagarden.net/wiki/Seviper_(Pok%C3%A9mon),Seviper,,Poison,
+337,https://bulbapedia.bulbagarden.net/wiki/Lunatone_(Pok%C3%A9mon),Lunatone,,Rock,Psychic
+338,https://bulbapedia.bulbagarden.net/wiki/Solrock_(Pok%C3%A9mon),Solrock,,Rock,Psychic
+339,https://bulbapedia.bulbagarden.net/wiki/Barboach_(Pok%C3%A9mon),Barboach,,Water,Ground
+340,https://bulbapedia.bulbagarden.net/wiki/Whiscash_(Pok%C3%A9mon),Whiscash,,Water,Ground
+341,https://bulbapedia.bulbagarden.net/wiki/Corphish_(Pok%C3%A9mon),Corphish,,Water,
+342,https://bulbapedia.bulbagarden.net/wiki/Crawdaunt_(Pok%C3%A9mon),Crawdaunt,,Water,Dark
+343,https://bulbapedia.bulbagarden.net/wiki/Baltoy_(Pok%C3%A9mon),Baltoy,,Ground,Psychic
+344,https://bulbapedia.bulbagarden.net/wiki/Claydol_(Pok%C3%A9mon),Claydol,,Ground,Psychic
+345,https://bulbapedia.bulbagarden.net/wiki/Lileep_(Pok%C3%A9mon),Lileep,,Rock,Grass
+346,https://bulbapedia.bulbagarden.net/wiki/Cradily_(Pok%C3%A9mon),Cradily,,Rock,Grass
+347,https://bulbapedia.bulbagarden.net/wiki/Anorith_(Pok%C3%A9mon),Anorith,,Rock,Bug
+348,https://bulbapedia.bulbagarden.net/wiki/Armaldo_(Pok%C3%A9mon),Armaldo,,Rock,Bug
+349,https://bulbapedia.bulbagarden.net/wiki/Feebas_(Pok%C3%A9mon),Feebas,,Water,
+350,https://bulbapedia.bulbagarden.net/wiki/Milotic_(Pok%C3%A9mon),Milotic,,Water,
+351,https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon),Castform,Normal,Normal,
+351,https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon),Castform,Sunny Form,Fire,
+351,https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon),Castform,Rainy Form,Water,
+351,https://bulbapedia.bulbagarden.net/wiki/Castform_(Pok%C3%A9mon),Castform,Snowy Form,Ice,
+352,https://bulbapedia.bulbagarden.net/wiki/Kecleon_(Pok%C3%A9mon),Kecleon,,Normal,
+353,https://bulbapedia.bulbagarden.net/wiki/Shuppet_(Pok%C3%A9mon),Shuppet,,Ghost,
+354,https://bulbapedia.bulbagarden.net/wiki/Banette_(Pok%C3%A9mon),Banette,,Ghost,
+355,https://bulbapedia.bulbagarden.net/wiki/Duskull_(Pok%C3%A9mon),Duskull,,Ghost,
+356,https://bulbapedia.bulbagarden.net/wiki/Dusclops_(Pok%C3%A9mon),Dusclops,,Ghost,
+357,https://bulbapedia.bulbagarden.net/wiki/Tropius_(Pok%C3%A9mon),Tropius,,Grass,Flying
+358,https://bulbapedia.bulbagarden.net/wiki/Chimecho_(Pok%C3%A9mon),Chimecho,,Psychic,
+359,https://bulbapedia.bulbagarden.net/wiki/Absol_(Pok%C3%A9mon),Absol,,Dark,
+360,https://bulbapedia.bulbagarden.net/wiki/Wynaut_(Pok%C3%A9mon),Wynaut,,Psychic,
+361,https://bulbapedia.bulbagarden.net/wiki/Snorunt_(Pok%C3%A9mon),Snorunt,,Ice,
+362,https://bulbapedia.bulbagarden.net/wiki/Glalie_(Pok%C3%A9mon),Glalie,,Ice,
+363,https://bulbapedia.bulbagarden.net/wiki/Spheal_(Pok%C3%A9mon),Spheal,,Ice,Water
+364,https://bulbapedia.bulbagarden.net/wiki/Sealeo_(Pok%C3%A9mon),Sealeo,,Ice,Water
+365,https://bulbapedia.bulbagarden.net/wiki/Walrein_(Pok%C3%A9mon),Walrein,,Ice,Water
+366,https://bulbapedia.bulbagarden.net/wiki/Clamperl_(Pok%C3%A9mon),Clamperl,,Water,
+367,https://bulbapedia.bulbagarden.net/wiki/Huntail_(Pok%C3%A9mon),Huntail,,Water,
+368,https://bulbapedia.bulbagarden.net/wiki/Gorebyss_(Pok%C3%A9mon),Gorebyss,,Water,
+369,https://bulbapedia.bulbagarden.net/wiki/Relicanth_(Pok%C3%A9mon),Relicanth,,Water,Rock
+370,https://bulbapedia.bulbagarden.net/wiki/Luvdisc_(Pok%C3%A9mon),Luvdisc,,Water,
+371,https://bulbapedia.bulbagarden.net/wiki/Bagon_(Pok%C3%A9mon),Bagon,,Dragon,
+372,https://bulbapedia.bulbagarden.net/wiki/Shelgon_(Pok%C3%A9mon),Shelgon,,Dragon,
+373,https://bulbapedia.bulbagarden.net/wiki/Salamence_(Pok%C3%A9mon),Salamence,,Dragon,Flying
+374,https://bulbapedia.bulbagarden.net/wiki/Beldum_(Pok%C3%A9mon),Beldum,,Steel,Psychic
+375,https://bulbapedia.bulbagarden.net/wiki/Metang_(Pok%C3%A9mon),Metang,,Steel,Psychic
+376,https://bulbapedia.bulbagarden.net/wiki/Metagross_(Pok%C3%A9mon),Metagross,,Steel,Psychic
+377,https://bulbapedia.bulbagarden.net/wiki/Regirock_(Pok%C3%A9mon),Regirock,,Rock,
+378,https://bulbapedia.bulbagarden.net/wiki/Regice_(Pok%C3%A9mon),Regice,,Ice,
+379,https://bulbapedia.bulbagarden.net/wiki/Registeel_(Pok%C3%A9mon),Registeel,,Steel,
+380,https://bulbapedia.bulbagarden.net/wiki/Latias_(Pok%C3%A9mon),Latias,,Dragon,Psychic
+381,https://bulbapedia.bulbagarden.net/wiki/Latios_(Pok%C3%A9mon),Latios,,Dragon,Psychic
+382,https://bulbapedia.bulbagarden.net/wiki/Kyogre_(Pok%C3%A9mon),,Kyogre,Water,
+383,https://bulbapedia.bulbagarden.net/wiki/Groudon_(Pok%C3%A9mon),,Groudon,Ground,
+384,https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon),Rayquaza,,Dragon,Flying
+385,https://bulbapedia.bulbagarden.net/wiki/Jirachi_(Pok%C3%A9mon),Jirachi,,Steel,Psychic
+386,https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon),Deoxys,Normal Forme,Psychic,
+386,https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon),Deoxys,Attack Forme,Psychic,
+386,https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon),Deoxys,Defense Forme,Psychic,
+386,https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon),Deoxys,Speed Forme,Psychic,
+387,https://bulbapedia.bulbagarden.net/wiki/Turtwig_(Pok%C3%A9mon),Turtwig,,Grass,
+388,https://bulbapedia.bulbagarden.net/wiki/Grotle_(Pok%C3%A9mon),Grotle,,Grass,
+389,https://bulbapedia.bulbagarden.net/wiki/Torterra_(Pok%C3%A9mon),Torterra,,Grass,Ground
+390,https://bulbapedia.bulbagarden.net/wiki/Chimchar_(Pok%C3%A9mon),Chimchar,,Fire,
+391,https://bulbapedia.bulbagarden.net/wiki/Monferno_(Pok%C3%A9mon),Monferno,,Fire,Fighting
+392,https://bulbapedia.bulbagarden.net/wiki/Infernape_(Pok%C3%A9mon),Infernape,,Fire,Fighting
+393,https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pok%C3%A9mon),Piplup,,Water,
+394,https://bulbapedia.bulbagarden.net/wiki/Prinplup_(Pok%C3%A9mon),Prinplup,,Water,
+395,https://bulbapedia.bulbagarden.net/wiki/Empoleon_(Pok%C3%A9mon),Empoleon,,Water,Steel
+396,https://bulbapedia.bulbagarden.net/wiki/Starly_(Pok%C3%A9mon),Starly,,Normal,Flying
+397,https://bulbapedia.bulbagarden.net/wiki/Staravia_(Pok%C3%A9mon),Staravia,,Normal,Flying
+398,https://bulbapedia.bulbagarden.net/wiki/Staraptor_(Pok%C3%A9mon),Staraptor,,Normal,Flying
+399,https://bulbapedia.bulbagarden.net/wiki/Bidoof_(Pok%C3%A9mon),Bidoof,,Normal,
+400,https://bulbapedia.bulbagarden.net/wiki/Bibarel_(Pok%C3%A9mon),Bibarel,,Normal,Water
+401,https://bulbapedia.bulbagarden.net/wiki/Kricketot_(Pok%C3%A9mon),Kricketot,,Bug,
+402,https://bulbapedia.bulbagarden.net/wiki/Kricketune_(Pok%C3%A9mon),Kricketune,,Bug,
+403,https://bulbapedia.bulbagarden.net/wiki/Shinx_(Pok%C3%A9mon),Shinx,,Electric,
+404,https://bulbapedia.bulbagarden.net/wiki/Luxio_(Pok%C3%A9mon),Luxio,,Electric,
+405,https://bulbapedia.bulbagarden.net/wiki/Luxray_(Pok%C3%A9mon),Luxray,,Electric,
+406,https://bulbapedia.bulbagarden.net/wiki/Budew_(Pok%C3%A9mon),Budew,,Grass,Poison
+407,https://bulbapedia.bulbagarden.net/wiki/Roserade_(Pok%C3%A9mon),Roserade,,Grass,Poison
+408,https://bulbapedia.bulbagarden.net/wiki/Cranidos_(Pok%C3%A9mon),Cranidos,,Rock,
+409,https://bulbapedia.bulbagarden.net/wiki/Rampardos_(Pok%C3%A9mon),Rampardos,,Rock,
+410,https://bulbapedia.bulbagarden.net/wiki/Shieldon_(Pok%C3%A9mon),Shieldon,,Rock,Steel
+411,https://bulbapedia.bulbagarden.net/wiki/Bastiodon_(Pok%C3%A9mon),Bastiodon,,Rock,Steel
+412,https://bulbapedia.bulbagarden.net/wiki/Burmy_(Pok%C3%A9mon),Burmy,Plant Cloak,Bug,
+412,https://bulbapedia.bulbagarden.net/wiki/Burmy_(Pok%C3%A9mon),Burmy,Sandy Cloak,Bug,
+412,https://bulbapedia.bulbagarden.net/wiki/Burmy_(Pok%C3%A9mon),Burmy,Trash Cloak,Bug,
+413,https://bulbapedia.bulbagarden.net/wiki/Wormadam_(Pok%C3%A9mon),Wormadam,Plant Cloak,Bug,Grass
+413,https://bulbapedia.bulbagarden.net/wiki/Wormadam_(Pok%C3%A9mon),Wormadam,Sandy Cloak,Bug,Ground
+413,https://bulbapedia.bulbagarden.net/wiki/Wormadam_(Pok%C3%A9mon),Wormadam,Trash Cloak,Bug,Steel
+414,https://bulbapedia.bulbagarden.net/wiki/Mothim_(Pok%C3%A9mon),Mothim,,Bug,Flying
+415,https://bulbapedia.bulbagarden.net/wiki/Combee_(Pok%C3%A9mon),Combee,,Bug,Flying
+416,https://bulbapedia.bulbagarden.net/wiki/Vespiquen_(Pok%C3%A9mon),Vespiquen,,Bug,Flying
+417,https://bulbapedia.bulbagarden.net/wiki/Pachirisu_(Pok%C3%A9mon),Pachirisu,,Electric,
+418,https://bulbapedia.bulbagarden.net/wiki/Buizel_(Pok%C3%A9mon),Buizel,,Water,
+419,https://bulbapedia.bulbagarden.net/wiki/Floatzel_(Pok%C3%A9mon),Floatzel,,Water,
+420,https://bulbapedia.bulbagarden.net/wiki/Cherubi_(Pok%C3%A9mon),Cherubi,,Grass,
+421,https://bulbapedia.bulbagarden.net/wiki/Cherrim_(Pok%C3%A9mon),Cherrim,Overcast Form,Grass,
+421,https://bulbapedia.bulbagarden.net/wiki/Cherrim_(Pok%C3%A9mon),Cherrim,Sunshine Form,Grass,
+422,https://bulbapedia.bulbagarden.net/wiki/Shellos_(Pok%C3%A9mon),Shellos,West Sea,Water,
+422,https://bulbapedia.bulbagarden.net/wiki/Shellos_(Pok%C3%A9mon),Shellos,East Sea,Water,
+423,https://bulbapedia.bulbagarden.net/wiki/Gastrodon_(Pok%C3%A9mon),Gastrodon,West Sea,Water,Ground
+423,https://bulbapedia.bulbagarden.net/wiki/Gastrodon_(Pok%C3%A9mon),Gastrodon,East Sea,Water,Ground
+424,https://bulbapedia.bulbagarden.net/wiki/Ambipom_(Pok%C3%A9mon),Ambipom,,Normal,
+425,https://bulbapedia.bulbagarden.net/wiki/Drifloon_(Pok%C3%A9mon),Drifloon,,Ghost,Flying
+426,https://bulbapedia.bulbagarden.net/wiki/Drifblim_(Pok%C3%A9mon),Drifblim,,Ghost,Flying
+427,https://bulbapedia.bulbagarden.net/wiki/Buneary_(Pok%C3%A9mon),Buneary,,Normal,
+428,https://bulbapedia.bulbagarden.net/wiki/Lopunny_(Pok%C3%A9mon),Lopunny,,Normal,
+429,https://bulbapedia.bulbagarden.net/wiki/Mismagius_(Pok%C3%A9mon),Mismagius,,Ghost,
+430,https://bulbapedia.bulbagarden.net/wiki/Honchkrow_(Pok%C3%A9mon),Honchkrow,,Dark,Flying
+431,https://bulbapedia.bulbagarden.net/wiki/Glameow_(Pok%C3%A9mon),Glameow,,Normal,
+432,https://bulbapedia.bulbagarden.net/wiki/Purugly_(Pok%C3%A9mon),Purugly,,Normal,
+433,https://bulbapedia.bulbagarden.net/wiki/Chingling_(Pok%C3%A9mon),Chingling,,Psychic,
+434,https://bulbapedia.bulbagarden.net/wiki/Stunky_(Pok%C3%A9mon),Stunky,,Poison,Dark
+435,https://bulbapedia.bulbagarden.net/wiki/Skuntank_(Pok%C3%A9mon),Skuntank,,Poison,Dark
+436,https://bulbapedia.bulbagarden.net/wiki/Bronzor_(Pok%C3%A9mon),Bronzor,,Steel,Psychic
+437,https://bulbapedia.bulbagarden.net/wiki/Bronzong_(Pok%C3%A9mon),Bronzong,,Steel,Psychic
+438,https://bulbapedia.bulbagarden.net/wiki/Bonsly_(Pok%C3%A9mon),Bonsly,,Rock,
+439,https://bulbapedia.bulbagarden.net/wiki/Mime_Jr._(Pok%C3%A9mon),Mime Jr.,,Psychic,Fairy
+440,https://bulbapedia.bulbagarden.net/wiki/Happiny_(Pok%C3%A9mon),Happiny,,Normal,
+441,https://bulbapedia.bulbagarden.net/wiki/Chatot_(Pok%C3%A9mon),Chatot,,Normal,Flying
+442,https://bulbapedia.bulbagarden.net/wiki/Spiritomb_(Pok%C3%A9mon),Spiritomb,,Ghost,Dark
+443,https://bulbapedia.bulbagarden.net/wiki/Gible_(Pok%C3%A9mon),Gible,,Dragon,Ground
+444,https://bulbapedia.bulbagarden.net/wiki/Gabite_(Pok%C3%A9mon),Gabite,,Dragon,Ground
+445,https://bulbapedia.bulbagarden.net/wiki/Garchomp_(Pok%C3%A9mon),Garchomp,,Dragon,Ground
+446,https://bulbapedia.bulbagarden.net/wiki/Munchlax_(Pok%C3%A9mon),Munchlax,,Normal,
+447,https://bulbapedia.bulbagarden.net/wiki/Riolu_(Pok%C3%A9mon),Riolu,,Fighting,
+448,https://bulbapedia.bulbagarden.net/wiki/Lucario_(Pok%C3%A9mon),Lucario,,Fighting,Steel
+449,https://bulbapedia.bulbagarden.net/wiki/Hippopotas_(Pok%C3%A9mon),Hippopotas,,Ground,
+450,https://bulbapedia.bulbagarden.net/wiki/Hippowdon_(Pok%C3%A9mon),Hippowdon,,Ground,
+451,https://bulbapedia.bulbagarden.net/wiki/Skorupi_(Pok%C3%A9mon),Skorupi,,Poison,Bug
+452,https://bulbapedia.bulbagarden.net/wiki/Drapion_(Pok%C3%A9mon),Drapion,,Poison,Dark
+453,https://bulbapedia.bulbagarden.net/wiki/Croagunk_(Pok%C3%A9mon),Croagunk,,Poison,Fighting
+454,https://bulbapedia.bulbagarden.net/wiki/Toxicroak_(Pok%C3%A9mon),Toxicroak,,Poison,Fighting
+455,https://bulbapedia.bulbagarden.net/wiki/Carnivine_(Pok%C3%A9mon),Carnivine,,Grass,
+456,https://bulbapedia.bulbagarden.net/wiki/Finneon_(Pok%C3%A9mon),Finneon,,Water,
+457,https://bulbapedia.bulbagarden.net/wiki/Lumineon_(Pok%C3%A9mon),Lumineon,,Water,
+458,https://bulbapedia.bulbagarden.net/wiki/Mantyke_(Pok%C3%A9mon),Mantyke,,Water,Flying
+459,https://bulbapedia.bulbagarden.net/wiki/Snover_(Pok%C3%A9mon),Snover,,Grass,Ice
+460,https://bulbapedia.bulbagarden.net/wiki/Abomasnow_(Pok%C3%A9mon),Abomasnow,,Grass,Ice
+461,https://bulbapedia.bulbagarden.net/wiki/Weavile_(Pok%C3%A9mon),Weavile,,Dark,Ice
+462,https://bulbapedia.bulbagarden.net/wiki/Magnezone_(Pok%C3%A9mon),Magnezone,,Electric,Steel
+463,https://bulbapedia.bulbagarden.net/wiki/Lickilicky_(Pok%C3%A9mon),Lickilicky,,Normal,
+464,https://bulbapedia.bulbagarden.net/wiki/Rhyperior_(Pok%C3%A9mon),Rhyperior,,Ground,Rock
+465,https://bulbapedia.bulbagarden.net/wiki/Tangrowth_(Pok%C3%A9mon),Tangrowth,,Grass,
+466,https://bulbapedia.bulbagarden.net/wiki/Electivire_(Pok%C3%A9mon),Electivire,,Electric,
+467,https://bulbapedia.bulbagarden.net/wiki/Magmortar_(Pok%C3%A9mon),Magmortar,,Fire,
+468,https://bulbapedia.bulbagarden.net/wiki/Togekiss_(Pok%C3%A9mon),Togekiss,,Fairy,Flying
+469,https://bulbapedia.bulbagarden.net/wiki/Yanmega_(Pok%C3%A9mon),Yanmega,,Bug,Flying
+470,https://bulbapedia.bulbagarden.net/wiki/Leafeon_(Pok%C3%A9mon),Leafeon,,Grass,
+471,https://bulbapedia.bulbagarden.net/wiki/Glaceon_(Pok%C3%A9mon),Glaceon,,Ice,
+472,https://bulbapedia.bulbagarden.net/wiki/Gliscor_(Pok%C3%A9mon),Gliscor,,Ground,Flying
+473,https://bulbapedia.bulbagarden.net/wiki/Mamoswine_(Pok%C3%A9mon),Mamoswine,,Ice,Ground
+474,https://bulbapedia.bulbagarden.net/wiki/Porygon-Z_(Pok%C3%A9mon),Porygon-Z,,Normal,
+475,https://bulbapedia.bulbagarden.net/wiki/Gallade_(Pok%C3%A9mon),Gallade,,Psychic,Fighting
+476,https://bulbapedia.bulbagarden.net/wiki/Probopass_(Pok%C3%A9mon),Probopass,,Rock,Steel
+477,https://bulbapedia.bulbagarden.net/wiki/Dusknoir_(Pok%C3%A9mon),Dusknoir,,Ghost,
+478,https://bulbapedia.bulbagarden.net/wiki/Froslass_(Pok%C3%A9mon),Froslass,,Ice,Ghost
+479,https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon),,Rotom,Electric,Ghost
+479,https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon),Rotom,Heat Rotom,Electric,Fire
+479,https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon),Rotom,Wash Rotom,Electric,Water
+479,https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon),Rotom,Frost Rotom,Electric,Ice
+479,https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon),Rotom,Fan Rotom,Electric,Flying
+479,https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon),Rotom,Mow Rotom,Electric,Grass
+480,https://bulbapedia.bulbagarden.net/wiki/Uxie_(Pok%C3%A9mon),Uxie,,Psychic,
+481,https://bulbapedia.bulbagarden.net/wiki/Mesprit_(Pok%C3%A9mon),Mesprit,,Psychic,
+482,https://bulbapedia.bulbagarden.net/wiki/Azelf_(Pok%C3%A9mon),Azelf,,Psychic,
+483,https://bulbapedia.bulbagarden.net/wiki/Dialga_(Pok%C3%A9mon),Dialga,,Steel,Dragon
+483,https://bulbapedia.bulbagarden.net/wiki/Dialga_(Pok%C3%A9mon),Dialga,Origin Forme,Steel,Dragon
+484,https://bulbapedia.bulbagarden.net/wiki/Palkia_(Pok%C3%A9mon),Palkia,,Water,Dragon
+484,https://bulbapedia.bulbagarden.net/wiki/Palkia_(Pok%C3%A9mon),Palkia,Origin Forme,Water,Dragon
+485,https://bulbapedia.bulbagarden.net/wiki/Heatran_(Pok%C3%A9mon),Heatran,,Fire,Steel
+486,https://bulbapedia.bulbagarden.net/wiki/Regigigas_(Pok%C3%A9mon),Regigigas,,Normal,
+487,https://bulbapedia.bulbagarden.net/wiki/Giratina_(Pok%C3%A9mon),Giratina,Altered Forme,Ghost,Dragon
+487,https://bulbapedia.bulbagarden.net/wiki/Giratina_(Pok%C3%A9mon),Giratina,Origin Forme,Ghost,Dragon
+488,https://bulbapedia.bulbagarden.net/wiki/Cresselia_(Pok%C3%A9mon),Cresselia,,Psychic,
+489,https://bulbapedia.bulbagarden.net/wiki/Phione_(Pok%C3%A9mon),Phione,,Water,
+490,https://bulbapedia.bulbagarden.net/wiki/Manaphy_(Pok%C3%A9mon),Manaphy,,Water,
+491,https://bulbapedia.bulbagarden.net/wiki/Darkrai_(Pok%C3%A9mon),Darkrai,,Dark,
+492,https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon),Shaymin,Land Forme,Grass,
+492,https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon),Shaymin,Sky Forme,Grass,Flying
+493,https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon),,Arceus,Normal,
+494,https://bulbapedia.bulbagarden.net/wiki/Victini_(Pok%C3%A9mon),Victini,,Psychic,Fire
+495,https://bulbapedia.bulbagarden.net/wiki/Snivy_(Pok%C3%A9mon),Snivy,,Grass,
+496,https://bulbapedia.bulbagarden.net/wiki/Servine_(Pok%C3%A9mon),Servine,,Grass,
+497,https://bulbapedia.bulbagarden.net/wiki/Serperior_(Pok%C3%A9mon),Serperior,,Grass,
+498,https://bulbapedia.bulbagarden.net/wiki/Tepig_(Pok%C3%A9mon),Tepig,,Fire,
+499,https://bulbapedia.bulbagarden.net/wiki/Pignite_(Pok%C3%A9mon),Pignite,,Fire,Fighting
+500,https://bulbapedia.bulbagarden.net/wiki/Emboar_(Pok%C3%A9mon),Emboar,,Fire,Fighting
+501,https://bulbapedia.bulbagarden.net/wiki/Oshawott_(Pok%C3%A9mon),Oshawott,,Water,
+502,https://bulbapedia.bulbagarden.net/wiki/Dewott_(Pok%C3%A9mon),Dewott,,Water,
+503,https://bulbapedia.bulbagarden.net/wiki/Samurott_(Pok%C3%A9mon),Samurott,,Water,
+503,https://bulbapedia.bulbagarden.net/wiki/Samurott_(Pok%C3%A9mon),Samurott,Hisuian Form,Water,Dark
+504,https://bulbapedia.bulbagarden.net/wiki/Patrat_(Pok%C3%A9mon),Patrat,,Normal,
+505,https://bulbapedia.bulbagarden.net/wiki/Watchog_(Pok%C3%A9mon),Watchog,,Normal,
+506,https://bulbapedia.bulbagarden.net/wiki/Lillipup_(Pok%C3%A9mon),Lillipup,,Normal,
+507,https://bulbapedia.bulbagarden.net/wiki/Herdier_(Pok%C3%A9mon),Herdier,,Normal,
+508,https://bulbapedia.bulbagarden.net/wiki/Stoutland_(Pok%C3%A9mon),Stoutland,,Normal,
+509,https://bulbapedia.bulbagarden.net/wiki/Purrloin_(Pok%C3%A9mon),Purrloin,,Dark,
+510,https://bulbapedia.bulbagarden.net/wiki/Liepard_(Pok%C3%A9mon),Liepard,,Dark,
+511,https://bulbapedia.bulbagarden.net/wiki/Pansage_(Pok%C3%A9mon),Pansage,,Grass,
+512,https://bulbapedia.bulbagarden.net/wiki/Simisage_(Pok%C3%A9mon),Simisage,,Grass,
+513,https://bulbapedia.bulbagarden.net/wiki/Pansear_(Pok%C3%A9mon),Pansear,,Fire,
+514,https://bulbapedia.bulbagarden.net/wiki/Simisear_(Pok%C3%A9mon),Simisear,,Fire,
+515,https://bulbapedia.bulbagarden.net/wiki/Panpour_(Pok%C3%A9mon),Panpour,,Water,
+516,https://bulbapedia.bulbagarden.net/wiki/Simipour_(Pok%C3%A9mon),Simipour,,Water,
+517,https://bulbapedia.bulbagarden.net/wiki/Munna_(Pok%C3%A9mon),Munna,,Psychic,
+518,https://bulbapedia.bulbagarden.net/wiki/Musharna_(Pok%C3%A9mon),Musharna,,Psychic,
+519,https://bulbapedia.bulbagarden.net/wiki/Pidove_(Pok%C3%A9mon),Pidove,,Normal,Flying
+520,https://bulbapedia.bulbagarden.net/wiki/Tranquill_(Pok%C3%A9mon),Tranquill,,Normal,Flying
+521,https://bulbapedia.bulbagarden.net/wiki/Unfezant_(Pok%C3%A9mon),Unfezant,,Normal,Flying
+522,https://bulbapedia.bulbagarden.net/wiki/Blitzle_(Pok%C3%A9mon),Blitzle,,Electric,
+523,https://bulbapedia.bulbagarden.net/wiki/Zebstrika_(Pok%C3%A9mon),Zebstrika,,Electric,
+524,https://bulbapedia.bulbagarden.net/wiki/Roggenrola_(Pok%C3%A9mon),Roggenrola,,Rock,
+525,https://bulbapedia.bulbagarden.net/wiki/Boldore_(Pok%C3%A9mon),Boldore,,Rock,
+526,https://bulbapedia.bulbagarden.net/wiki/Gigalith_(Pok%C3%A9mon),Gigalith,,Rock,
+527,https://bulbapedia.bulbagarden.net/wiki/Woobat_(Pok%C3%A9mon),Woobat,,Psychic,Flying
+528,https://bulbapedia.bulbagarden.net/wiki/Swoobat_(Pok%C3%A9mon),Swoobat,,Psychic,Flying
+529,https://bulbapedia.bulbagarden.net/wiki/Drilbur_(Pok%C3%A9mon),Drilbur,,Ground,
+530,https://bulbapedia.bulbagarden.net/wiki/Excadrill_(Pok%C3%A9mon),Excadrill,,Ground,Steel
+531,https://bulbapedia.bulbagarden.net/wiki/Audino_(Pok%C3%A9mon),Audino,,Normal,
+532,https://bulbapedia.bulbagarden.net/wiki/Timburr_(Pok%C3%A9mon),Timburr,,Fighting,
+533,https://bulbapedia.bulbagarden.net/wiki/Gurdurr_(Pok%C3%A9mon),Gurdurr,,Fighting,
+534,https://bulbapedia.bulbagarden.net/wiki/Conkeldurr_(Pok%C3%A9mon),Conkeldurr,,Fighting,
+535,https://bulbapedia.bulbagarden.net/wiki/Tympole_(Pok%C3%A9mon),Tympole,,Water,
+536,https://bulbapedia.bulbagarden.net/wiki/Palpitoad_(Pok%C3%A9mon),Palpitoad,,Water,Ground
+537,https://bulbapedia.bulbagarden.net/wiki/Seismitoad_(Pok%C3%A9mon),Seismitoad,,Water,Ground
+538,https://bulbapedia.bulbagarden.net/wiki/Throh_(Pok%C3%A9mon),Throh,,Fighting,
+539,https://bulbapedia.bulbagarden.net/wiki/Sawk_(Pok%C3%A9mon),Sawk,,Fighting,
+540,https://bulbapedia.bulbagarden.net/wiki/Sewaddle_(Pok%C3%A9mon),Sewaddle,,Bug,Grass
+541,https://bulbapedia.bulbagarden.net/wiki/Swadloon_(Pok%C3%A9mon),Swadloon,,Bug,Grass
+542,https://bulbapedia.bulbagarden.net/wiki/Leavanny_(Pok%C3%A9mon),Leavanny,,Bug,Grass
+543,https://bulbapedia.bulbagarden.net/wiki/Venipede_(Pok%C3%A9mon),Venipede,,Bug,Poison
+544,https://bulbapedia.bulbagarden.net/wiki/Whirlipede_(Pok%C3%A9mon),Whirlipede,,Bug,Poison
+545,https://bulbapedia.bulbagarden.net/wiki/Scolipede_(Pok%C3%A9mon),Scolipede,,Bug,Poison
+546,https://bulbapedia.bulbagarden.net/wiki/Cottonee_(Pok%C3%A9mon),Cottonee,,Grass,Fairy
+547,https://bulbapedia.bulbagarden.net/wiki/Whimsicott_(Pok%C3%A9mon),Whimsicott,,Grass,Fairy
+548,https://bulbapedia.bulbagarden.net/wiki/Petilil_(Pok%C3%A9mon),Petilil,,Grass,
+549,https://bulbapedia.bulbagarden.net/wiki/Lilligant_(Pok%C3%A9mon),Lilligant,,Grass,
+549,https://bulbapedia.bulbagarden.net/wiki/Lilligant_(Pok%C3%A9mon),Lilligant,Hisuian Form,Grass,Fighting
+550,https://bulbapedia.bulbagarden.net/wiki/Basculin_(Pok%C3%A9mon),Basculin,Red-Striped Form,Water,
+550,https://bulbapedia.bulbagarden.net/wiki/Basculin_(Pok%C3%A9mon),Basculin,Blue-Striped Form,Water,
+550,https://bulbapedia.bulbagarden.net/wiki/Basculin_(Pok%C3%A9mon),Basculin,White-Striped Form,Water,
+551,https://bulbapedia.bulbagarden.net/wiki/Sandile_(Pok%C3%A9mon),Sandile,,Ground,Dark
+552,https://bulbapedia.bulbagarden.net/wiki/Krokorok_(Pok%C3%A9mon),Krokorok,,Ground,Dark
+553,https://bulbapedia.bulbagarden.net/wiki/Krookodile_(Pok%C3%A9mon),Krookodile,,Ground,Dark
+554,https://bulbapedia.bulbagarden.net/wiki/Darumaka_(Pok%C3%A9mon),Darumaka,,Fire,
+554,https://bulbapedia.bulbagarden.net/wiki/Darumaka_(Pok%C3%A9mon),Darumaka,Galarian Form,Ice,
+555,https://bulbapedia.bulbagarden.net/wiki/Darmanitan_(Pok%C3%A9mon),Darmanitan,Standard Mode,Fire,
+555,https://bulbapedia.bulbagarden.net/wiki/Darmanitan_(Pok%C3%A9mon),Darmanitan,Zen Mode,Fire,Psychic
+555,https://bulbapedia.bulbagarden.net/wiki/Darmanitan_(Pok%C3%A9mon),Darmanitan,Galarian Form,Ice,
+555,https://bulbapedia.bulbagarden.net/wiki/Darmanitan_(Pok%C3%A9mon),Darmanitan,Zen Mode,Ice,Fire
+556,https://bulbapedia.bulbagarden.net/wiki/Maractus_(Pok%C3%A9mon),Maractus,,Grass,
+557,https://bulbapedia.bulbagarden.net/wiki/Dwebble_(Pok%C3%A9mon),Dwebble,,Bug,Rock
+558,https://bulbapedia.bulbagarden.net/wiki/Crustle_(Pok%C3%A9mon),Crustle,,Bug,Rock
+559,https://bulbapedia.bulbagarden.net/wiki/Scraggy_(Pok%C3%A9mon),Scraggy,,Dark,Fighting
+560,https://bulbapedia.bulbagarden.net/wiki/Scrafty_(Pok%C3%A9mon),Scrafty,,Dark,Fighting
+561,https://bulbapedia.bulbagarden.net/wiki/Sigilyph_(Pok%C3%A9mon),Sigilyph,,Psychic,Flying
+562,https://bulbapedia.bulbagarden.net/wiki/Yamask_(Pok%C3%A9mon),Yamask,,Ghost,
+562,https://bulbapedia.bulbagarden.net/wiki/Yamask_(Pok%C3%A9mon),Yamask,Galarian Form,Ground,Ghost
+563,https://bulbapedia.bulbagarden.net/wiki/Cofagrigus_(Pok%C3%A9mon),Cofagrigus,,Ghost,
+564,https://bulbapedia.bulbagarden.net/wiki/Tirtouga_(Pok%C3%A9mon),Tirtouga,,Water,Rock
+565,https://bulbapedia.bulbagarden.net/wiki/Carracosta_(Pok%C3%A9mon),Carracosta,,Water,Rock
+566,https://bulbapedia.bulbagarden.net/wiki/Archen_(Pok%C3%A9mon),Archen,,Rock,Flying
+567,https://bulbapedia.bulbagarden.net/wiki/Archeops_(Pok%C3%A9mon),Archeops,,Rock,Flying
+568,https://bulbapedia.bulbagarden.net/wiki/Trubbish_(Pok%C3%A9mon),Trubbish,,Poison,
+569,https://bulbapedia.bulbagarden.net/wiki/Garbodor_(Pok%C3%A9mon),Garbodor,,Poison,
+570,https://bulbapedia.bulbagarden.net/wiki/Zorua_(Pok%C3%A9mon),Zorua,,Dark,
+570,https://bulbapedia.bulbagarden.net/wiki/Zorua_(Pok%C3%A9mon),Zorua,Hisuian Form,Normal,Ghost
+571,https://bulbapedia.bulbagarden.net/wiki/Zoroark_(Pok%C3%A9mon),Zoroark,,Dark,
+571,https://bulbapedia.bulbagarden.net/wiki/Zoroark_(Pok%C3%A9mon),Zoroark,Hisuian Form,Normal,Ghost
+572,https://bulbapedia.bulbagarden.net/wiki/Minccino_(Pok%C3%A9mon),Minccino,,Normal,
+573,https://bulbapedia.bulbagarden.net/wiki/Cinccino_(Pok%C3%A9mon),Cinccino,,Normal,
+574,https://bulbapedia.bulbagarden.net/wiki/Gothita_(Pok%C3%A9mon),Gothita,,Psychic,
+575,https://bulbapedia.bulbagarden.net/wiki/Gothorita_(Pok%C3%A9mon),Gothorita,,Psychic,
+576,https://bulbapedia.bulbagarden.net/wiki/Gothitelle_(Pok%C3%A9mon),Gothitelle,,Psychic,
+577,https://bulbapedia.bulbagarden.net/wiki/Solosis_(Pok%C3%A9mon),Solosis,,Psychic,
+578,https://bulbapedia.bulbagarden.net/wiki/Duosion_(Pok%C3%A9mon),Duosion,,Psychic,
+579,https://bulbapedia.bulbagarden.net/wiki/Reuniclus_(Pok%C3%A9mon),Reuniclus,,Psychic,
+580,https://bulbapedia.bulbagarden.net/wiki/Ducklett_(Pok%C3%A9mon),Ducklett,,Water,Flying
+581,https://bulbapedia.bulbagarden.net/wiki/Swanna_(Pok%C3%A9mon),Swanna,,Water,Flying
+582,https://bulbapedia.bulbagarden.net/wiki/Vanillite_(Pok%C3%A9mon),Vanillite,,Ice,
+583,https://bulbapedia.bulbagarden.net/wiki/Vanillish_(Pok%C3%A9mon),Vanillish,,Ice,
+584,https://bulbapedia.bulbagarden.net/wiki/Vanilluxe_(Pok%C3%A9mon),Vanilluxe,,Ice,
+585,https://bulbapedia.bulbagarden.net/wiki/Deerling_(Pok%C3%A9mon),Deerling,Spring Form,Normal,Grass
+585,https://bulbapedia.bulbagarden.net/wiki/Deerling_(Pok%C3%A9mon),Deerling,Summer Form,Normal,Grass
+585,https://bulbapedia.bulbagarden.net/wiki/Deerling_(Pok%C3%A9mon),Deerling,Autumn Form,Normal,Grass
+585,https://bulbapedia.bulbagarden.net/wiki/Deerling_(Pok%C3%A9mon),Deerling,Winter Form,Normal,Grass
+586,https://bulbapedia.bulbagarden.net/wiki/Sawsbuck_(Pok%C3%A9mon),Sawsbuck,Spring Form,Normal,Grass
+586,https://bulbapedia.bulbagarden.net/wiki/Sawsbuck_(Pok%C3%A9mon),Sawsbuck,Summer Form,Normal,Grass
+586,https://bulbapedia.bulbagarden.net/wiki/Sawsbuck_(Pok%C3%A9mon),Sawsbuck,Autumn Form,Normal,Grass
+586,https://bulbapedia.bulbagarden.net/wiki/Sawsbuck_(Pok%C3%A9mon),Sawsbuck,Winter Form,Normal,Grass
+587,https://bulbapedia.bulbagarden.net/wiki/Emolga_(Pok%C3%A9mon),Emolga,,Electric,Flying
+588,https://bulbapedia.bulbagarden.net/wiki/Karrablast_(Pok%C3%A9mon),Karrablast,,Bug,
+589,https://bulbapedia.bulbagarden.net/wiki/Escavalier_(Pok%C3%A9mon),Escavalier,,Bug,Steel
+590,https://bulbapedia.bulbagarden.net/wiki/Foongus_(Pok%C3%A9mon),Foongus,,Grass,Poison
+591,https://bulbapedia.bulbagarden.net/wiki/Amoonguss_(Pok%C3%A9mon),Amoonguss,,Grass,Poison
+592,https://bulbapedia.bulbagarden.net/wiki/Frillish_(Pok%C3%A9mon),Frillish,,Water,Ghost
+593,https://bulbapedia.bulbagarden.net/wiki/Jellicent_(Pok%C3%A9mon),Jellicent,,Water,Ghost
+594,https://bulbapedia.bulbagarden.net/wiki/Alomomola_(Pok%C3%A9mon),Alomomola,,Water,
+595,https://bulbapedia.bulbagarden.net/wiki/Joltik_(Pok%C3%A9mon),Joltik,,Bug,Electric
+596,https://bulbapedia.bulbagarden.net/wiki/Galvantula_(Pok%C3%A9mon),Galvantula,,Bug,Electric
+597,https://bulbapedia.bulbagarden.net/wiki/Ferroseed_(Pok%C3%A9mon),Ferroseed,,Grass,Steel
+598,https://bulbapedia.bulbagarden.net/wiki/Ferrothorn_(Pok%C3%A9mon),Ferrothorn,,Grass,Steel
+599,https://bulbapedia.bulbagarden.net/wiki/Klink_(Pok%C3%A9mon),Klink,,Steel,
+600,https://bulbapedia.bulbagarden.net/wiki/Klang_(Pok%C3%A9mon),Klang,,Steel,
+601,https://bulbapedia.bulbagarden.net/wiki/Klinklang_(Pok%C3%A9mon),Klinklang,,Steel,
+602,https://bulbapedia.bulbagarden.net/wiki/Tynamo_(Pok%C3%A9mon),Tynamo,,Electric,
+603,https://bulbapedia.bulbagarden.net/wiki/Eelektrik_(Pok%C3%A9mon),Eelektrik,,Electric,
+604,https://bulbapedia.bulbagarden.net/wiki/Eelektross_(Pok%C3%A9mon),Eelektross,,Electric,
+605,https://bulbapedia.bulbagarden.net/wiki/Elgyem_(Pok%C3%A9mon),Elgyem,,Psychic,
+606,https://bulbapedia.bulbagarden.net/wiki/Beheeyem_(Pok%C3%A9mon),Beheeyem,,Psychic,
+607,https://bulbapedia.bulbagarden.net/wiki/Litwick_(Pok%C3%A9mon),Litwick,,Ghost,Fire
+608,https://bulbapedia.bulbagarden.net/wiki/Lampent_(Pok%C3%A9mon),Lampent,,Ghost,Fire
+609,https://bulbapedia.bulbagarden.net/wiki/Chandelure_(Pok%C3%A9mon),Chandelure,,Ghost,Fire
+610,https://bulbapedia.bulbagarden.net/wiki/Axew_(Pok%C3%A9mon),Axew,,Dragon,
+611,https://bulbapedia.bulbagarden.net/wiki/Fraxure_(Pok%C3%A9mon),Fraxure,,Dragon,
+612,https://bulbapedia.bulbagarden.net/wiki/Haxorus_(Pok%C3%A9mon),Haxorus,,Dragon,
+613,https://bulbapedia.bulbagarden.net/wiki/Cubchoo_(Pok%C3%A9mon),Cubchoo,,Ice,
+614,https://bulbapedia.bulbagarden.net/wiki/Beartic_(Pok%C3%A9mon),Beartic,,Ice,
+615,https://bulbapedia.bulbagarden.net/wiki/Cryogonal_(Pok%C3%A9mon),Cryogonal,,Ice,
+616,https://bulbapedia.bulbagarden.net/wiki/Shelmet_(Pok%C3%A9mon),Shelmet,,Bug,
+617,https://bulbapedia.bulbagarden.net/wiki/Accelgor_(Pok%C3%A9mon),Accelgor,,Bug,
+618,https://bulbapedia.bulbagarden.net/wiki/Stunfisk_(Pok%C3%A9mon),Stunfisk,,Ground,Electric
+618,https://bulbapedia.bulbagarden.net/wiki/Stunfisk_(Pok%C3%A9mon),Stunfisk,Galarian Form,Ground,Steel
+619,https://bulbapedia.bulbagarden.net/wiki/Mienfoo_(Pok%C3%A9mon),Mienfoo,,Fighting,
+620,https://bulbapedia.bulbagarden.net/wiki/Mienshao_(Pok%C3%A9mon),Mienshao,,Fighting,
+621,https://bulbapedia.bulbagarden.net/wiki/Druddigon_(Pok%C3%A9mon),Druddigon,,Dragon,
+622,https://bulbapedia.bulbagarden.net/wiki/Golett_(Pok%C3%A9mon),Golett,,Ground,Ghost
+623,https://bulbapedia.bulbagarden.net/wiki/Golurk_(Pok%C3%A9mon),Golurk,,Ground,Ghost
+624,https://bulbapedia.bulbagarden.net/wiki/Pawniard_(Pok%C3%A9mon),Pawniard,,Dark,Steel
+625,https://bulbapedia.bulbagarden.net/wiki/Bisharp_(Pok%C3%A9mon),Bisharp,,Dark,Steel
+626,https://bulbapedia.bulbagarden.net/wiki/Bouffalant_(Pok%C3%A9mon),Bouffalant,,Normal,
+627,https://bulbapedia.bulbagarden.net/wiki/Rufflet_(Pok%C3%A9mon),Rufflet,,Normal,Flying
+628,https://bulbapedia.bulbagarden.net/wiki/Braviary_(Pok%C3%A9mon),Braviary,,Normal,Flying
+628,https://bulbapedia.bulbagarden.net/wiki/Braviary_(Pok%C3%A9mon),Braviary,Hisuian Form,Psychic,Flying
+629,https://bulbapedia.bulbagarden.net/wiki/Vullaby_(Pok%C3%A9mon),Vullaby,,Dark,Flying
+630,https://bulbapedia.bulbagarden.net/wiki/Mandibuzz_(Pok%C3%A9mon),Mandibuzz,,Dark,Flying
+631,https://bulbapedia.bulbagarden.net/wiki/Heatmor_(Pok%C3%A9mon),Heatmor,,Fire,
+632,https://bulbapedia.bulbagarden.net/wiki/Durant_(Pok%C3%A9mon),Durant,,Bug,Steel
+633,https://bulbapedia.bulbagarden.net/wiki/Deino_(Pok%C3%A9mon),Deino,,Dark,Dragon
+634,https://bulbapedia.bulbagarden.net/wiki/Zweilous_(Pok%C3%A9mon),Zweilous,,Dark,Dragon
+635,https://bulbapedia.bulbagarden.net/wiki/Hydreigon_(Pok%C3%A9mon),Hydreigon,,Dark,Dragon
+636,https://bulbapedia.bulbagarden.net/wiki/Larvesta_(Pok%C3%A9mon),Larvesta,,Bug,Fire
+637,https://bulbapedia.bulbagarden.net/wiki/Volcarona_(Pok%C3%A9mon),Volcarona,,Bug,Fire
+638,https://bulbapedia.bulbagarden.net/wiki/Cobalion_(Pok%C3%A9mon),Cobalion,,Steel,Fighting
+639,https://bulbapedia.bulbagarden.net/wiki/Terrakion_(Pok%C3%A9mon),Terrakion,,Rock,Fighting
+640,https://bulbapedia.bulbagarden.net/wiki/Virizion_(Pok%C3%A9mon),Virizion,,Grass,Fighting
+641,https://bulbapedia.bulbagarden.net/wiki/Tornadus_(Pok%C3%A9mon),Tornadus,Incarnate Forme,Flying,
+641,https://bulbapedia.bulbagarden.net/wiki/Tornadus_(Pok%C3%A9mon),Tornadus,Therian Forme,Flying,
+642,https://bulbapedia.bulbagarden.net/wiki/Thundurus_(Pok%C3%A9mon),Thundurus,Incarnate Forme,Electric,Flying
+642,https://bulbapedia.bulbagarden.net/wiki/Thundurus_(Pok%C3%A9mon),Thundurus,Therian Forme,Electric,Flying
+643,https://bulbapedia.bulbagarden.net/wiki/Reshiram_(Pok%C3%A9mon),Reshiram,,Dragon,Fire
+644,https://bulbapedia.bulbagarden.net/wiki/Zekrom_(Pok%C3%A9mon),Zekrom,,Dragon,Electric
+645,https://bulbapedia.bulbagarden.net/wiki/Landorus_(Pok%C3%A9mon),Landorus,Incarnate Forme,Ground,Flying
+645,https://bulbapedia.bulbagarden.net/wiki/Landorus_(Pok%C3%A9mon),Landorus,Therian Forme,Ground,Flying
+646,https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon),,Kyurem,Dragon,Ice
+646,https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon),Kyurem,White Kyurem,Dragon,Ice
+646,https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon),Kyurem,Black Kyurem,Dragon,Ice
+647,https://bulbapedia.bulbagarden.net/wiki/Keldeo_(Pok%C3%A9mon),Keldeo,Ordinary Form,Water,Fighting
+647,https://bulbapedia.bulbagarden.net/wiki/Keldeo_(Pok%C3%A9mon),Keldeo,Resolute Form,Water,Fighting
+648,https://bulbapedia.bulbagarden.net/wiki/Meloetta_(Pok%C3%A9mon),Meloetta,Aria Forme,Normal,Psychic
+648,https://bulbapedia.bulbagarden.net/wiki/Meloetta_(Pok%C3%A9mon),Meloetta,Pirouette Forme,Normal,Fighting
+649,https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon),,Genesect,Bug,Steel
+649,https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon),,Genesect,Bug,Steel
+649,https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon),,Genesect,Bug,Steel
+649,https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon),,Genesect,Bug,Steel
+649,https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon),,Genesect,Bug,Steel
+650,https://bulbapedia.bulbagarden.net/wiki/Chespin_(Pok%C3%A9mon),Chespin,,Grass,
+651,https://bulbapedia.bulbagarden.net/wiki/Quilladin_(Pok%C3%A9mon),Quilladin,,Grass,
+652,https://bulbapedia.bulbagarden.net/wiki/Chesnaught_(Pok%C3%A9mon),Chesnaught,,Grass,Fighting
+653,https://bulbapedia.bulbagarden.net/wiki/Fennekin_(Pok%C3%A9mon),Fennekin,,Fire,
+654,https://bulbapedia.bulbagarden.net/wiki/Braixen_(Pok%C3%A9mon),Braixen,,Fire,
+655,https://bulbapedia.bulbagarden.net/wiki/Delphox_(Pok%C3%A9mon),Delphox,,Fire,Psychic
+656,https://bulbapedia.bulbagarden.net/wiki/Froakie_(Pok%C3%A9mon),Froakie,,Water,
+657,https://bulbapedia.bulbagarden.net/wiki/Frogadier_(Pok%C3%A9mon),Frogadier,,Water,
+658,https://bulbapedia.bulbagarden.net/wiki/Greninja_(Pok%C3%A9mon),Greninja,,Water,Dark
+659,https://bulbapedia.bulbagarden.net/wiki/Bunnelby_(Pok%C3%A9mon),Bunnelby,,Normal,
+660,https://bulbapedia.bulbagarden.net/wiki/Diggersby_(Pok%C3%A9mon),Diggersby,,Normal,Ground
+661,https://bulbapedia.bulbagarden.net/wiki/Fletchling_(Pok%C3%A9mon),Fletchling,,Normal,Flying
+662,https://bulbapedia.bulbagarden.net/wiki/Fletchinder_(Pok%C3%A9mon),Fletchinder,,Fire,Flying
+663,https://bulbapedia.bulbagarden.net/wiki/Talonflame_(Pok%C3%A9mon),Talonflame,,Fire,Flying
+664,https://bulbapedia.bulbagarden.net/wiki/Scatterbug_(Pok%C3%A9mon),Scatterbug,,Bug,
+665,https://bulbapedia.bulbagarden.net/wiki/Spewpa_(Pok%C3%A9mon),Spewpa,,Bug,
+666,https://bulbapedia.bulbagarden.net/wiki/Vivillon_(Pok%C3%A9mon),Vivillon,Meadow Pattern,Bug,Flying
+667,https://bulbapedia.bulbagarden.net/wiki/Litleo_(Pok%C3%A9mon),Litleo,,Fire,Normal
+668,https://bulbapedia.bulbagarden.net/wiki/Pyroar_(Pok%C3%A9mon),Pyroar,,Fire,Normal
+669,https://bulbapedia.bulbagarden.net/wiki/Flab%C3%A9b%C3%A9_(Pok%C3%A9mon),Flabébé,Red Flower,Fairy,
+669,https://bulbapedia.bulbagarden.net/wiki/Flab%C3%A9b%C3%A9_(Pok%C3%A9mon),Flabébé,Yellow Flower,Fairy,
+669,https://bulbapedia.bulbagarden.net/wiki/Flab%C3%A9b%C3%A9_(Pok%C3%A9mon),Flabébé,Orange Flower,Fairy,
+669,https://bulbapedia.bulbagarden.net/wiki/Flab%C3%A9b%C3%A9_(Pok%C3%A9mon),Flabébé,Blue Flower,Fairy,
+669,https://bulbapedia.bulbagarden.net/wiki/Flab%C3%A9b%C3%A9_(Pok%C3%A9mon),Flabébé,White Flower,Fairy,
+670,https://bulbapedia.bulbagarden.net/wiki/Floette_(Pok%C3%A9mon),Floette,Red Flower,Fairy,
+670,https://bulbapedia.bulbagarden.net/wiki/Floette_(Pok%C3%A9mon),Floette,Yellow Flower,Fairy,
+670,https://bulbapedia.bulbagarden.net/wiki/Floette_(Pok%C3%A9mon),Floette,Orange Flower,Fairy,
+670,https://bulbapedia.bulbagarden.net/wiki/Floette_(Pok%C3%A9mon),Floette,Blue Flower,Fairy,
+670,https://bulbapedia.bulbagarden.net/wiki/Floette_(Pok%C3%A9mon),Floette,White Flower,Fairy,
+671,https://bulbapedia.bulbagarden.net/wiki/Florges_(Pok%C3%A9mon),Florges,Red Flower,Fairy,
+671,https://bulbapedia.bulbagarden.net/wiki/Florges_(Pok%C3%A9mon),Florges,Yellow Flower,Fairy,
+671,https://bulbapedia.bulbagarden.net/wiki/Florges_(Pok%C3%A9mon),Florges,Orange Flower,Fairy,
+671,https://bulbapedia.bulbagarden.net/wiki/Florges_(Pok%C3%A9mon),Florges,Blue Flower,Fairy,
+671,https://bulbapedia.bulbagarden.net/wiki/Florges_(Pok%C3%A9mon),Florges,White Flower,Fairy,
+672,https://bulbapedia.bulbagarden.net/wiki/Skiddo_(Pok%C3%A9mon),Skiddo,,Grass,
+673,https://bulbapedia.bulbagarden.net/wiki/Gogoat_(Pok%C3%A9mon),Gogoat,,Grass,
+674,https://bulbapedia.bulbagarden.net/wiki/Pancham_(Pok%C3%A9mon),Pancham,,Fighting,
+675,https://bulbapedia.bulbagarden.net/wiki/Pangoro_(Pok%C3%A9mon),Pangoro,,Fighting,Dark
+676,https://bulbapedia.bulbagarden.net/wiki/Furfrou_(Pok%C3%A9mon),Furfrou,Natural Form,Normal,
+677,https://bulbapedia.bulbagarden.net/wiki/Espurr_(Pok%C3%A9mon),Espurr,,Psychic,
+678,https://bulbapedia.bulbagarden.net/wiki/Meowstic_(Pok%C3%A9mon),Meowstic,Male,Psychic,
+678,https://bulbapedia.bulbagarden.net/wiki/Meowstic_(Pok%C3%A9mon),Meowstic,Female,Psychic,
+679,https://bulbapedia.bulbagarden.net/wiki/Honedge_(Pok%C3%A9mon),Honedge,,Steel,Ghost
+680,https://bulbapedia.bulbagarden.net/wiki/Doublade_(Pok%C3%A9mon),Doublade,,Steel,Ghost
+681,https://bulbapedia.bulbagarden.net/wiki/Aegislash_(Pok%C3%A9mon),Aegislash,Shield Forme,Steel,Ghost
+681,https://bulbapedia.bulbagarden.net/wiki/Aegislash_(Pok%C3%A9mon),Aegislash,Blade Forme,Steel,Ghost
+682,https://bulbapedia.bulbagarden.net/wiki/Spritzee_(Pok%C3%A9mon),Spritzee,,Fairy,
+683,https://bulbapedia.bulbagarden.net/wiki/Aromatisse_(Pok%C3%A9mon),Aromatisse,,Fairy,
+684,https://bulbapedia.bulbagarden.net/wiki/Swirlix_(Pok%C3%A9mon),Swirlix,,Fairy,
+685,https://bulbapedia.bulbagarden.net/wiki/Slurpuff_(Pok%C3%A9mon),Slurpuff,,Fairy,
+686,https://bulbapedia.bulbagarden.net/wiki/Inkay_(Pok%C3%A9mon),Inkay,,Dark,Psychic
+687,https://bulbapedia.bulbagarden.net/wiki/Malamar_(Pok%C3%A9mon),Malamar,,Dark,Psychic
+688,https://bulbapedia.bulbagarden.net/wiki/Binacle_(Pok%C3%A9mon),Binacle,,Rock,Water
+689,https://bulbapedia.bulbagarden.net/wiki/Barbaracle_(Pok%C3%A9mon),Barbaracle,,Rock,Water
+690,https://bulbapedia.bulbagarden.net/wiki/Skrelp_(Pok%C3%A9mon),Skrelp,,Poison,Water
+691,https://bulbapedia.bulbagarden.net/wiki/Dragalge_(Pok%C3%A9mon),Dragalge,,Poison,Dragon
+692,https://bulbapedia.bulbagarden.net/wiki/Clauncher_(Pok%C3%A9mon),Clauncher,,Water,
+693,https://bulbapedia.bulbagarden.net/wiki/Clawitzer_(Pok%C3%A9mon),Clawitzer,,Water,
+694,https://bulbapedia.bulbagarden.net/wiki/Helioptile_(Pok%C3%A9mon),Helioptile,,Electric,Normal
+695,https://bulbapedia.bulbagarden.net/wiki/Heliolisk_(Pok%C3%A9mon),Heliolisk,,Electric,Normal
+696,https://bulbapedia.bulbagarden.net/wiki/Tyrunt_(Pok%C3%A9mon),Tyrunt,,Rock,Dragon
+697,https://bulbapedia.bulbagarden.net/wiki/Tyrantrum_(Pok%C3%A9mon),Tyrantrum,,Rock,Dragon
+698,https://bulbapedia.bulbagarden.net/wiki/Amaura_(Pok%C3%A9mon),Amaura,,Rock,Ice
+699,https://bulbapedia.bulbagarden.net/wiki/Aurorus_(Pok%C3%A9mon),Aurorus,,Rock,Ice
+700,https://bulbapedia.bulbagarden.net/wiki/Sylveon_(Pok%C3%A9mon),Sylveon,,Fairy,
+701,https://bulbapedia.bulbagarden.net/wiki/Hawlucha_(Pok%C3%A9mon),Hawlucha,,Fighting,Flying
+702,https://bulbapedia.bulbagarden.net/wiki/Dedenne_(Pok%C3%A9mon),Dedenne,,Electric,Fairy
+703,https://bulbapedia.bulbagarden.net/wiki/Carbink_(Pok%C3%A9mon),Carbink,,Rock,Fairy
+704,https://bulbapedia.bulbagarden.net/wiki/Goomy_(Pok%C3%A9mon),Goomy,,Dragon,
+705,https://bulbapedia.bulbagarden.net/wiki/Sliggoo_(Pok%C3%A9mon),Sliggoo,,Dragon,
+705,https://bulbapedia.bulbagarden.net/wiki/Sliggoo_(Pok%C3%A9mon),Sliggoo,Hisuian Form,Steel,Dragon
+706,https://bulbapedia.bulbagarden.net/wiki/Goodra_(Pok%C3%A9mon),Goodra,,Dragon,
+706,https://bulbapedia.bulbagarden.net/wiki/Goodra_(Pok%C3%A9mon),Goodra,Hisuian Form,Steel,Dragon
+707,https://bulbapedia.bulbagarden.net/wiki/Klefki_(Pok%C3%A9mon),Klefki,,Steel,Fairy
+708,https://bulbapedia.bulbagarden.net/wiki/Phantump_(Pok%C3%A9mon),Phantump,,Ghost,Grass
+709,https://bulbapedia.bulbagarden.net/wiki/Trevenant_(Pok%C3%A9mon),Trevenant,,Ghost,Grass
+710,https://bulbapedia.bulbagarden.net/wiki/Pumpkaboo_(Pok%C3%A9mon),Pumpkaboo,,Ghost,Grass
+711,https://bulbapedia.bulbagarden.net/wiki/Gourgeist_(Pok%C3%A9mon),Gourgeist,,Ghost,Grass
+712,https://bulbapedia.bulbagarden.net/wiki/Bergmite_(Pok%C3%A9mon),Bergmite,,Ice,
+713,https://bulbapedia.bulbagarden.net/wiki/Avalugg_(Pok%C3%A9mon),Avalugg,,Ice,
+713,https://bulbapedia.bulbagarden.net/wiki/Avalugg_(Pok%C3%A9mon),Avalugg,Hisuian Form,Ice,Rock
+714,https://bulbapedia.bulbagarden.net/wiki/Noibat_(Pok%C3%A9mon),Noibat,,Flying,Dragon
+715,https://bulbapedia.bulbagarden.net/wiki/Noivern_(Pok%C3%A9mon),Noivern,,Flying,Dragon
+716,https://bulbapedia.bulbagarden.net/wiki/Xerneas_(Pok%C3%A9mon),Xerneas,Neutral Mode,Fairy,
+716,https://bulbapedia.bulbagarden.net/wiki/Xerneas_(Pok%C3%A9mon),Xerneas,Active Mode,Fairy,
+717,https://bulbapedia.bulbagarden.net/wiki/Yveltal_(Pok%C3%A9mon),Yveltal,,Dark,Flying
+718,https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon),Zygarde,50% Forme,Dragon,Ground
+718,https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon),Zygarde,10% Forme,Dragon,Ground
+718,https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon),Zygarde,Complete Forme,Dragon,Ground
+719,https://bulbapedia.bulbagarden.net/wiki/Diancie_(Pok%C3%A9mon),Diancie,,Rock,Fairy
+720,https://bulbapedia.bulbagarden.net/wiki/Hoopa_(Pok%C3%A9mon),Hoopa,Hoopa Confined,Psychic,Ghost
+720,https://bulbapedia.bulbagarden.net/wiki/Hoopa_(Pok%C3%A9mon),Hoopa,Hoopa Unbound,Psychic,Dark
+721,https://bulbapedia.bulbagarden.net/wiki/Volcanion_(Pok%C3%A9mon),Volcanion,,Fire,Water
+722,https://bulbapedia.bulbagarden.net/wiki/Rowlet_(Pok%C3%A9mon),Rowlet,,Grass,Flying
+723,https://bulbapedia.bulbagarden.net/wiki/Dartrix_(Pok%C3%A9mon),Dartrix,,Grass,Flying
+724,https://bulbapedia.bulbagarden.net/wiki/Decidueye_(Pok%C3%A9mon),Decidueye,,Grass,Ghost
+724,https://bulbapedia.bulbagarden.net/wiki/Decidueye_(Pok%C3%A9mon),Decidueye,Hisuian Form,Grass,Fighting
+725,https://bulbapedia.bulbagarden.net/wiki/Litten_(Pok%C3%A9mon),Litten,,Fire,
+726,https://bulbapedia.bulbagarden.net/wiki/Torracat_(Pok%C3%A9mon),Torracat,,Fire,
+727,https://bulbapedia.bulbagarden.net/wiki/Incineroar_(Pok%C3%A9mon),Incineroar,,Fire,Dark
+728,https://bulbapedia.bulbagarden.net/wiki/Popplio_(Pok%C3%A9mon),Popplio,,Water,
+729,https://bulbapedia.bulbagarden.net/wiki/Brionne_(Pok%C3%A9mon),Brionne,,Water,
+730,https://bulbapedia.bulbagarden.net/wiki/Primarina_(Pok%C3%A9mon),Primarina,,Water,Fairy
+731,https://bulbapedia.bulbagarden.net/wiki/Pikipek_(Pok%C3%A9mon),Pikipek,,Normal,Flying
+732,https://bulbapedia.bulbagarden.net/wiki/Trumbeak_(Pok%C3%A9mon),Trumbeak,,Normal,Flying
+733,https://bulbapedia.bulbagarden.net/wiki/Toucannon_(Pok%C3%A9mon),Toucannon,,Normal,Flying
+734,https://bulbapedia.bulbagarden.net/wiki/Yungoos_(Pok%C3%A9mon),Yungoos,,Normal,
+735,https://bulbapedia.bulbagarden.net/wiki/Gumshoos_(Pok%C3%A9mon),Gumshoos,,Normal,
+736,https://bulbapedia.bulbagarden.net/wiki/Grubbin_(Pok%C3%A9mon),Grubbin,,Bug,
+737,https://bulbapedia.bulbagarden.net/wiki/Charjabug_(Pok%C3%A9mon),Charjabug,,Bug,Electric
+738,https://bulbapedia.bulbagarden.net/wiki/Vikavolt_(Pok%C3%A9mon),Vikavolt,,Bug,Electric
+739,https://bulbapedia.bulbagarden.net/wiki/Crabrawler_(Pok%C3%A9mon),Crabrawler,,Fighting,
+740,https://bulbapedia.bulbagarden.net/wiki/Crabominable_(Pok%C3%A9mon),Crabominable,,Fighting,Ice
+741,https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon),Oricorio,Baile Style,Fire,Flying
+741,https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon),Oricorio,Pom-Pom Style,Electric,Flying
+741,https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon),Oricorio,Pa’u Style,Psychic,Flying
+741,https://bulbapedia.bulbagarden.net/wiki/Oricorio_(Pok%C3%A9mon),Oricorio,Sensu Style,Ghost,Flying
+742,https://bulbapedia.bulbagarden.net/wiki/Cutiefly_(Pok%C3%A9mon),Cutiefly,,Bug,Fairy
+743,https://bulbapedia.bulbagarden.net/wiki/Ribombee_(Pok%C3%A9mon),Ribombee,,Bug,Fairy
+744,https://bulbapedia.bulbagarden.net/wiki/Rockruff_(Pok%C3%A9mon),Rockruff,,Rock,
+745,https://bulbapedia.bulbagarden.net/wiki/Lycanroc_(Pok%C3%A9mon),Lycanroc,Midday Form,Rock,
+745,https://bulbapedia.bulbagarden.net/wiki/Lycanroc_(Pok%C3%A9mon),Lycanroc,Midnight Form,Rock,
+745,https://bulbapedia.bulbagarden.net/wiki/Lycanroc_(Pok%C3%A9mon),Lycanroc,Dusk Form,Rock,
+746,https://bulbapedia.bulbagarden.net/wiki/Wishiwashi_(Pok%C3%A9mon),Wishiwashi,Solo Form,Water,
+746,https://bulbapedia.bulbagarden.net/wiki/Wishiwashi_(Pok%C3%A9mon),Wishiwashi,School Form,Water,
+747,https://bulbapedia.bulbagarden.net/wiki/Mareanie_(Pok%C3%A9mon),Mareanie,,Poison,Water
+748,https://bulbapedia.bulbagarden.net/wiki/Toxapex_(Pok%C3%A9mon),Toxapex,,Poison,Water
+749,https://bulbapedia.bulbagarden.net/wiki/Mudbray_(Pok%C3%A9mon),Mudbray,,Ground,
+750,https://bulbapedia.bulbagarden.net/wiki/Mudsdale_(Pok%C3%A9mon),Mudsdale,,Ground,
+751,https://bulbapedia.bulbagarden.net/wiki/Dewpider_(Pok%C3%A9mon),Dewpider,,Water,Bug
+752,https://bulbapedia.bulbagarden.net/wiki/Araquanid_(Pok%C3%A9mon),Araquanid,,Water,Bug
+753,https://bulbapedia.bulbagarden.net/wiki/Fomantis_(Pok%C3%A9mon),Fomantis,,Grass,
+754,https://bulbapedia.bulbagarden.net/wiki/Lurantis_(Pok%C3%A9mon),Lurantis,,Grass,
+755,https://bulbapedia.bulbagarden.net/wiki/Morelull_(Pok%C3%A9mon),Morelull,,Grass,Fairy
+756,https://bulbapedia.bulbagarden.net/wiki/Shiinotic_(Pok%C3%A9mon),Shiinotic,,Grass,Fairy
+757,https://bulbapedia.bulbagarden.net/wiki/Salandit_(Pok%C3%A9mon),Salandit,,Poison,Fire
+758,https://bulbapedia.bulbagarden.net/wiki/Salazzle_(Pok%C3%A9mon),Salazzle,,Poison,Fire
+759,https://bulbapedia.bulbagarden.net/wiki/Stufful_(Pok%C3%A9mon),Stufful,,Normal,Fighting
+760,https://bulbapedia.bulbagarden.net/wiki/Bewear_(Pok%C3%A9mon),Bewear,,Normal,Fighting
+761,https://bulbapedia.bulbagarden.net/wiki/Bounsweet_(Pok%C3%A9mon),Bounsweet,,Grass,
+762,https://bulbapedia.bulbagarden.net/wiki/Steenee_(Pok%C3%A9mon),Steenee,,Grass,
+763,https://bulbapedia.bulbagarden.net/wiki/Tsareena_(Pok%C3%A9mon),Tsareena,,Grass,
+764,https://bulbapedia.bulbagarden.net/wiki/Comfey_(Pok%C3%A9mon),Comfey,,Fairy,
+765,https://bulbapedia.bulbagarden.net/wiki/Oranguru_(Pok%C3%A9mon),Oranguru,,Normal,Psychic
+766,https://bulbapedia.bulbagarden.net/wiki/Passimian_(Pok%C3%A9mon),Passimian,,Fighting,
+767,https://bulbapedia.bulbagarden.net/wiki/Wimpod_(Pok%C3%A9mon),Wimpod,,Bug,Water
+768,https://bulbapedia.bulbagarden.net/wiki/Golisopod_(Pok%C3%A9mon),Golisopod,,Bug,Water
+769,https://bulbapedia.bulbagarden.net/wiki/Sandygast_(Pok%C3%A9mon),Sandygast,,Ghost,Ground
+770,https://bulbapedia.bulbagarden.net/wiki/Palossand_(Pok%C3%A9mon),Palossand,,Ghost,Ground
+771,https://bulbapedia.bulbagarden.net/wiki/Pyukumuku_(Pok%C3%A9mon),Pyukumuku,,Water,
+772,https://bulbapedia.bulbagarden.net/wiki/Type:_Null_(Pok%C3%A9mon),Type: Null,,Normal,
+773,https://bulbapedia.bulbagarden.net/wiki/Silvally_(Pok%C3%A9mon),Silvally,Type: Normal,Normal,
+774,https://bulbapedia.bulbagarden.net/wiki/Minior_(Pok%C3%A9mon),Minior,Meteor Form,Rock,Flying
+774,https://bulbapedia.bulbagarden.net/wiki/Minior_(Pok%C3%A9mon),Minior,Red Core,Rock,Flying
+775,https://bulbapedia.bulbagarden.net/wiki/Komala_(Pok%C3%A9mon),Komala,,Normal,
+776,https://bulbapedia.bulbagarden.net/wiki/Turtonator_(Pok%C3%A9mon),Turtonator,,Fire,Dragon
+777,https://bulbapedia.bulbagarden.net/wiki/Togedemaru_(Pok%C3%A9mon),Togedemaru,,Electric,Steel
+778,https://bulbapedia.bulbagarden.net/wiki/Mimikyu_(Pok%C3%A9mon),Mimikyu,Disguised Form,Ghost,Fairy
+778,https://bulbapedia.bulbagarden.net/wiki/Mimikyu_(Pok%C3%A9mon),Mimikyu,Busted Form,Ghost,Fairy
+779,https://bulbapedia.bulbagarden.net/wiki/Bruxish_(Pok%C3%A9mon),Bruxish,,Water,Psychic
+780,https://bulbapedia.bulbagarden.net/wiki/Drampa_(Pok%C3%A9mon),Drampa,,Normal,Dragon
+781,https://bulbapedia.bulbagarden.net/wiki/Dhelmise_(Pok%C3%A9mon),Dhelmise,,Ghost,Grass
+782,https://bulbapedia.bulbagarden.net/wiki/Jangmo-o_(Pok%C3%A9mon),Jangmo-o,,Dragon,
+783,https://bulbapedia.bulbagarden.net/wiki/Hakamo-o_(Pok%C3%A9mon),Hakamo-o,,Dragon,Fighting
+784,https://bulbapedia.bulbagarden.net/wiki/Kommo-o_(Pok%C3%A9mon),Kommo-o,,Dragon,Fighting
+785,https://bulbapedia.bulbagarden.net/wiki/Tapu_Koko_(Pok%C3%A9mon),Tapu Koko,,Electric,Fairy
+786,https://bulbapedia.bulbagarden.net/wiki/Tapu_Lele_(Pok%C3%A9mon),Tapu Lele,,Psychic,Fairy
+787,https://bulbapedia.bulbagarden.net/wiki/Tapu_Bulu_(Pok%C3%A9mon),Tapu Bulu,,Grass,Fairy
+788,https://bulbapedia.bulbagarden.net/wiki/Tapu_Fini_(Pok%C3%A9mon),Tapu Fini,,Water,Fairy
+789,https://bulbapedia.bulbagarden.net/wiki/Cosmog_(Pok%C3%A9mon),Cosmog,,Psychic,
+790,https://bulbapedia.bulbagarden.net/wiki/Cosmoem_(Pok%C3%A9mon),Cosmoem,,Psychic,
+791,https://bulbapedia.bulbagarden.net/wiki/Solgaleo_(Pok%C3%A9mon),Solgaleo,,Psychic,Steel
+792,https://bulbapedia.bulbagarden.net/wiki/Lunala_(Pok%C3%A9mon),Lunala,,Psychic,Ghost
+793,https://bulbapedia.bulbagarden.net/wiki/Nihilego_(Pok%C3%A9mon),Nihilego,,Rock,Poison
+794,https://bulbapedia.bulbagarden.net/wiki/Buzzwole_(Pok%C3%A9mon),Buzzwole,,Bug,Fighting
+795,https://bulbapedia.bulbagarden.net/wiki/Pheromosa_(Pok%C3%A9mon),Pheromosa,,Bug,Fighting
+796,https://bulbapedia.bulbagarden.net/wiki/Xurkitree_(Pok%C3%A9mon),Xurkitree,,Electric,
+797,https://bulbapedia.bulbagarden.net/wiki/Celesteela_(Pok%C3%A9mon),Celesteela,,Steel,Flying
+798,https://bulbapedia.bulbagarden.net/wiki/Kartana_(Pok%C3%A9mon),Kartana,,Grass,Steel
+799,https://bulbapedia.bulbagarden.net/wiki/Guzzlord_(Pok%C3%A9mon),Guzzlord,,Dark,Dragon
+800,https://bulbapedia.bulbagarden.net/wiki/Necrozma_(Pok%C3%A9mon),Necrozma,,Psychic,
+800,https://bulbapedia.bulbagarden.net/wiki/Necrozma_(Pok%C3%A9mon),Necrozma,Dusk Mane,Psychic,Steel
+800,https://bulbapedia.bulbagarden.net/wiki/Necrozma_(Pok%C3%A9mon),Necrozma,Dawn Wings,Psychic,Ghost
+801,https://bulbapedia.bulbagarden.net/wiki/Magearna_(Pok%C3%A9mon),Magearna,,Steel,Fairy
+802,https://bulbapedia.bulbagarden.net/wiki/Marshadow_(Pok%C3%A9mon),Marshadow,,Fighting,Ghost
+803,https://bulbapedia.bulbagarden.net/wiki/Poipole_(Pok%C3%A9mon),Poipole,,Poison,
+804,https://bulbapedia.bulbagarden.net/wiki/Naganadel_(Pok%C3%A9mon),Naganadel,,Poison,Dragon
+805,https://bulbapedia.bulbagarden.net/wiki/Stakataka_(Pok%C3%A9mon),Stakataka,,Rock,Steel
+806,https://bulbapedia.bulbagarden.net/wiki/Blacephalon_(Pok%C3%A9mon),Blacephalon,,Fire,Ghost
+807,https://bulbapedia.bulbagarden.net/wiki/Zeraora_(Pok%C3%A9mon),Zeraora,,Electric,
+808,https://bulbapedia.bulbagarden.net/wiki/Meltan_(Pok%C3%A9mon),Meltan,,Steel,
+809,https://bulbapedia.bulbagarden.net/wiki/Melmetal_(Pok%C3%A9mon),Melmetal,,Steel,
+810,https://bulbapedia.bulbagarden.net/wiki/Grookey_(Pok%C3%A9mon),Grookey,,Grass,
+811,https://bulbapedia.bulbagarden.net/wiki/Thwackey_(Pok%C3%A9mon),Thwackey,,Grass,
+812,https://bulbapedia.bulbagarden.net/wiki/Rillaboom_(Pok%C3%A9mon),Rillaboom,,Grass,
+813,https://bulbapedia.bulbagarden.net/wiki/Scorbunny_(Pok%C3%A9mon),Scorbunny,,Fire,
+814,https://bulbapedia.bulbagarden.net/wiki/Raboot_(Pok%C3%A9mon),Raboot,,Fire,
+815,https://bulbapedia.bulbagarden.net/wiki/Cinderace_(Pok%C3%A9mon),Cinderace,,Fire,
+816,https://bulbapedia.bulbagarden.net/wiki/Sobble_(Pok%C3%A9mon),Sobble,,Water,
+817,https://bulbapedia.bulbagarden.net/wiki/Drizzile_(Pok%C3%A9mon),Drizzile,,Water,
+818,https://bulbapedia.bulbagarden.net/wiki/Inteleon_(Pok%C3%A9mon),Inteleon,,Water,
+819,https://bulbapedia.bulbagarden.net/wiki/Skwovet_(Pok%C3%A9mon),Skwovet,,Normal,
+820,https://bulbapedia.bulbagarden.net/wiki/Greedent_(Pok%C3%A9mon),Greedent,,Normal,
+821,https://bulbapedia.bulbagarden.net/wiki/Rookidee_(Pok%C3%A9mon),Rookidee,,Flying,
+822,https://bulbapedia.bulbagarden.net/wiki/Corvisquire_(Pok%C3%A9mon),Corvisquire,,Flying,
+823,https://bulbapedia.bulbagarden.net/wiki/Corviknight_(Pok%C3%A9mon),Corviknight,,Flying,Steel
+824,https://bulbapedia.bulbagarden.net/wiki/Blipbug_(Pok%C3%A9mon),Blipbug,,Bug,
+825,https://bulbapedia.bulbagarden.net/wiki/Dottler_(Pok%C3%A9mon),Dottler,,Bug,Psychic
+826,https://bulbapedia.bulbagarden.net/wiki/Orbeetle_(Pok%C3%A9mon),Orbeetle,,Bug,Psychic
+827,https://bulbapedia.bulbagarden.net/wiki/Nickit_(Pok%C3%A9mon),Nickit,,Dark,
+828,https://bulbapedia.bulbagarden.net/wiki/Thievul_(Pok%C3%A9mon),Thievul,,Dark,
+829,https://bulbapedia.bulbagarden.net/wiki/Gossifleur_(Pok%C3%A9mon),Gossifleur,,Grass,
+830,https://bulbapedia.bulbagarden.net/wiki/Eldegoss_(Pok%C3%A9mon),Eldegoss,,Grass,
+831,https://bulbapedia.bulbagarden.net/wiki/Wooloo_(Pok%C3%A9mon),Wooloo,,Normal,
+832,https://bulbapedia.bulbagarden.net/wiki/Dubwool_(Pok%C3%A9mon),Dubwool,,Normal,
+833,https://bulbapedia.bulbagarden.net/wiki/Chewtle_(Pok%C3%A9mon),Chewtle,,Water,
+834,https://bulbapedia.bulbagarden.net/wiki/Drednaw_(Pok%C3%A9mon),Drednaw,,Water,Rock
+835,https://bulbapedia.bulbagarden.net/wiki/Yamper_(Pok%C3%A9mon),Yamper,,Electric,
+836,https://bulbapedia.bulbagarden.net/wiki/Boltund_(Pok%C3%A9mon),Boltund,,Electric,
+837,https://bulbapedia.bulbagarden.net/wiki/Rolycoly_(Pok%C3%A9mon),Rolycoly,,Rock,
+838,https://bulbapedia.bulbagarden.net/wiki/Carkol_(Pok%C3%A9mon),Carkol,,Rock,Fire
+839,https://bulbapedia.bulbagarden.net/wiki/Coalossal_(Pok%C3%A9mon),Coalossal,,Rock,Fire
+840,https://bulbapedia.bulbagarden.net/wiki/Applin_(Pok%C3%A9mon),Applin,,Grass,Dragon
+841,https://bulbapedia.bulbagarden.net/wiki/Flapple_(Pok%C3%A9mon),Flapple,,Grass,Dragon
+842,https://bulbapedia.bulbagarden.net/wiki/Appletun_(Pok%C3%A9mon),Appletun,,Grass,Dragon
+843,https://bulbapedia.bulbagarden.net/wiki/Silicobra_(Pok%C3%A9mon),Silicobra,,Ground,
+844,https://bulbapedia.bulbagarden.net/wiki/Sandaconda_(Pok%C3%A9mon),Sandaconda,,Ground,
+845,https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon),Cramorant,,Flying,Water
+845,https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon),Cramorant,Gulping Form,Flying,Water
+845,https://bulbapedia.bulbagarden.net/wiki/Cramorant_(Pok%C3%A9mon),Cramorant,Gorging Form,Flying,Water
+846,https://bulbapedia.bulbagarden.net/wiki/Arrokuda_(Pok%C3%A9mon),Arrokuda,,Water,
+847,https://bulbapedia.bulbagarden.net/wiki/Barraskewda_(Pok%C3%A9mon),Barraskewda,,Water,
+848,https://bulbapedia.bulbagarden.net/wiki/Toxel_(Pok%C3%A9mon),Toxel,,Electric,Poison
+849,https://bulbapedia.bulbagarden.net/wiki/Toxtricity_(Pok%C3%A9mon),Toxtricity,Amped Form,Electric,Poison
+849,https://bulbapedia.bulbagarden.net/wiki/Toxtricity_(Pok%C3%A9mon),Toxtricity,Low Key Form,Electric,Poison
+850,https://bulbapedia.bulbagarden.net/wiki/Sizzlipede_(Pok%C3%A9mon),Sizzlipede,,Fire,Bug
+851,https://bulbapedia.bulbagarden.net/wiki/Centiskorch_(Pok%C3%A9mon),Centiskorch,,Fire,Bug
+852,https://bulbapedia.bulbagarden.net/wiki/Clobbopus_(Pok%C3%A9mon),Clobbopus,,Fighting,
+853,https://bulbapedia.bulbagarden.net/wiki/Grapploct_(Pok%C3%A9mon),Grapploct,,Fighting,
+854,https://bulbapedia.bulbagarden.net/wiki/Sinistea_(Pok%C3%A9mon),Sinistea,,Ghost,
+855,https://bulbapedia.bulbagarden.net/wiki/Polteageist_(Pok%C3%A9mon),Polteageist,,Ghost,
+856,https://bulbapedia.bulbagarden.net/wiki/Hatenna_(Pok%C3%A9mon),Hatenna,,Psychic,
+857,https://bulbapedia.bulbagarden.net/wiki/Hattrem_(Pok%C3%A9mon),Hattrem,,Psychic,
+858,https://bulbapedia.bulbagarden.net/wiki/Hatterene_(Pok%C3%A9mon),Hatterene,,Psychic,Fairy
+859,https://bulbapedia.bulbagarden.net/wiki/Impidimp_(Pok%C3%A9mon),Impidimp,,Dark,Fairy
+860,https://bulbapedia.bulbagarden.net/wiki/Morgrem_(Pok%C3%A9mon),Morgrem,,Dark,Fairy
+861,https://bulbapedia.bulbagarden.net/wiki/Grimmsnarl_(Pok%C3%A9mon),Grimmsnarl,,Dark,Fairy
+862,https://bulbapedia.bulbagarden.net/wiki/Obstagoon_(Pok%C3%A9mon),Obstagoon,,Dark,Normal
+863,https://bulbapedia.bulbagarden.net/wiki/Perrserker_(Pok%C3%A9mon),Perrserker,,Steel,
+864,https://bulbapedia.bulbagarden.net/wiki/Cursola_(Pok%C3%A9mon),Cursola,,Ghost,
+865,https://bulbapedia.bulbagarden.net/wiki/Sirfetch%27d_(Pok%C3%A9mon),Sirfetch'd,,Fighting,
+866,https://bulbapedia.bulbagarden.net/wiki/Mr._Rime_(Pok%C3%A9mon),Mr. Rime,,Ice,Psychic
+867,https://bulbapedia.bulbagarden.net/wiki/Runerigus_(Pok%C3%A9mon),Runerigus,,Ground,Ghost
+868,https://bulbapedia.bulbagarden.net/wiki/Milcery_(Pok%C3%A9mon),Milcery,,Fairy,
+869,https://bulbapedia.bulbagarden.net/wiki/Alcremie_(Pok%C3%A9mon),Alcremie,Vanilla Cream,Fairy,
+870,https://bulbapedia.bulbagarden.net/wiki/Falinks_(Pok%C3%A9mon),Falinks,,Fighting,
+871,https://bulbapedia.bulbagarden.net/wiki/Pincurchin_(Pok%C3%A9mon),Pincurchin,,Electric,
+872,https://bulbapedia.bulbagarden.net/wiki/Snom_(Pok%C3%A9mon),Snom,,Ice,Bug
+873,https://bulbapedia.bulbagarden.net/wiki/Frosmoth_(Pok%C3%A9mon),Frosmoth,,Ice,Bug
+874,https://bulbapedia.bulbagarden.net/wiki/Stonjourner_(Pok%C3%A9mon),Stonjourner,,Rock,
+875,https://bulbapedia.bulbagarden.net/wiki/Eiscue_(Pok%C3%A9mon),Eiscue,Ice Face,Ice,
+875,https://bulbapedia.bulbagarden.net/wiki/Eiscue_(Pok%C3%A9mon),Eiscue,Noice Face,Ice,
+876,https://bulbapedia.bulbagarden.net/wiki/Indeedee_(Pok%C3%A9mon),Indeedee,Male,Psychic,Normal
+876,https://bulbapedia.bulbagarden.net/wiki/Indeedee_(Pok%C3%A9mon),Indeedee,Female,Psychic,Normal
+877,https://bulbapedia.bulbagarden.net/wiki/Morpeko_(Pok%C3%A9mon),Morpeko,Full Belly Mode,Electric,Dark
+877,https://bulbapedia.bulbagarden.net/wiki/Morpeko_(Pok%C3%A9mon),Morpeko,Hangry Mode,Electric,Dark
+878,https://bulbapedia.bulbagarden.net/wiki/Cufant_(Pok%C3%A9mon),Cufant,,Steel,
+879,https://bulbapedia.bulbagarden.net/wiki/Copperajah_(Pok%C3%A9mon),Copperajah,,Steel,
+880,https://bulbapedia.bulbagarden.net/wiki/Dracozolt_(Pok%C3%A9mon),Dracozolt,,Electric,Dragon
+881,https://bulbapedia.bulbagarden.net/wiki/Arctozolt_(Pok%C3%A9mon),Arctozolt,,Electric,Ice
+882,https://bulbapedia.bulbagarden.net/wiki/Dracovish_(Pok%C3%A9mon),Dracovish,,Water,Dragon
+883,https://bulbapedia.bulbagarden.net/wiki/Arctovish_(Pok%C3%A9mon),Arctovish,,Water,Ice
+884,https://bulbapedia.bulbagarden.net/wiki/Duraludon_(Pok%C3%A9mon),Duraludon,,Steel,Dragon
+885,https://bulbapedia.bulbagarden.net/wiki/Dreepy_(Pok%C3%A9mon),Dreepy,,Dragon,Ghost
+886,https://bulbapedia.bulbagarden.net/wiki/Drakloak_(Pok%C3%A9mon),Drakloak,,Dragon,Ghost
+887,https://bulbapedia.bulbagarden.net/wiki/Dragapult_(Pok%C3%A9mon),Dragapult,,Dragon,Ghost
+888,https://bulbapedia.bulbagarden.net/wiki/Zacian_(Pok%C3%A9mon),Zacian,Hero of Many Battles,Fairy,
+888,https://bulbapedia.bulbagarden.net/wiki/Zacian_(Pok%C3%A9mon),Zacian,Crowned Sword,Fairy,Steel
+889,https://bulbapedia.bulbagarden.net/wiki/Zamazenta_(Pok%C3%A9mon),Zamazenta,Hero of Many Battles,Fighting,
+889,https://bulbapedia.bulbagarden.net/wiki/Zamazenta_(Pok%C3%A9mon),Zamazenta,Crowned Shield,Fighting,Steel
+890,https://bulbapedia.bulbagarden.net/wiki/Eternatus_(Pok%C3%A9mon),Eternatus,,Poison,Dragon
+891,https://bulbapedia.bulbagarden.net/wiki/Kubfu_(Pok%C3%A9mon),Kubfu,,Fighting,
+892,https://bulbapedia.bulbagarden.net/wiki/Urshifu_(Pok%C3%A9mon),Urshifu,Single Strike Style,Fighting,Dark
+892,https://bulbapedia.bulbagarden.net/wiki/Urshifu_(Pok%C3%A9mon),Urshifu,Rapid Strike Style,Fighting,Water
+893,https://bulbapedia.bulbagarden.net/wiki/Zarude_(Pok%C3%A9mon),Zarude,,Dark,Grass
+894,https://bulbapedia.bulbagarden.net/wiki/Regieleki_(Pok%C3%A9mon),Regieleki,,Electric,
+895,https://bulbapedia.bulbagarden.net/wiki/Regidrago_(Pok%C3%A9mon),Regidrago,,Dragon,
+896,https://bulbapedia.bulbagarden.net/wiki/Glastrier_(Pok%C3%A9mon),Glastrier,,Ice,
+897,https://bulbapedia.bulbagarden.net/wiki/Spectrier_(Pok%C3%A9mon),Spectrier,,Ghost,
+898,https://bulbapedia.bulbagarden.net/wiki/Calyrex_(Pok%C3%A9mon),Calyrex,,Psychic,Grass
+898,https://bulbapedia.bulbagarden.net/wiki/Calyrex_(Pok%C3%A9mon),Calyrex,Ice Rider,Psychic,Ice
+898,https://bulbapedia.bulbagarden.net/wiki/Calyrex_(Pok%C3%A9mon),Calyrex,Shadow Rider,Psychic,Ghost
+899,https://bulbapedia.bulbagarden.net/wiki/Wyrdeer_(Pok%C3%A9mon),Wyrdeer,,Normal,Psychic
+900,https://bulbapedia.bulbagarden.net/wiki/Kleavor_(Pok%C3%A9mon),Kleavor,,Bug,Rock
+901,https://bulbapedia.bulbagarden.net/wiki/Ursaluna_(Pok%C3%A9mon),Ursaluna,,Ground,Normal
+902,https://bulbapedia.bulbagarden.net/wiki/Basculegion_(Pok%C3%A9mon),Basculegion,Male,Water,Ghost
+902,https://bulbapedia.bulbagarden.net/wiki/Basculegion_(Pok%C3%A9mon),Basculegion,Female,Water,Ghost
+903,https://bulbapedia.bulbagarden.net/wiki/Sneasler_(Pok%C3%A9mon),Sneasler,,Fighting,Poison
+904,https://bulbapedia.bulbagarden.net/wiki/Overqwil_(Pok%C3%A9mon),Overqwil,,Dark,Poison
+905,https://bulbapedia.bulbagarden.net/wiki/Enamorus_(Pok%C3%A9mon),Enamorus,Incarnate Forme,Fairy,Flying
+905,https://bulbapedia.bulbagarden.net/wiki/Enamorus_(Pok%C3%A9mon),Enamorus,Therian Forme,Fairy,Flying
+906,https://bulbapedia.bulbagarden.net/wiki/Sprigatito_(Pok%C3%A9mon),Sprigatito,,Grass,
+907,https://bulbapedia.bulbagarden.net/wiki/Floragato_(Pok%C3%A9mon),Floragato,,Grass,
+908,https://bulbapedia.bulbagarden.net/wiki/Meowscarada_(Pok%C3%A9mon),Meowscarada,,Grass,Dark
+909,https://bulbapedia.bulbagarden.net/wiki/Fuecoco_(Pok%C3%A9mon),Fuecoco,,Fire,
+910,https://bulbapedia.bulbagarden.net/wiki/Crocalor_(Pok%C3%A9mon),Crocalor,,Fire,
+911,https://bulbapedia.bulbagarden.net/wiki/Skeledirge_(Pok%C3%A9mon),Skeledirge,,Fire,Ghost
+912,https://bulbapedia.bulbagarden.net/wiki/Quaxly_(Pok%C3%A9mon),Quaxly,,Water,
+913,https://bulbapedia.bulbagarden.net/wiki/Quaxwell_(Pok%C3%A9mon),Quaxwell,,Water,
+914,https://bulbapedia.bulbagarden.net/wiki/Quaquaval_(Pok%C3%A9mon),Quaquaval,,Water,Fighting
+915,https://bulbapedia.bulbagarden.net/wiki/Lechonk_(Pok%C3%A9mon),Lechonk,,Normal,
+916,https://bulbapedia.bulbagarden.net/wiki/Oinkologne_(Pok%C3%A9mon),Oinkologne,,Normal,
+917,https://bulbapedia.bulbagarden.net/wiki/Tarountula_(Pok%C3%A9mon),Tarountula,,Bug,
+918,https://bulbapedia.bulbagarden.net/wiki/Spidops_(Pok%C3%A9mon),Spidops,,Bug,
+919,https://bulbapedia.bulbagarden.net/wiki/Nymble_(Pok%C3%A9mon),Nymble,,Bug,
+920,https://bulbapedia.bulbagarden.net/wiki/Lokix_(Pok%C3%A9mon),Lokix,,Bug,Dark
+921,https://bulbapedia.bulbagarden.net/wiki/Pawmi_(Pok%C3%A9mon),Pawmi,,Electric,
+922,https://bulbapedia.bulbagarden.net/wiki/Pawmo_(Pok%C3%A9mon),Pawmo,,Electric,Fighting
+923,https://bulbapedia.bulbagarden.net/wiki/Pawmot_(Pok%C3%A9mon),Pawmot,,Electric,Fighting
+924,https://bulbapedia.bulbagarden.net/wiki/Tandemaus_(Pok%C3%A9mon),Tandemaus,,Normal,
+925,https://bulbapedia.bulbagarden.net/wiki/Maushold_(Pok%C3%A9mon),Maushold,,Normal,
+926,https://bulbapedia.bulbagarden.net/wiki/Fidough_(Pok%C3%A9mon),Fidough,,Fairy,
+927,https://bulbapedia.bulbagarden.net/wiki/Dachsbun_(Pok%C3%A9mon),Dachsbun,,Fairy,
+928,https://bulbapedia.bulbagarden.net/wiki/Smoliv_(Pok%C3%A9mon),Smoliv,,Grass,Normal
+929,https://bulbapedia.bulbagarden.net/wiki/Dolliv_(Pok%C3%A9mon),Dolliv,,Grass,Normal
+930,https://bulbapedia.bulbagarden.net/wiki/Arboliva_(Pok%C3%A9mon),Arboliva,,Grass,Normal
+931,https://bulbapedia.bulbagarden.net/wiki/Squawkabilly_(Pok%C3%A9mon),Squawkabilly,,Normal,Flying
+932,https://bulbapedia.bulbagarden.net/wiki/Nacli_(Pok%C3%A9mon),Nacli,,Rock,
+933,https://bulbapedia.bulbagarden.net/wiki/Naclstack_(Pok%C3%A9mon),Naclstack,,Rock,
+934,https://bulbapedia.bulbagarden.net/wiki/Garganacl_(Pok%C3%A9mon),Garganacl,,Rock,
+935,https://bulbapedia.bulbagarden.net/wiki/Charcadet_(Pok%C3%A9mon),Charcadet,,Fire,
+936,https://bulbapedia.bulbagarden.net/wiki/Armarouge_(Pok%C3%A9mon),Armarouge,,Fire,Psychic
+937,https://bulbapedia.bulbagarden.net/wiki/Ceruledge_(Pok%C3%A9mon),Ceruledge,,Fire,Ghost
+938,https://bulbapedia.bulbagarden.net/wiki/Tadbulb_(Pok%C3%A9mon),Tadbulb,,Electric,
+939,https://bulbapedia.bulbagarden.net/wiki/Bellibolt_(Pok%C3%A9mon),Bellibolt,,Electric,
+940,https://bulbapedia.bulbagarden.net/wiki/Wattrel_(Pok%C3%A9mon),Wattrel,,Electric,Flying
+941,https://bulbapedia.bulbagarden.net/wiki/Kilowattrel_(Pok%C3%A9mon),Kilowattrel,,Electric,Flying
+942,https://bulbapedia.bulbagarden.net/wiki/Maschiff_(Pok%C3%A9mon),Maschiff,,Dark,
+943,https://bulbapedia.bulbagarden.net/wiki/Mabosstiff_(Pok%C3%A9mon),Mabosstiff,,Dark,
+944,https://bulbapedia.bulbagarden.net/wiki/Shroodle_(Pok%C3%A9mon),Shroodle,,Poison,Normal
+945,https://bulbapedia.bulbagarden.net/wiki/Grafaiai_(Pok%C3%A9mon),Grafaiai,,Poison,Normal
+946,https://bulbapedia.bulbagarden.net/wiki/Bramblin_(Pok%C3%A9mon),Bramblin,,Grass,Ghost
+947,https://bulbapedia.bulbagarden.net/wiki/Brambleghast_(Pok%C3%A9mon),Brambleghast,,Grass,Ghost
+948,https://bulbapedia.bulbagarden.net/wiki/Toedscool_(Pok%C3%A9mon),Toedscool,,Ground,Grass
+949,https://bulbapedia.bulbagarden.net/wiki/Toedscruel_(Pok%C3%A9mon),Toedscruel,,Ground,Grass
+950,https://bulbapedia.bulbagarden.net/wiki/Klawf_(Pok%C3%A9mon),Klawf,,Rock,
+951,https://bulbapedia.bulbagarden.net/wiki/Capsakid_(Pok%C3%A9mon),Capsakid,,Grass,
+952,https://bulbapedia.bulbagarden.net/wiki/Scovillain_(Pok%C3%A9mon),Scovillain,,Grass,Fire
+953,https://bulbapedia.bulbagarden.net/wiki/Rellor_(Pok%C3%A9mon),Rellor,,Bug,
+954,https://bulbapedia.bulbagarden.net/wiki/Rabsca_(Pok%C3%A9mon),Rabsca,,Bug,Psychic
+955,https://bulbapedia.bulbagarden.net/wiki/Flittle_(Pok%C3%A9mon),Flittle,,Psychic,
+956,https://bulbapedia.bulbagarden.net/wiki/Espathra_(Pok%C3%A9mon),Espathra,,Psychic,
+957,https://bulbapedia.bulbagarden.net/wiki/Tinkatink_(Pok%C3%A9mon),Tinkatink,,Fairy,Steel
+958,https://bulbapedia.bulbagarden.net/wiki/Tinkatuff_(Pok%C3%A9mon),Tinkatuff,,Fairy,Steel
+959,https://bulbapedia.bulbagarden.net/wiki/Tinkaton_(Pok%C3%A9mon),Tinkaton,,Fairy,Steel
+960,https://bulbapedia.bulbagarden.net/wiki/Wiglett_(Pok%C3%A9mon),Wiglett,,Water,
+961,https://bulbapedia.bulbagarden.net/wiki/Wugtrio_(Pok%C3%A9mon),Wugtrio,,Water,
+962,https://bulbapedia.bulbagarden.net/wiki/Bombirdier_(Pok%C3%A9mon),Bombirdier,,Flying,Dark
+963,https://bulbapedia.bulbagarden.net/wiki/Finizen_(Pok%C3%A9mon),Finizen,,Water,
+964,https://bulbapedia.bulbagarden.net/wiki/Palafin_(Pok%C3%A9mon),Palafin,Zero Form,Water,
+964,https://bulbapedia.bulbagarden.net/wiki/Palafin_(Pok%C3%A9mon),Palafin,Hero Form,Water,
+965,https://bulbapedia.bulbagarden.net/wiki/Varoom_(Pok%C3%A9mon),Varoom,,Steel,Poison
+966,https://bulbapedia.bulbagarden.net/wiki/Revavroom_(Pok%C3%A9mon),Revavroom,,Steel,Poison
+967,https://bulbapedia.bulbagarden.net/wiki/Cyclizar_(Pok%C3%A9mon),Cyclizar,,Dragon,Normal
+968,https://bulbapedia.bulbagarden.net/wiki/Orthworm_(Pok%C3%A9mon),Orthworm,,Steel,
+969,https://bulbapedia.bulbagarden.net/wiki/Glimmet_(Pok%C3%A9mon),Glimmet,,Rock,Poison
+970,https://bulbapedia.bulbagarden.net/wiki/Glimmora_(Pok%C3%A9mon),Glimmora,,Rock,Poison
+971,https://bulbapedia.bulbagarden.net/wiki/Greavard_(Pok%C3%A9mon),Greavard,,Ghost,
+972,https://bulbapedia.bulbagarden.net/wiki/Houndstone_(Pok%C3%A9mon),Houndstone,,Ghost,
+973,https://bulbapedia.bulbagarden.net/wiki/Flamigo_(Pok%C3%A9mon),Flamigo,,Flying,Fighting
+974,https://bulbapedia.bulbagarden.net/wiki/Cetoddle_(Pok%C3%A9mon),Cetoddle,,Ice,
+975,https://bulbapedia.bulbagarden.net/wiki/Cetitan_(Pok%C3%A9mon),Cetitan,,Ice,
+976,https://bulbapedia.bulbagarden.net/wiki/Veluza_(Pok%C3%A9mon),Veluza,,Water,Psychic
+977,https://bulbapedia.bulbagarden.net/wiki/Dondozo_(Pok%C3%A9mon),Dondozo,,Water,
+978,https://bulbapedia.bulbagarden.net/wiki/Tatsugiri_(Pok%C3%A9mon),Tatsugiri,Curly Form,Dragon,Water
+978,https://bulbapedia.bulbagarden.net/wiki/Tatsugiri_(Pok%C3%A9mon),Tatsugiri,Droopy Form,Dragon,Water
+978,https://bulbapedia.bulbagarden.net/wiki/Tatsugiri_(Pok%C3%A9mon),Tatsugiri,Stretchy Form,Dragon,Water
+979,https://bulbapedia.bulbagarden.net/wiki/Annihilape_(Pok%C3%A9mon),Annihilape,,Fighting,Ghost
+980,https://bulbapedia.bulbagarden.net/wiki/Clodsire_(Pok%C3%A9mon),Clodsire,,Poison,Ground
+981,https://bulbapedia.bulbagarden.net/wiki/Farigiraf_(Pok%C3%A9mon),Farigiraf,,Normal,Psychic
+982,https://bulbapedia.bulbagarden.net/wiki/Dudunsparce_(Pok%C3%A9mon),Dudunsparce,,Normal,
+983,https://bulbapedia.bulbagarden.net/wiki/Kingambit_(Pok%C3%A9mon),Kingambit,,Dark,Steel
+984,https://bulbapedia.bulbagarden.net/wiki/Great_Tusk_(Pok%C3%A9mon),Great Tusk,,Ground,Fighting
+985,https://bulbapedia.bulbagarden.net/wiki/Scream_Tail_(Pok%C3%A9mon),Scream Tail,,Fairy,Psychic
+986,https://bulbapedia.bulbagarden.net/wiki/Brute_Bonnet_(Pok%C3%A9mon),Brute Bonnet,,Grass,Dark
+987,https://bulbapedia.bulbagarden.net/wiki/Flutter_Mane_(Pok%C3%A9mon),Flutter Mane,,Ghost,Fairy
+988,https://bulbapedia.bulbagarden.net/wiki/Slither_Wing_(Pok%C3%A9mon),Slither Wing,,Bug,Fighting
+989,https://bulbapedia.bulbagarden.net/wiki/Sandy_Shocks_(Pok%C3%A9mon),Sandy Shocks,,Electric,Ground
+990,https://bulbapedia.bulbagarden.net/wiki/Iron_Treads_(Pok%C3%A9mon),Iron Treads,,Ground,Steel
+991,https://bulbapedia.bulbagarden.net/wiki/Iron_Bundle_(Pok%C3%A9mon),Iron Bundle,,Ice,Water
+992,https://bulbapedia.bulbagarden.net/wiki/Iron_Hands_(Pok%C3%A9mon),Iron Hands,,Fighting,Electric
+993,https://bulbapedia.bulbagarden.net/wiki/Iron_Jugulis_(Pok%C3%A9mon),Iron Jugulis,,Dark,Flying
+994,https://bulbapedia.bulbagarden.net/wiki/Iron_Moth_(Pok%C3%A9mon),Iron Moth,,Fire,Poison
+995,https://bulbapedia.bulbagarden.net/wiki/Iron_Thorns_(Pok%C3%A9mon),Iron Thorns,,Rock,Electric
+996,https://bulbapedia.bulbagarden.net/wiki/Frigibax_(Pok%C3%A9mon),Frigibax,,Dragon,Ice
+997,https://bulbapedia.bulbagarden.net/wiki/Arctibax_(Pok%C3%A9mon),Arctibax,,Dragon,Ice
+998,https://bulbapedia.bulbagarden.net/wiki/Baxcalibur_(Pok%C3%A9mon),Baxcalibur,,Dragon,Ice
+999,https://bulbapedia.bulbagarden.net/wiki/Gimmighoul_(Pok%C3%A9mon),Gimmighoul,Chest Form,Ghost,
+999,https://bulbapedia.bulbagarden.net/wiki/Gimmighoul_(Pok%C3%A9mon),Gimmighoul,Roaming Form,Ghost,
+1000,https://bulbapedia.bulbagarden.net/wiki/Gholdengo_(Pok%C3%A9mon),Gholdengo,,Steel,Ghost
+1001,https://bulbapedia.bulbagarden.net/wiki/Wo-Chien_(Pok%C3%A9mon),Wo-Chien,,Dark,Grass
+1002,https://bulbapedia.bulbagarden.net/wiki/Chien-Pao_(Pok%C3%A9mon),Chien-Pao,,Dark,Ice
+1003,https://bulbapedia.bulbagarden.net/wiki/Ting-Lu_(Pok%C3%A9mon),Ting-Lu,,Dark,Ground
+1004,https://bulbapedia.bulbagarden.net/wiki/Chi-Yu_(Pok%C3%A9mon),Chi-Yu,,Dark,Fire
+1005,https://bulbapedia.bulbagarden.net/wiki/Roaring_Moon_(Pok%C3%A9mon),Roaring Moon,,Dragon,Dark
+1006,https://bulbapedia.bulbagarden.net/wiki/Iron_Valiant_(Pok%C3%A9mon),Iron Valiant,,Fairy,Fighting
+1007,https://bulbapedia.bulbagarden.net/wiki/Koraidon_(Pok%C3%A9mon),Koraidon,,Fighting,Dragon
+1008,https://bulbapedia.bulbagarden.net/wiki/Miraidon_(Pok%C3%A9mon),Miraidon,,Electric,Dragon

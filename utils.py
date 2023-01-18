@@ -2,6 +2,9 @@ import time
 from sqlalchemy import create_engine, func
 from sqlalchemy.orm import Session
 from analysis import PokemonInfo, Skill, Ability
+import warnings
+
+warnings.filterwarnings('ignore')
 
 
 def get_time():
@@ -17,7 +20,8 @@ def connect(user, password, db, host='localhost', port=5432):
 def get_pokemon_num():
     engine = connect('test', '123456', 'pokemon')
     session = Session(engine)
-    num = session.query(func.count('*')).select_from(PokemonInfo).scalar()
+    nums = session.query(func.count('*')).select_from(PokemonInfo).group_by(PokemonInfo.id)
+    num = session.query(func.count('*')).select_from(nums).scalar()
     return num
 
 
@@ -73,23 +77,12 @@ def get_pokemon_type():
     for pokemon in pokemons:
         type1 = pokemon.type1
         type2 = pokemon.type2
-        if type1 == 'GrassGroundSteel' or type2 == 'GrassGroundSteel':
-            pokemon_type['Grass'] = pokemon_type['Grass'] + 1
-            pokemon_type['Ground'] = pokemon_type['Ground'] + 1
-            pokemon_type['Steel'] = pokemon_type['Steel'] + 1
-            continue
-        if type1 == 'FireElectricPsychicGhost' or type2 == 'FireElectricPsychicGhost':
-            pokemon_type['Fire'] = pokemon_type['Fire'] + 1
-            pokemon_type['Electric'] = pokemon_type['Electric'] + 1
-            pokemon_type['Psychic'] = pokemon_type['Psychic'] + 1
-            pokemon_type['Ghost'] = pokemon_type['Ghost'] + 1
-            continue
-        if type1 is not None and type1 in pokemon_type:
+        if type1 != '' and type1 in pokemon_type:
             pokemon_type[type1] = pokemon_type[type1] + 1
-        elif type1 is not None and type1 not in pokemon_type:
+        elif type1 != '' and type1 not in pokemon_type:
             pokemon_type[type1] = 1
-        if type2 is not None and type2 in pokemon_type:
+        if type2 != '' and type2 in pokemon_type:
             pokemon_type[type2] = pokemon_type[type2] + 1
-        elif type2 is not None and type2 not in pokemon_type:
+        elif type2 != '' and type2 not in pokemon_type:
             pokemon_type[type2] = 1
     return pokemon_type
