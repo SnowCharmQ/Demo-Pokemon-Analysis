@@ -66,7 +66,22 @@ function getC2() {
     })
 }
 
+function getM() {
+    $.ajax({
+        url: '/ability',
+        timeout: 10000,
+        success: function (data) {
+            ec_middle_options.dataset.source = data;
+            ec_middle.setOption(ec_middle_options);
+        },
+        error: function (err, type, errorThrown) {
+            console.log(err);
+        }
+    })
+}
+
 getNum();
 getC1();
 getC2();
+getM();
 setInterval(getTime, 1000);

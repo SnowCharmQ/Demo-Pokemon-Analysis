@@ -43,6 +43,17 @@ class Ability(Base):
     gen = Column(VARCHAR(10))
 
 
+class PokemonAbility(Base):
+    __tablename__ = "pokemon_ability"
+    idx = Column(Integer, autoincrement=True, primary_key=True)
+    id = Column(Integer)
+    name = Column(VARCHAR(100))
+    detail = Column(VARCHAR(100))
+    ability1 = Column(VARCHAR(100))
+    ability2 = Column(VARCHAR(100))
+    hide_ability = Column(VARCHAR(100))
+
+
 def save_pokemon_info():
     session = Session(engine)
     objects = []
@@ -113,6 +124,25 @@ def save_ability():
     session.commit()
 
 
+def save_pokemon_ability():
+    session = Session(engine)
+    objects = []
+    df = pd.read_csv("../data/pokemon_ability.csv")
+    for data in df.itertuples():
+        ability1 = data.ability1
+        ability2 = data.ability2
+        hide_ability = data.hide_ability
+        ability1 = ability1.replace("*", "") if type(ability1) == str else ''
+        ability2 = ability2.replace("*", "") if type(ability2) == str else ''
+        hide_ability = hide_ability.replace("*", "") if type(hide_ability) == str else ''
+        obj = PokemonAbility(id=data.id, name=data.name, detail=data.detail,
+                             ability1=ability1, ability2=ability2,
+                             hide_ability=hide_ability)
+        objects.append(obj)
+    session.bulk_save_objects(objects)
+    session.commit()
+
+
 if __name__ == "__main__":
     engine = connect('test', '123456', 'pokemon')
     Base.metadata.drop_all(engine)
@@ -120,3 +150,4 @@ if __name__ == "__main__":
     save_pokemon_info()
     save_skill()
     save_ability()
+    save_pokemon_ability()

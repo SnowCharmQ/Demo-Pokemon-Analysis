@@ -1,7 +1,7 @@
 import time
 from sqlalchemy import create_engine, func
 from sqlalchemy.orm import Session
-from analysis import PokemonInfo, Skill, Ability
+from analysis import PokemonInfo, Skill, Ability, PokemonAbility
 import warnings
 
 warnings.filterwarnings('ignore')
@@ -86,3 +86,28 @@ def get_pokemon_type():
         elif type2 != '' and type2 not in pokemon_type:
             pokemon_type[type2] = 1
     return pokemon_type
+
+
+def get_pokemon_ability():
+    engine = connect('test', '123456', 'pokemon')
+    session = Session(engine)
+    pas = session.query(PokemonAbility).all()
+    pokemon_ability = {}
+    for pa in pas:
+        ab1 = pa.ability1
+        ab2 = pa.ability2
+        hab = pa.hide_ability
+        if ab1 != '' and ab1 in pokemon_ability:
+            pokemon_ability[ab1] = pokemon_ability[ab1] + 1
+        elif ab1 != '' and ab1 not in pokemon_ability:
+            pokemon_ability[ab1] = 1
+        if ab2 != '' and ab2 in pokemon_ability:
+            pokemon_ability[ab2] = pokemon_ability[ab2] + 1
+        elif ab2 != '' and ab2 not in pokemon_ability:
+            pokemon_ability[ab2] = 1
+        if hab != '' and hab in pokemon_ability:
+            pokemon_ability[hab] = pokemon_ability[hab] + 1
+        elif hab != '' and hab not in pokemon_ability:
+            pokemon_ability[hab] = 1
+    pokemon_ability = sorted(pokemon_ability.items(), key=lambda x: x[1], reverse=True)
+    return pokemon_ability

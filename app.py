@@ -45,5 +45,14 @@ def get_pokemon_type():
     return jsonify(utils.get_pokemon_type())
 
 
+@app.route('/ability')
+def get_pokemon_ability():
+    pokemon_ability = utils.get_pokemon_ability()
+    pokemon_ability = [list(x) for x in pokemon_ability]
+    pokemon_ability = pokemon_ability[:10]
+    pokemon_ability.reverse()
+    return pokemon_ability
+
+
 if __name__ == '__main__':
     app.run()
