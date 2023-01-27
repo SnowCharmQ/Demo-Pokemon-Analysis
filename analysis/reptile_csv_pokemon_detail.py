@@ -1,5 +1,6 @@
 import pandas as pd
 from tqdm import tqdm
+from bs4 import BeautifulSoup
 from urllib import request
 from urllib.request import Request
 
@@ -18,3 +19,11 @@ for pokemon in tqdm(pokemons):
     res = request.urlopen(url)
     html = res.read()
     html = html.decode()
+    soup = BeautifulSoup(html, features="lxml")
+    div = soup.find("div", attrs={"class": "sv-tabs-tab-list"})
+    aa = div.find_all("a", attrs={"class": "sv-tabs-tab"})
+    labels = [a.text for a in aa]
+    sv_tabs = soup.find("div", attrs={"class": "sv-tabs-panel-list"})
+    sv_tabs_divs = sv_tabs.find_all("div", attrs={"class": "sv-tabs-panel"})
+    for sv_div in sv_tabs_divs:
+        grid_cols = sv_div.find_all("div", attrs={"class": "grid-col"})
