@@ -22,7 +22,14 @@ def modify_name(pokemon_name):
         pokemon_name = "Nidoran-f"
     if pokemon_name == "Nidoran♂":
         pokemon_name = "Nidoran-m"
+    if pokemon_name == "Flabébé":
+        pokemon_name = "flabebe"
     pokemon_name = pokemon_name.replace("'", "")
+    pokemon_name = pokemon_name.replace(": ", "-")
+    if pokemon_name.endswith("."):
+        pokemon_name = pokemon_name[:-1]
+    else:
+        pokemon_name = pokemon_name.replace(". ", "-")
     pokemon_name = pokemon_name.replace(" ", "-")
     return pokemon_name
 
@@ -43,7 +50,11 @@ def analysis(html, idx, name):
 
         col0 = grid_cols[0]
         item = col0.select("p a")
-        img = item[0].get("href")
+        if len(item) == 0:
+            item = col0.select("p img")
+            img = item[0].get("src")
+        else:
+            img = item[0].get("href")
 
         col1 = grid_cols[1]
         trs = col1.find_all("tr")
