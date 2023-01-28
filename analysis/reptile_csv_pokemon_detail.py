@@ -1,8 +1,20 @@
 import pandas as pd
 from tqdm import tqdm
 from bs4 import BeautifulSoup
+from collections import defaultdict
 from urllib import request
 from urllib.request import Request
+
+headers = {'User-Agent': 'Mozilla/5.0 3578.98 Safari/537.36'}
+pokemon_df = pd.read_csv("../data/pokemon.csv")
+pokemons = []
+for index, row in pokemon_df.iterrows():
+    idx = row['id']
+    name = row['name']
+    if (idx, name) not in pokemons:
+        pokemons.append((idx, name))
+
+details = defaultdict(list)
 
 
 def modify_name(pokemon_name):
@@ -15,12 +27,13 @@ def modify_name(pokemon_name):
     return pokemon_name
 
 
-def analysis(html):
+def analysis(html, idx, name):
     soup = BeautifulSoup(html, features="lxml")
     div = soup.find("div", attrs={"class": "sv-tabs-tab-list"})
     aa = div.find_all("a", attrs={"class": "sv-tabs-tab"})
     type_cnt = len(aa)
     labels = [a.text for a in aa]
+    labels.reverse()
     sv_tabs = soup.find("div", attrs={"class": "sv-tabs-panel-list"})
     sv_tabs_divs = sv_tabs.find_all("div", attrs={"class": "sv-tabs-panel"})
     for sv_div in sv_tabs_divs:
@@ -30,7 +43,7 @@ def analysis(html):
 
         col0 = grid_cols[0]
         item = col0.select("p a")
-        href = item[0].get("href")
+        img = item[0].get("href")
 
         col1 = grid_cols[1]
         trs = col1.find_all("tr")
@@ -46,6 +59,7 @@ def analysis(html):
         tr5 = trs[5]
         aas = tr5.find_all("a")
         abilities = [a.text for a in aas]
+        abilities = ' | '.join(abilities)
 
         col4 = grid_cols[4]
         trs = col4.find_all("tr")
@@ -81,16 +95,29 @@ def analysis(html):
         for td in tds:
             num = td.text if td.text != '' else '1'
             effects.append(num)
+        label = labels.pop()
+        details['type_cnt'].append(type_cnt)
+        details['label'].append(label)
+        details['img'].append(img)
+        if len(types) == 2:
+            details['type1'].append(types[0])
+            details['type2'].append(types[1])
+        else:
+            details['type1'].append(types[0])
+            details['type2'].append('')
+        details['species'].append(species)
+        details['height'].append(height)
+        details['weight'].append(weight)
+        details['abilities'].append(abilities)
+        details['eggs'].append(eggs)
+        details['gender'].append(gender)
+        for item in stats.items():
+            details[item[0]].append(item[1])
+        details['total'].append(total)
+        for i in range(18):
+            details[defenses[i]].append(effects[i])
 
 
-headers = {'User-Agent': 'Mozilla/5.0 3578.98 Safari/537.36'}
-pokemon_df = pd.read_csv("../data/pokemon.csv")
-pokemons = []
-for index, row in pokemon_df.iterrows():
-    idx = row['id']
-    name = row['name']
-    if (idx, name) not in pokemons:
-        pokemons.append((idx, name))
 for pokemon in tqdm(pokemons):
     idx = pokemon[0]
     name = pokemon[1]
@@ -100,4 +127,6 @@ for pokemon in tqdm(pokemons):
     res = request.urlopen(url)
     html = res.read()
     html = html.decode()
-    analysis(html)
+    analysis(html, idx, name)
+df = pd.DataFrame(details)
+df.to_csv("../data/pokemon_details.csv", index=False)
