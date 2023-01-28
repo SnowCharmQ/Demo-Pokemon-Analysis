@@ -427,8 +427,8 @@ id,href,name,detail,type1,type2
 379,https://bulbapedia.bulbagarden.net/wiki/Registeel_(Pok%C3%A9mon),Registeel,,Steel,
 380,https://bulbapedia.bulbagarden.net/wiki/Latias_(Pok%C3%A9mon),Latias,,Dragon,Psychic
 381,https://bulbapedia.bulbagarden.net/wiki/Latios_(Pok%C3%A9mon),Latios,,Dragon,Psychic
-382,https://bulbapedia.bulbagarden.net/wiki/Kyogre_(Pok%C3%A9mon),,Kyogre,Water,
-383,https://bulbapedia.bulbagarden.net/wiki/Groudon_(Pok%C3%A9mon),,Groudon,Ground,
+382,https://bulbapedia.bulbagarden.net/wiki/Kyogre_(Pok%C3%A9mon),Kyogre,,Water,
+383,https://bulbapedia.bulbagarden.net/wiki/Groudon_(Pok%C3%A9mon),Groudon,,Ground,
 384,https://bulbapedia.bulbagarden.net/wiki/Rayquaza_(Pok%C3%A9mon),Rayquaza,,Dragon,Flying
 385,https://bulbapedia.bulbagarden.net/wiki/Jirachi_(Pok%C3%A9mon),Jirachi,,Steel,Psychic
 386,https://bulbapedia.bulbagarden.net/wiki/Deoxys_(Pok%C3%A9mon),Deoxys,Normal Forme,Psychic,
@@ -534,7 +534,7 @@ id,href,name,detail,type1,type2
 476,https://bulbapedia.bulbagarden.net/wiki/Probopass_(Pok%C3%A9mon),Probopass,,Rock,Steel
 477,https://bulbapedia.bulbagarden.net/wiki/Dusknoir_(Pok%C3%A9mon),Dusknoir,,Ghost,
 478,https://bulbapedia.bulbagarden.net/wiki/Froslass_(Pok%C3%A9mon),Froslass,,Ice,Ghost
-479,https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon),,Rotom,Electric,Ghost
+479,https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon),Rotom,,Electric,Ghost
 479,https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon),Rotom,Heat Rotom,Electric,Fire
 479,https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon),Rotom,Wash Rotom,Electric,Water
 479,https://bulbapedia.bulbagarden.net/wiki/Rotom_(Pok%C3%A9mon),Rotom,Frost Rotom,Electric,Ice
@@ -557,7 +557,7 @@ id,href,name,detail,type1,type2
 491,https://bulbapedia.bulbagarden.net/wiki/Darkrai_(Pok%C3%A9mon),Darkrai,,Dark,
 492,https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon),Shaymin,Land Forme,Grass,
 492,https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon),Shaymin,Sky Forme,Grass,Flying
-493,https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon),,Arceus,Normal,
+493,https://bulbapedia.bulbagarden.net/wiki/Arceus_(Pok%C3%A9mon),Arceus,,Normal,
 494,https://bulbapedia.bulbagarden.net/wiki/Victini_(Pok%C3%A9mon),Victini,,Psychic,Fire
 495,https://bulbapedia.bulbagarden.net/wiki/Snivy_(Pok%C3%A9mon),Snivy,,Grass,
 496,https://bulbapedia.bulbagarden.net/wiki/Servine_(Pok%C3%A9mon),Servine,,Grass,
@@ -732,18 +732,14 @@ id,href,name,detail,type1,type2
 644,https://bulbapedia.bulbagarden.net/wiki/Zekrom_(Pok%C3%A9mon),Zekrom,,Dragon,Electric
 645,https://bulbapedia.bulbagarden.net/wiki/Landorus_(Pok%C3%A9mon),Landorus,Incarnate Forme,Ground,Flying
 645,https://bulbapedia.bulbagarden.net/wiki/Landorus_(Pok%C3%A9mon),Landorus,Therian Forme,Ground,Flying
-646,https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon),,Kyurem,Dragon,Ice
+646,https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon),Kyurem,Kyurem,Dragon,Ice
 646,https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon),Kyurem,White Kyurem,Dragon,Ice
 646,https://bulbapedia.bulbagarden.net/wiki/Kyurem_(Pok%C3%A9mon),Kyurem,Black Kyurem,Dragon,Ice
 647,https://bulbapedia.bulbagarden.net/wiki/Keldeo_(Pok%C3%A9mon),Keldeo,Ordinary Form,Water,Fighting
 647,https://bulbapedia.bulbagarden.net/wiki/Keldeo_(Pok%C3%A9mon),Keldeo,Resolute Form,Water,Fighting
 648,https://bulbapedia.bulbagarden.net/wiki/Meloetta_(Pok%C3%A9mon),Meloetta,Aria Forme,Normal,Psychic
 648,https://bulbapedia.bulbagarden.net/wiki/Meloetta_(Pok%C3%A9mon),Meloetta,Pirouette Forme,Normal,Fighting
-649,https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon),,Genesect,Bug,Steel
-649,https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon),,Genesect,Bug,Steel
-649,https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon),,Genesect,Bug,Steel
-649,https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon),,Genesect,Bug,Steel
-649,https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon),,Genesect,Bug,Steel
+649,https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon),Genesect,Genesect,Bug,Steel
 650,https://bulbapedia.bulbagarden.net/wiki/Chespin_(Pok%C3%A9mon),Chespin,,Grass,
 651,https://bulbapedia.bulbagarden.net/wiki/Quilladin_(Pok%C3%A9mon),Quilladin,,Grass,
 652,https://bulbapedia.bulbagarden.net/wiki/Chesnaught_(Pok%C3%A9mon),Chesnaught,,Grass,Fighting
