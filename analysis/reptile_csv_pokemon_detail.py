@@ -95,6 +95,8 @@ def analysis(html, idx, name):
         for td in tds:
             num = td.text if td.text != '' else '1'
             effects.append(num)
+        details['idx'].append(idx)
+        details['name'].append(name)
         label = labels.pop()
         details['type_cnt'].append(type_cnt)
         details['label'].append(label)
