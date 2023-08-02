@@ -2,7 +2,7 @@ from flask import *
 
 import utils
 
-app = Flask(__name__, static_folder='../build', static_url_path='/')
+app = Flask(__name__)
 
 @app.errorhandler(404)
 def not_found(e):
@@ -56,3 +56,7 @@ def get_pokemon_ability():
     pokemon_ability = pokemon_ability[:10]
     pokemon_ability.reverse()
     return pokemon_ability
+
+
+if __name__ == '__main__':
+    app.run(debug=False)
