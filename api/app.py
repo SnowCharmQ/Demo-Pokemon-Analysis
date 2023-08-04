@@ -1,17 +1,19 @@
 from flask import *
+from flask_sqlalchemy import SQLAlchemy
 
 import utils
 
-app = Flask(__name__)
+from config import app
+
 
 @app.errorhandler(404)
 def not_found(e):
-    return app.send_static_file('index.html')
+    return render_template('index.html')
 
 
 @app.route('/')
 def index():
-    return app.send_static_file('index.html')
+    return render_template('index.html')
 
 
 @app.route('/time')
@@ -56,7 +58,3 @@ def get_pokemon_ability():
     pokemon_ability = pokemon_ability[:10]
     pokemon_ability.reverse()
     return pokemon_ability
-
-
-if __name__ == '__main__':
-    app.run(debug=False)

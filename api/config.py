@@ -1,61 +1,61 @@
+import os
 import pandas as pd
-from sqlalchemy import create_engine, Integer, Column, VARCHAR, UniqueConstraint
-from sqlalchemy.orm import Session, declarative_base
+from flask import *
+from flask_sqlalchemy import SQLAlchemy
 
-Base = declarative_base()
+basedir = os.path.abspath(os.path.dirname(__file__))
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] =\
+    'sqlite:///' + os.path.join(basedir, 'database.sqlite')
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
+db = SQLAlchemy(app)
 
 
-def connect(user, password, db, host='localhost', port=5432):
-    url = 'postgresql://{}:{}@{}:{}/{}'
-    url = url.format(user, password, host, port, db)
-    return create_engine(url, echo=True, future=True, pool_size=5, pool_recycle=3600)
-
-
-class PokemonInfo(Base):
+class PokemonInfo(db.Model):
     __tablename__ = "pokemon_info"
-    idx = Column(Integer, autoincrement=True, primary_key=True)
-    id = Column(Integer)
-    href = Column(VARCHAR(100))
-    name = Column(VARCHAR(100))
-    detail = Column(VARCHAR(100))
-    type1 = Column(VARCHAR(100))
-    type2 = Column(VARCHAR(100))
-    gen = Column(VARCHAR(10))
+    idx = db.Column(db.Integer, autoincrement=True, primary_key=True)
+    id = db.Column(db.Integer)
+    href = db.Column(db.String(100))
+    name = db.Column(db.String(100))
+    detail = db.Column(db.String(100))
+    type1 = db.Column(db.String(100))
+    type2 = db.Column(db.String(100))
+    gen = db.Column(db.String(10))
 
 
-class Skill(Base):
+class Skill(db.Model):
     __tablename__ = "skill"
-    id = Column(Integer, primary_key=True)
-    name = Column(VARCHAR(100))
-    type = Column(VARCHAR(100))
-    category = Column(VARCHAR(100))
-    pp = Column(VARCHAR(100))
-    power = Column(VARCHAR(100))
-    accuracy = Column(Integer)
-    gen = Column(VARCHAR(10))
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100))
+    type = db.Column(db.String(100))
+    category = db.Column(db.String(100))
+    pp = db.Column(db.String(100))
+    power = db.Column(db.String(100))
+    accuracy = db.Column(db.Integer)
+    gen = db.Column(db.String(10))
 
 
-class Ability(Base):
+class Ability(db.Model):
     __tablename__ = "ability"
-    id = Column(Integer, primary_key=True)
-    name = Column(VARCHAR(100))
-    description = Column(VARCHAR(1000))
-    gen = Column(VARCHAR(10))
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100))
+    description = db.Column(db.String(1000))
+    gen = db.Column(db.String(10))
 
 
-class PokemonAbility(Base):
+class PokemonAbility(db.Model):
     __tablename__ = "pokemon_ability"
-    idx = Column(Integer, autoincrement=True, primary_key=True)
-    id = Column(Integer)
-    name = Column(VARCHAR(100))
-    detail = Column(VARCHAR(100))
-    ability1 = Column(VARCHAR(100))
-    ability2 = Column(VARCHAR(100))
-    hide_ability = Column(VARCHAR(100))
+    idx = db.Column(db.Integer, autoincrement=True, primary_key=True)
+    id = db.Column(db.Integer)
+    name = db.Column(db.String(100))
+    detail = db.Column(db.String(100))
+    ability1 = db.Column(db.String(100))
+    ability2 = db.Column(db.String(100))
+    hide_ability = db.Column(db.String(100))
 
 
 def save_pokemon_info():
-    session = Session(engine)
+    session = db.session
     objects = []
     df = pd.read_csv("../data/pokemon.csv")
     for data in df.itertuples():
@@ -92,7 +92,7 @@ def save_pokemon_info():
 
 
 def save_skill():
-    session = Session(engine)
+    session = db.session
     objects = []
     df = pd.read_csv("../data/skill.csv")
     for data in df.itertuples():
@@ -112,7 +112,7 @@ def save_skill():
 
 
 def save_ability():
-    session = Session(engine)
+    session = db.session
     objects = []
     df = pd.read_csv("../data/ability.csv")
     for data in df.itertuples():
@@ -125,7 +125,7 @@ def save_ability():
 
 
 def save_pokemon_ability():
-    session = Session(engine)
+    session = db.session
     objects = []
     df = pd.read_csv("../data/pokemon_ability.csv")
     for data in df.itertuples():
@@ -134,7 +134,8 @@ def save_pokemon_ability():
         hide_ability = data.hide_ability
         ability1 = ability1.replace("*", "") if type(ability1) == str else ''
         ability2 = ability2.replace("*", "") if type(ability2) == str else ''
-        hide_ability = hide_ability.replace("*", "") if type(hide_ability) == str else ''
+        hide_ability = hide_ability.replace(
+            "*", "") if type(hide_ability) == str else ''
         obj = PokemonAbility(id=data.id, name=data.name, detail=data.detail,
                              ability1=ability1, ability2=ability2,
                              hide_ability=hide_ability)
@@ -143,10 +144,9 @@ def save_pokemon_ability():
     session.commit()
 
 
-if __name__ == "__main__":
-    engine = connect('test', '123456', 'pokemon')
-    Base.metadata.drop_all(engine)
-    Base.metadata.create_all(engine)
+with app.app_context():
+    db.drop_all()
+    db.create_all()
     save_pokemon_info()
     save_skill()
     save_ability()
