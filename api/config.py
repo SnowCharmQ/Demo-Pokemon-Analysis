@@ -9,6 +9,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] =\
     'sqlite:///' + os.path.join(basedir, 'database.sqlite')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 db = SQLAlchemy(app)
+datapath = "./data"
 
 
 class PokemonInfo(db.Model):
@@ -57,7 +58,7 @@ class PokemonAbility(db.Model):
 def save_pokemon_info():
     session = db.session
     objects = []
-    df = pd.read_csv("../data/pokemon.csv")
+    df = pd.read_csv(os.path.join(datapath, "pokemon.csv"))
     for data in df.itertuples():
         data_id = int(data.id)
         if data_id <= 151:
@@ -94,7 +95,7 @@ def save_pokemon_info():
 def save_skill():
     session = db.session
     objects = []
-    df = pd.read_csv("../data/skill.csv")
+    df = pd.read_csv(os.path.join(datapath, "skill.csv"))
     for data in df.itertuples():
         data_id, data_name, data_type, data_category, data_pp, data_power, data_accuracy, data_gen = \
             data.id, data.name, data.type, data.category, data.pp, data.power, data.accuracy, data.gen
@@ -114,7 +115,7 @@ def save_skill():
 def save_ability():
     session = db.session
     objects = []
-    df = pd.read_csv("../data/ability.csv")
+    df = pd.read_csv(os.path.join(datapath, "ability.csv"))
     for data in df.itertuples():
         obj = Ability(id=data.id, name=data.name,
                       description=data.description,
@@ -127,7 +128,7 @@ def save_ability():
 def save_pokemon_ability():
     session = db.session
     objects = []
-    df = pd.read_csv("../data/pokemon_ability.csv")
+    df = pd.read_csv(os.path.join(datapath, "pokemon_ability.csv"))
     for data in df.itertuples():
         ability1 = data.ability1
         ability2 = data.ability2

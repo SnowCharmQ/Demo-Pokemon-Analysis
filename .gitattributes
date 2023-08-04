@@ -2,3 +2,4 @@ data/*.html linguist-vendored
 *.js linguist-vendored
 *.ts linguist-language=TypeScript
 *.tsx linguist-language=TypeScript
+docker-compose.yml linguist-language=dockerfile
