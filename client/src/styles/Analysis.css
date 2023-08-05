@@ -3,7 +3,19 @@
     font-size: calc(100vh * 50 / 1500);
 }
 
-.time  {
+.time {
     color: white;
     font-size: calc(100vh * 32 / 1500);
+}
+
+#lu {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#ll {
+    display: flex;
+    height: 100%;
+    width: 100%;
 }

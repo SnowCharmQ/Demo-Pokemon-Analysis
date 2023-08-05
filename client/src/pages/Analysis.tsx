@@ -3,6 +3,8 @@ import '../styles/Analysis.css'
 import { Col, Layout, Row } from 'antd';
 import Title from '../components/Title';
 import Time from '../components/Time';
+import LeftUpper from '../components/Left/LeftUpper';
+import LeftLower from '../components/Left/LeftLower';
 
 const { Header, Content } = Layout;
 
@@ -43,6 +45,24 @@ const timeStyle: React.CSSProperties = {
   lineHeight: 'normal',
 }
 
+const leftUpperStyle: React.CSSProperties = {
+  display: 'flex',
+  height: "50%",
+  top: "0%",
+  textAlign: 'center',
+  alignItems: 'center',
+  justifyContent: 'center',
+}
+
+const leftLowerStyle: React.CSSProperties = {
+  display: 'flex',
+  height: "50%",
+  top: "50%",
+  textAlign: 'center',
+  alignItems: 'center',
+  justifyContent: 'center',
+}
+
 export default function Analysis() {
   return (
     <Layout>
@@ -58,6 +78,18 @@ export default function Analysis() {
         </Row>
       </Header>
       <Content style={contentStyle}>
+        <Row style={contentRowStyle}>
+          <Col span={8}> 
+            <div style={leftUpperStyle}>
+              <LeftUpper />
+            </div>
+            <div style={leftLowerStyle}>
+              <LeftLower />
+            </div>
+          </Col>
+          <Col span={8} />
+          <Col span={8} />
+        </Row>
       </Content>
     </Layout>
   )
