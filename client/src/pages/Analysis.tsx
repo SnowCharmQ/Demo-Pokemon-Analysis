@@ -5,6 +5,8 @@ import Title from '../components/Header/Title';
 import Time from '../components/Header/Time';
 import LeftUpper from '../components/Left/LeftUpper';
 import LeftLower from '../components/Left/LeftLower';
+import MidUpper from '../components/Mid/MidUpper';
+import MidLower from '../components/Mid/MidLower';
 
 const { Header, Content } = Layout;
 
@@ -79,7 +81,7 @@ export default function Analysis() {
       </Header>
       <Content style={contentStyle}>
         <Row style={contentRowStyle}>
-          <Col span={8}> 
+          <Col span={8}>
             <div style={leftUpperStyle}>
               <LeftUpper />
             </div>
@@ -87,7 +89,10 @@ export default function Analysis() {
               <LeftLower />
             </div>
           </Col>
-          <Col span={8} />
+          <Col span={8} >
+            <MidUpper />
+            <MidLower />
+          </Col>
           <Col span={8} />
         </Row>
       </Content>
