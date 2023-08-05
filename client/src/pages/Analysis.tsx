@@ -1,8 +1,8 @@
 import React from 'react'
-import '../styles/Analysis.css'
 import { Col, Layout, Row } from 'antd';
-import Title from '../components/Title';
-import Time from '../components/Time';
+import '../styles/Analysis.css'
+import Title from '../components/Header/Title';
+import Time from '../components/Header/Time';
 import LeftUpper from '../components/Left/LeftUpper';
 import LeftLower from '../components/Left/LeftLower';
 
