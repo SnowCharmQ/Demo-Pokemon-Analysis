@@ -7,6 +7,7 @@ import LeftUpper from '../components/Left/LeftUpper';
 import LeftLower from '../components/Left/LeftLower';
 import MidUpper from '../components/Mid/MidUpper';
 import MidLower from '../components/Mid/MidLower';
+import RightBar from '../components/Right/RightBar';
 
 const { Header, Content } = Layout;
 
@@ -93,7 +94,9 @@ export default function Analysis() {
             <MidUpper />
             <MidLower />
           </Col>
-          <Col span={8} />
+          <Col span={8}> 
+            <RightBar />
+          </Col>
         </Row>
       </Content>
     </Layout>
