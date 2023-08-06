@@ -5,11 +5,12 @@ from flask_sqlalchemy import SQLAlchemy
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] =\
+app.config['SQLALCHEMY_DATABASE_URI'] = \
     'sqlite:///' + os.path.join(basedir, 'database.sqlite')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 db = SQLAlchemy(app)
 datapath = "./data"
+pokemons = []
 
 
 class PokemonInfo(db.Model):
@@ -53,6 +54,31 @@ class PokemonAbility(db.Model):
     ability1 = db.Column(db.String(100))
     ability2 = db.Column(db.String(100))
     hide_ability = db.Column(db.String(100))
+
+
+class PokemonDetail(db.Model):
+    __tablename__ = "pokemon_detail"
+    idx = db.Column(db.Integer, autoincrement=True, primary_key=True)
+    id = db.Column(db.Integer)
+    name = db.Column(db.String(100))
+    type_cnt = db.Column(db.Integer)
+    label = db.Column(db.String(100))
+    img = db.Column(db.String(100))
+    type1 = db.Column(db.String(100))
+    type2 = db.Column(db.String(100))
+    species = db.Column(db.String(100))
+    height = db.Column(db.String(100))
+    weight = db.Column(db.String(100))
+    abilities = db.Column(db.String(100))
+    eggs = db.Column(db.String(100))
+    gender = db.Column(db.String(100))
+    hp = db.Column(db.Integer)
+    attack = db.Column(db.Integer)
+    defense = db.Column(db.Integer)
+    sp_attack = db.Column(db.Integer)
+    sp_defense = db.Column(db.Integer)
+    speed = db.Column(db.Integer)
+    total = db.Column(db.Integer)
 
 
 def save_pokemon_info():
@@ -145,6 +171,45 @@ def save_pokemon_ability():
     session.commit()
 
 
+def save_pokemon_detail():
+    session = db.session
+    objects = []
+    df = pd.read_csv(os.path.join(datapath, "pokemon_details.csv"))
+    for data in df.itertuples():
+        id = data.idx
+        name = data.name
+        type_cnt = data.type_cnt
+        label = data.label
+        img = data.img
+        type1 = data.type1
+        type2 = data.type2
+        species = data.species
+        height = data.height
+        weight = data.weight
+        abilities = data.abilities
+        eggs = data.eggs
+        gender = data.gender
+        hp = data.HP
+        attack = data.Attack
+        defense = data.Defense
+        sp_attack = data._17
+        sp_defense = data._18
+        speed = data.Speed
+        total = data.total
+        obj = PokemonDetail(id=id, name=name,
+                            type_cnt=type_cnt, label=label, img=img,
+                            type1=type1, type2=type2, species=species,
+                            height=height, weight=weight, abilities=abilities,
+                            eggs=eggs, gender=gender, hp=hp, attack=attack,
+                            defense=defense, sp_attack=sp_attack, sp_defense=sp_defense,
+                            speed=speed, total=total)
+        objects.append(obj)
+        info = str(id) + '-' + name + '-' + label
+        pokemons.append(info)
+    session.bulk_save_objects(objects)
+    session.commit()
+
+
 with app.app_context():
     db.drop_all()
     db.create_all()
@@ -152,3 +217,4 @@ with app.app_context():
     save_skill()
     save_ability()
     save_pokemon_ability()
+    save_pokemon_detail()

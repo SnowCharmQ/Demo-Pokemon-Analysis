@@ -58,3 +58,16 @@ def get_pokemon_ability():
     pokemon_ability = pokemon_ability[:10]
     pokemon_ability.reverse()
     return pokemon_ability
+
+
+@app.route('/detail', methods=['post'])
+def get_pokemon_detail():
+    data = request.get_json()
+    msg = data.get('msg')
+    detail = utils.query_pokemon(msg)
+    if detail is not None:
+        detail['code'] = 200
+        detail.pop('_sa_instance_state')
+        return jsonify(detail)
+    else:
+        return jsonify({"code": 404})

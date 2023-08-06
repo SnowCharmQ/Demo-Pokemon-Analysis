@@ -1,10 +1,11 @@
-from config import db, PokemonInfo, Skill, Ability, PokemonAbility
+from config import db, pokemons, PokemonInfo, Skill, Ability, PokemonAbility, PokemonDetail
 from sqlalchemy import func
+from fuzzywuzzy import process
 import warnings
 import time
 import sys
-sys.path.append('..')
 
+sys.path.append('..')
 
 warnings.filterwarnings('ignore')
 
@@ -104,3 +105,15 @@ def get_pokemon_ability():
     pokemon_ability = sorted(pokemon_ability.items(),
                              key=lambda x: x[1], reverse=True)
     return pokemon_ability
+
+
+def query_pokemon(msg: str):
+    session = db.session
+    pokemon = None
+    if msg.isdecimal():
+        pokemon = session.query(PokemonDetail).filter_by(id=msg).first()
+    if pokemon is None:
+        info, _ = process.extractOne(msg, pokemons)
+        label = info.split('-')[2]
+        pokemon = session.query(PokemonDetail).filter_by(label=label).first()
+    return pokemon.__dict__
