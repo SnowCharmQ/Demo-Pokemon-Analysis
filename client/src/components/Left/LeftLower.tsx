@@ -3,7 +3,10 @@ import * as echarts from "echarts";
 
 export default function LeftLower() {
     useEffect(() => {
-        fetch('/gen').then(res => res.json()).then(data => {
+        fetch('http://localhost:5000/gen', {
+            method: 'GET',
+            mode: 'cors'
+        }).then(res => res.json()).then(data => {
             const options = {
                 title: {
                     text: 'Pokemon, Skill, and Ability Count For Each Generation',
@@ -95,7 +98,7 @@ export default function LeftLower() {
             options.series[2].data = data.ability;
             let node = document.getElementById('ll');
             let myChart = echarts.init(node as any);
-            myChart.setOption(options);
+            myChart.setOption(options as any);
         })
     }, [])
     return (

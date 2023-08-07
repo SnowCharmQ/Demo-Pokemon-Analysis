@@ -4,7 +4,10 @@ export default function Time() {
   const [currentTime, setCurrentTime] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
-      fetch('/time')
+      fetch('http://localhost:5000/time', {
+        method: 'GET',
+        mode: 'cors'
+      })
         .then(res => res.json())
         .then(data => {
           setCurrentTime(data.time);

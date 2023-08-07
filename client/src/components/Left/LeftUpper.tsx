@@ -9,7 +9,10 @@ interface Type {
 
 export default function LeftUpper() {
     useEffect(() => {
-        fetch('/type').then(res => res.json()).then(data => {
+        fetch('http://localhost:5000/type', {
+            method: 'GET',
+            mode: 'cors'
+        }).then(res => res.json()).then(data => {
             let result: Type[] = [];
             for (let val in data) {
                 let k = val;
@@ -56,7 +59,7 @@ export default function LeftUpper() {
                 ]
             };
             let myChart = echarts.init(node as any);
-            myChart.setOption(options);
+            myChart.setOption(options as any);
         })
     }, [])
     return (

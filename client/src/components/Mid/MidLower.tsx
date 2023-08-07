@@ -11,7 +11,10 @@ const midLowerStyle: React.CSSProperties = {
 
 export default function MidLower() {
   useEffect(() => {
-    fetch('/ability').then(res => res.json()).then(data => {
+    fetch('http://localhost:5000/ability', {
+      method: 'GET',
+      mode: 'cors',
+    }).then(res => res.json()).then(data => {
       const colorList = [
         "#1890ff",
         "#52c41a",
@@ -84,7 +87,7 @@ export default function MidLower() {
       options.dataset.source = data;
       let node = document.getElementById('ml');
       let myChart = echarts.init(node as any);
-      myChart.setOption(options);
+      myChart.setOption(options as any);
     })
   }, [])
   return (

@@ -52,7 +52,10 @@ export default function MidUpper() {
     const [skill, setSkill] = useState(0);
     const [generation, setGeneration] = useState(0);
     useEffect(() => {
-        fetch('/num').then(res => res.json()).then(data => {
+        fetch('http://localhost:5000/num', {
+            method: 'GET',
+            mode: 'cors',
+        }).then(res => res.json()).then(data => {
             setPokemon(data.pokemon);
             setAbility(data.ability);
             setSkill(data.skill);

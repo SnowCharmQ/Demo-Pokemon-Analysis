@@ -1,6 +1,6 @@
 import { Image, Row, Col } from 'antd'
 import Search from 'antd/es/input/Search'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 interface ColorMap {
     [key: string]: string
@@ -279,8 +279,9 @@ export default function RightBar() {
         }
     }
     const onsearch = (value: string) => {
-        fetch(`/detail`, {
+        fetch(`http://localhost:5000/detail`, {
             method: 'POST',
+            mode: 'cors',
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
