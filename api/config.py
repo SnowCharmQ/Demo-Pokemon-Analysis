@@ -1,10 +1,12 @@
 import os
 import pandas as pd
 from flask import *
+from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 app = Flask(__name__)
+CORS(app, supports_credentials=True)
 app.config['SQLALCHEMY_DATABASE_URI'] = \
     'sqlite:///' + os.path.join(basedir, 'database.sqlite')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
