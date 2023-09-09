@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import * as echarts from "echarts";
 import '../../styles/Analysis.css'
+import { typeColorMap } from '../common/color';
 
 interface Type {
     value: string
@@ -17,7 +18,7 @@ export default function LeftUpper() {
             for (let val in data) {
                 let k = val;
                 let v = data[val];
-                let obj = { value: v.toString(), name: k.toString() };
+                let obj = { value: v.toString(), name: k.toString(), itemStyle: {color: typeColorMap[(k as string).toLowerCase()]} };
                 result.push(obj);
             }
             let node = document.getElementById('lu');
@@ -45,8 +46,8 @@ export default function LeftUpper() {
                     {
                         name: 'Access From',
                         type: 'pie',
-                        radius: '50%',
-                        center: ['50%', '42%'],
+                        radius: '64%',
+                        center: ['50%', '48%'],
                         data: result as Type[],
                         label: {
                             normal: {

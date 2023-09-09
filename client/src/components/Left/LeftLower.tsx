@@ -27,8 +27,9 @@ export default function LeftLower() {
                     }
                 },
                 legend: {
-                    data: ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'],
-                    left: 'right',
+                    orient: 'vertical',
+                    top: 44,
+                    right: 30,
                     textStyle: {
                         color: '#ccc'
                     }
